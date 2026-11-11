@@ -1,76 +1,88 @@
-import { NextRequest, NextResponse } from 'next/server';
-import xss from 'xss';
-import validator from 'validator';
-
+import { NextRequest, NextResponse } from "next/server";
+import validator from "validator";
 export async function POST(request: NextRequest) {
+  const origin = request.headers.get("origin");
+  const expectedOrigin = process.env.SITE_URL ||
+    request.nextUrl.protocol + "//" + request.headers.get("host");
+  if (origin && origin !== expectedOrigin)
+    return NextResponse.json({ error: "origin" }, { status: 403 });
+  if (!request.headers.get("content-type")?.includes("application/json"))
+    return NextResponse.json({ error: "content_type" }, { status: 415 });
+  let body: Record<string, unknown>;
   try {
-    const body = await request.json();
-    let { name, email, phoneNumber, message, productId } = body;
-
-    if (!name || (!email && !phoneNumber)) {
-      return NextResponse.json(
-        { error: 'Name and either email or phone number are required' },
-        { status: 400 }
-      );
-    }
-
-    // --- 安全校验与清洗 ---
-    // 1. 去除两端空格
-    name = validator.trim(name);
-    email = email ? validator.trim(email) : '';
-    phoneNumber = phoneNumber ? validator.trim(phoneNumber) : '';
-    message = message ? validator.trim(message) : '';
-    productId = productId ? validator.trim(productId) : '';
-
-    // 2. 防止 XSS 攻击，过滤所有的危险 HTML 标签和脚本
-    name = xss(name);
-    email = xss(email);
-    phoneNumber = xss(phoneNumber);
-    message = xss(message);
-    productId = xss(productId);
-
-    // 3. 基础格式校验
-    if (!validator.isLength(name, { min: 1, max: 64 })) {
-      return NextResponse.json({ error: 'Name length is invalid (must be between 1 and 64 characters)' }, { status: 400 });
-    }
-    if (email && !validator.isEmail(email)) {
-      return NextResponse.json({ error: 'Email format is invalid' }, { status: 400 });
-    }
-    if (phoneNumber && !validator.isLength(phoneNumber, { min: 1, max: 20 })) {
-      return NextResponse.json({ error: 'Phone number length is invalid (must be between 1 and 20 characters)' }, { status: 400 });
-    }
-
-    if (message && !validator.isLength(message, { min: 0, max: 1024 })) {
-      return NextResponse.json({ error: 'Message length is invalid (maximum 1024 characters)' }, { status: 400 });
-    }
-
-    // 模拟数据库存储，返回成功响应
-    // 注意：如果是直接转发给 Java 后端，在这里使用 fetch() 调用原 API_BASE_URL 的 /machiapi/saveInquiry
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8082/api';
-    const response = await fetch(`${API_BASE_URL}/machiapi/saveInquiry`, {
-      method: 'POST',
+    const raw = await request.text();
+    if (raw.length > 12000)
+      return NextResponse.json({ error: "too_large" }, { status: 413 });
+    body = JSON.parse(raw);
+    if (!body || Array.isArray(body) || typeof body !== "object")
+      throw new Error();
+  } catch {
+    return NextResponse.json({ error: "invalid_json" }, { status: 400 });
+  }
+  const fields = [
+    "name",
+    "email",
+    "company",
+    "market",
+    "product",
+    "quantity",
+    "message",
+    "locale",
+    "consent",
+    "website",
+  ];
+  if (
+    fields.some(
+      (key) => body[key] !== undefined && typeof body[key] !== "string",
+    )
+  )
+    return NextResponse.json({ error: "invalid_fields" }, { status: 400 });
+  if (body.website)
+    return NextResponse.json({ error: "invalid_submission" }, { status: 400 });
+  const text = (key: string) => String(body[key] || "").trim();
+  const payload = Object.fromEntries(
+    fields
+      .filter((f) => !["website", "consent"].includes(f))
+      .map((f) => [f, text(f)]),
+  );
+  if (
+    !payload.name ||
+    payload.name.length > 80 ||
+    !validator.isEmail(payload.email) ||
+    payload.email.length > 160 ||
+    !payload.market ||
+    payload.market.length > 100 ||
+    !payload.message ||
+    payload.message.length > 3000 ||
+    payload.company.length > 160 ||
+    payload.quantity.length > 60 ||
+    payload.product.length > 80 ||
+    !["en", "zh-CN"].includes(payload.locale) ||
+    text("consent") !== "yes"
+  )
+    return NextResponse.json({ error: "invalid_fields" }, { status: 400 });
+  const endpoint = process.env.INQUIRY_API_URL;
+  if (!endpoint)
+    return NextResponse.json({ error: "unconfigured" }, { status: 503 });
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
+        ...(process.env.INQUIRY_API_TOKEN
+          ? { Authorization: "Bearer " + process.env.INQUIRY_API_TOKEN }
+          : {}),
       },
-      body: JSON.stringify({
-        name,
-        email,
-        phoneNumber,
-        message,
-        productId
-      }),
+      body: JSON.stringify({ ...payload, source: "scylla-lighting" }),
+      signal: AbortSignal.timeout(10000),
     });
-
-    if (!response.ok) {
-      return NextResponse.json({ error: 'Failed to save inquiry to backend' }, { status: response.status });
-    }
-
+    if (!response.ok)
+      return NextResponse.json({ error: "delivery_failed" }, { status: 502 });
+    const result = await response.json().catch(() => null);
+    if (result?.success !== true)
+      return NextResponse.json({ error: "unconfirmed" }, { status: 502 });
     return NextResponse.json({ success: true }, { status: 201 });
-  } catch (error) {
-    console.error('Error creating inquiry:', error);
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
-    );
+  } catch {
+    return NextResponse.json({ error: "delivery_failed" }, { status: 502 });
   }
 }

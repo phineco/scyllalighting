@@ -1,82 +1,162 @@
-'use client';
-import { useState } from 'react';
-import { submitInquiry, InquiryData } from '@/services/api';
-
-export default function InquiryForm({ productId, dict }: { productId?: string, dict?: any }) {
-  const [status, setStatus] = useState<'idle' | 'submitting' | 'success'>('idle');
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+"use client";
+import Link from "next/link";
+import { FormEvent, useState } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { categories, Locale, t } from "@/content/site";
+export default function InquiryForm({
+  locale,
+  initialProduct = "",
+}: {
+  locale: Locale;
+  initialProduct?: string;
+}) {
+  const [status, setStatus] = useState("idle");
+  const [error, setError] = useState("");
+  const tr = (en: string, zh: string) => t(locale, en, zh);
+  async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setErrorMessage(null);
-    
-    const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData.entries());
-
-    // 验证：邮箱和电话不能同时为空
-    if (!data.email && !data.phoneNumber) {
-      alert(dict?.contactRequired || 'Please provide either an Email or a Phone Number so we can contact you.');
-      return;
-    }
-
-    setStatus('submitting');
-
+    const form = e.currentTarget;
+    setStatus("sending");
+    setError("");
     try {
-      // 调用后端 API 保存留言
-      const response = await submitInquiry({
-        ...data,
-        productId,
-      } as InquiryData);
-      
-      // 我们在 services/api.ts 里对非 2xx 的响应抛出了异常，
-      // 所以如果执行到这里，说明服务端验证通过并且保存成功了。
-      setStatus('success');
-    } catch (error: any) {
-      console.error('Error submitting form:', error);
-      setStatus('idle');
-      // 如果 error 带有服务端返回的具体信息，提取出来显示给用户
-      const errorMsg = error.message || dict?.error || 'Failed to send inquiry. Please try again.';
-      setErrorMessage(errorMsg);
+      const response = await fetch("/api/inquiries", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...Object.fromEntries(new FormData(form)),
+          locale,
+        }),
+      });
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(
+          data.error === "unconfigured"
+            ? tr(
+                "Online enquiries are not connected yet. Your message has not been sent. Please retain your details and try again later.",
+                "在线询盘尚未接通，信息未发送。请保留需求并稍后重试。",
+              )
+            : tr(
+                "We could not deliver your enquiry. Please try again.",
+                "询盘暂时无法送达，请稍后重试。",
+              ),
+        );
+      }
+      setStatus("success");
+      form.reset();
+    } catch (e) {
+      setStatus("error");
+      setError(
+        e instanceof Error
+          ? e.message
+          : tr("Connection error. Please try again.", "连接异常，请重试。"),
+      );
     }
-  };
-
-  if (status === 'success') {
-    return <div className="p-4 bg-green-50 text-green-700 rounded">{dict?.success || 'Thank you for your inquiry! We will contact you soon.'}</div>;
   }
-
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 bg-white p-6 rounded-lg shadow-sm border">
-      <h3 className="font-bold text-lg border-b pb-2">{dict?.title || 'Send Inquiry'}</h3>
-      
-      {errorMessage && (
-        <div className="p-3 bg-red-50 text-red-600 text-sm rounded border border-red-100">
-          {errorMessage}
-        </div>
-      )}
-
-      <div>
-        <label className="block text-sm font-medium mb-1">{dict?.name || 'Name *'}</label>
-        <input name="name" required maxLength={64} className="w-full border p-2 rounded" placeholder="Your Name" />
+    <form className="inquiry-form" onSubmit={submit}>
+      <div className="form-grid">
+        <label>
+          {tr("Your name", "姓名")} *
+          <input required name="name" maxLength={80} autoComplete="name" />
+        </label>
+        <label>
+          {tr("Work email", "工作邮箱")} *
+          <input
+            required
+            name="email"
+            type="email"
+            maxLength={160}
+            autoComplete="email"
+          />
+        </label>
+        <label>
+          {tr("Company", "公司")}
+          <input name="company" maxLength={160} autoComplete="organization" />
+        </label>
+        <label>
+          {tr("Target market", "目标市场")} *
+          <input
+            required
+            name="market"
+            maxLength={100}
+            placeholder={tr("e.g. Kazakhstan", "例如：哈萨克斯坦")}
+          />
+        </label>
+        <label>
+          {tr("Product interest", "意向产品")}
+          <select
+            key={initialProduct}
+            name="product"
+            defaultValue={initialProduct}
+          >
+            <option value="">{tr("Help me choose", "请协助选品")}</option>
+            {categories.map((c) => (
+              <option key={c.id} value={c.id}>
+                {locale === "en" ? c.en : c.zh}
+              </option>
+            ))}
+            <option value="custom">OEM / ODM</option>
+          </select>
+        </label>
+        <label>
+          {tr("Estimated quantity", "预计数量")}
+          <input
+            name="quantity"
+            maxLength={60}
+            placeholder={tr("e.g. 1,000 units", "例如：1,000 件")}
+          />
+        </label>
       </div>
-      <div>
-        <label className="block text-sm font-medium mb-1">{dict?.email || 'Email'}</label>
-        <input type="email" name="email" maxLength={64} className="w-full border p-2 rounded" placeholder="Your Email Address" />
-      </div>
-      <div>
-        <label className="block text-sm font-medium mb-1">{dict?.phoneNumber || 'Phone Number'}</label>
-        <input type="tel" name="phoneNumber" maxLength={20} className="w-full border p-2 rounded" placeholder="Your Phone/WhatsApp Number" />
-      </div>
-      <div>
-        <label className="block text-sm font-medium mb-1">{dict?.message || 'Message'}</label>
-        <textarea name="message" rows={4} maxLength={1024} className="w-full border p-2 rounded" placeholder="What are you looking for?"></textarea>
-      </div>
-      <button 
-        type="submit" 
-        disabled={status === 'submitting'}
-        className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 disabled:opacity-50"
-      >
-        {status === 'submitting' ? (dict?.submitting || 'Submitting...') : (dict?.submit || 'Send Inquiry')}
+      <label>
+        {tr("Tell us about your project", "项目需求")} *
+        <textarea
+          required
+          name="message"
+          maxLength={3000}
+          rows={5}
+          placeholder={tr(
+            "Application, specifications, branding and timeline…",
+            "应用场景、规格、品牌定制与采购计划……",
+          )}
+        />
+      </label>
+      <label className="trap" aria-hidden="true">
+        Website
+        <input name="website" tabIndex={-1} autoComplete="off" />
+      </label>
+      <label className="consent">
+        <input type="checkbox" name="consent" value="yes" required />
+        <span>
+          {tr(
+            "I agree to the use of my information to respond to this enquiry.",
+            "我同意使用本次提交的信息回复我的询盘。",
+          )}{" "}
+          <Link href={"/" + locale + "/privacy"}>
+            {tr("Privacy notice", "隐私说明")}
+          </Link>
+        </span>
+      </label>
+      <button className="button" disabled={status === "sending"} type="submit">
+        {status === "sending"
+          ? tr("Sending…", "发送中……")
+          : tr("Send your enquiry", "发送需求")}
+        <ArrowUpRight size={18} />
       </button>
+      <div aria-live="polite">
+        {status === "success" && (
+          <p className="form-success">
+            {tr(
+              "Your enquiry has been received. Thank you.",
+              "已收到您的需求，谢谢。",
+            )}
+          </p>
+        )}
+        {status === "error" && (
+          <p role="alert" className="form-error">
+            {error}
+          </p>
+        )}
+      </div>
     </form>
   );
 }

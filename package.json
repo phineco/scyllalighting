@@ -1,12 +1,14 @@
 {
-  "name": "machinery-portal",
+  "name": "scylla-lighting",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 8001",
-    "lint": "next lint",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test:runtime": "node scripts/check-runtime.mjs",
     "deploy": "vercel --prod"
   },
   "dependencies": {
