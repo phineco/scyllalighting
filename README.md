@@ -21,9 +21,30 @@ Application and OEM links pass only known context keys to the contact page; the 
 
 Copy .env.example to .env.local. SITE_URL is the confirmed production origin (no trailing slash). Without it, indexing is disabled. Do not deploy with localhost canonical URLs.
 
-INQUIRY_API_URL is the complete Java enquiry endpoint. INQUIRY_API_TOKEN is optional and server-only. The browser calls POST /api/inquiries. The server validates and forwards name, email, company, market, product, quantity, message, locale and source. The Java endpoint must persist the enquiry and return HTTP 2xx with {"success":true}. Without configuration the form reports failure and preserves input. Do not point it at the old machinery endpoint without adapting the contract.
+The enquiry adapter now reuses machinery's Java contract. The browser posts to this site's `/api/inquiries`; the server posts to `/machiapi/saveInquiry` below the Java API root. Endpoint precedence is:
 
-Before production, configure reverse-proxy rate limiting, durable enquiry persistence, notification delivery, retention/deletion operations and the verified domain. Contact details and certification claims are not invented. No analytics or third-party fonts are loaded.
+1. `INQUIRY_API_URL` — optional complete endpoint override.
+2. `API_BASE_URL` — server-only root, e.g. `http://127.0.0.1:8082/api` on the same host as Java.
+3. `NEXT_PUBLIC_API_BASE_URL` — supported for compatibility with the original deployment.
+4. `http://127.0.0.1:8082/api` — original same-host default.
+
+`INQUIRY_API_TOKEN` is optional and server-only. Configure the Java service's private or HTTPS address if it runs on another host; the new site does not automatically send enquiries through the old public HTTP website.
+
+| Java field | Lighting form mapping |
+| --- | --- |
+| `name` | Customer name, maximum 64 characters |
+| `email` | Customer email |
+| `phoneNumber` | Optional customer phone/WhatsApp, maximum 20 characters |
+| `message` | Scylla Lighting source marker, company, market, selected family, quantity, locale and original enquiry; maximum 1024 characters combined |
+| `productId` | Empty string: a lighting family is not a machinery database entity ID |
+
+Input is validated and sanitized. Over-length messages are rejected without contacting Java or silently truncating information. The form shows the combined length and offers direct email/WhatsApp when delivery fails. It preserves the entered details after failure.
+
+The original client treats HTTP 2xx as submission acknowledgement. This adapter supports empty successful responses, JSON `true`, explicit `success:true`, and conventional `code` 0/200 results; explicit business failures, unrecognised bodies and HTML login/error pages are rejected. Success copy says “submitted”, not database-verified. Actual persistence still depends on the Java endpoint. Contract tests use only a local mock; no production inquiry was created for verification.
+
+Business contacts were checked against upstream/main and the original public contact page: WhatsApp/phone `+86 189 4981 3729`, `info@machinery100.com`, Hefei, Anhui, China. Override with `NEXT_PUBLIC_WHATSAPP_NUMBER` and `NEXT_PUBLIC_CONTACT_EMAIL` before building if needed. The inherited email domain is intentionally retained at the user's request; no new mailbox is invented.
+
+Before production, configure reverse-proxy rate limiting, verify durable enquiry persistence and notification delivery in Java, set retention/deletion operations and the verified domain. No analytics or third-party fonts are loaded.
 
 ## Content
 

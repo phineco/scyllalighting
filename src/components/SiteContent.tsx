@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { categories, Locale, t, pageNames } from "@/content/site";
 import InquiryForm from "./InquiryForm";
+import ContactChannels from "./ContactChannels";
 import { briefFor } from "@/content/journey";
 export function Intro({ locale, page }: { locale: Locale; page: string }) {
   return (
@@ -590,11 +591,12 @@ export function Contact({
             <span>{tr("OPERATED BY", "运营主体")}</span>
             <strong>安徽锡拉科技有限公司</strong>
             <p>
-              {tr("Anhui, China", "中国 · 安徽")}
+              {tr("Hefei, Anhui, China", "中国 · 安徽 · 合肥")}
               <br />
               Scylla Lighting / 锡拉照明
             </p>
           </div>
+          <ContactChannels locale={locale} />
         </aside>
         <InquiryForm
           locale={locale}

@@ -25,6 +25,16 @@
 
 确认正式域名与 SITE_URL、询盘 INQUIRY_API_URL、法定英文主体名称及联系信息。未确认时不虚构邮箱、电话或认证。
 
+## 复用真实联系链路（2026-11-11）
+
+- 用户指定复用 machinery 最新代码中的询盘与联系方式；已同步 upstream/main 并只读核对线上联系页及商品查询接口。
+- 使用原站公开电话/WhatsApp +86 189 4981 3729、邮箱 info@machinery100.com、合肥地址。邮箱域名是用户指定复用的联系方式，不代表页面恢复机械业务品牌。
+- 旧 Java 端接收 name/email/phoneNumber/message/productId；不将灯具系列当作机械商品 ID，保持 productId 为空，业务上下文整合进 message 并标记 Scylla 来源。
+- 姓名最多64字，合并消息最多1024字；前后端共同检查，超限提示精简或使用邮箱，不静默截断。
+- 服务端优先 INQUIRY_API_URL，其次 API_BASE_URL/原 NEXT_PUBLIC_API_BASE_URL，默认原项目同机 Java 8082/api。默认地址仅用于同机部署，不把客户资料自动转发到公开旧站 HTTP 地址。
+- 旧客户端以 HTTP 2xx 为提交成功；兼容该行为并拒绝明确业务失败、HTML错误页、未识别响应。前端仅表述“已提交”，不声称已核实数据库入库。
+- 只在本地模拟端验证保存字段与失败场景；本次不向真实后台写测试询盘。
+
 ## 完整内页（2026-11-11）
 
 - 已通过用户 Chrome 标签页核对 Sunjoylight、Uboze、Monike、ASC，以及 Sunjoylight OEM 内页。仅借鉴信息组织与采购路径，不搬运品牌、图片、客户、认证、产能和交期承诺。

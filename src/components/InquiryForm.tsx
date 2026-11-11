@@ -3,6 +3,8 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { categories, Locale, t } from "@/content/site";
+import { legacyMessage, MESSAGE_LIMIT } from "@/lib/inquiry-payload";
+import ContactChannels from "./ContactChannels";
 export default function InquiryForm({
   locale,
   initialProduct = "",
@@ -14,10 +16,32 @@ export default function InquiryForm({
 }) {
   const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
+  const [messageLength, setMessageLength] = useState(
+    () =>
+      legacyMessage({
+        message: initialMessage,
+        product: initialProduct,
+        locale,
+      }).length,
+  );
   const tr = (en: string, zh: string) => t(locale, en, zh);
   async function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
+    const values = Object.fromEntries(new FormData(form)) as Record<
+      string,
+      string
+    >;
+    if (legacyMessage({ ...values, locale }).length > MESSAGE_LIMIT) {
+      setStatus("error");
+      setError(
+        tr(
+          "Please shorten your enquiry or send the complete brief by email.",
+          "请精简询盘，或通过邮箱发送完整需求。",
+        ),
+      );
+      return;
+    }
     setStatus("sending");
     setError("");
     try {
@@ -32,19 +56,31 @@ export default function InquiryForm({
       if (!response.ok) {
         const data = await response.json();
         throw new Error(
-          data.error === "unconfigured"
+          data.error === "message_too_long"
             ? tr(
-                "Online enquiries are not connected yet. Your message has not been sent. Please retain your details and try again later.",
-                "在线询盘尚未接通，信息未发送。请保留需求并稍后重试。",
+                "The combined enquiry is too long. Please shorten it or send the full brief by email.",
+                "合并后的询盘过长，请精简内容或通过邮箱发送完整需求。",
               )
-            : tr(
-                "We could not deliver your enquiry. Please try again.",
-                "询盘暂时无法送达，请稍后重试。",
-              ),
+            : data.error === "unconfigured"
+              ? tr(
+                  "Online enquiries are not connected yet. Your message has not been sent. Please retain your details and try again later.",
+                  "在线询盘尚未接通，信息未发送。请保留需求并稍后重试。",
+                )
+              : tr(
+                  "We could not deliver your enquiry. Your details have been kept. Please try again or contact us directly below.",
+                  "询盘暂时无法送达，填写内容已保留。请稍后重试，或通过下方联系方式直接联系我们。",
+                ),
         );
       }
       setStatus("success");
       form.reset();
+      setMessageLength(
+        legacyMessage({
+          message: initialMessage,
+          product: initialProduct,
+          locale,
+        }).length,
+      );
     } catch (e) {
       setStatus("error");
       setError(
@@ -55,11 +91,20 @@ export default function InquiryForm({
     }
   }
   return (
-    <form className="inquiry-form" onSubmit={submit}>
+    <form
+      className="inquiry-form"
+      onSubmit={submit}
+      onChange={(event) => {
+        const values = Object.fromEntries(
+          new FormData(event.currentTarget),
+        ) as Record<string, string>;
+        setMessageLength(legacyMessage({ ...values, locale }).length);
+      }}
+    >
       <div className="form-grid">
         <label>
           {tr("Your name", "姓名")} *
-          <input required name="name" maxLength={80} autoComplete="name" />
+          <input required name="name" maxLength={64} autoComplete="name" />
         </label>
         <label>
           {tr("Work email", "工作邮箱")} *
@@ -74,6 +119,15 @@ export default function InquiryForm({
         <label>
           {tr("Company", "公司")}
           <input name="company" maxLength={160} autoComplete="organization" />
+        </label>
+        <label>
+          {tr("Phone / WhatsApp (optional)", "电话 / WhatsApp（选填）")}
+          <input
+            name="phoneNumber"
+            type="tel"
+            maxLength={20}
+            autoComplete="tel"
+          />
         </label>
         <label>
           {tr("Target market", "目标市场")} *
@@ -116,7 +170,7 @@ export default function InquiryForm({
           defaultValue={initialMessage}
           required
           name="message"
-          maxLength={3000}
+          maxLength={MESSAGE_LIMIT}
           rows={5}
           placeholder={tr(
             "Application, specifications, branding and timeline…",
@@ -124,6 +178,19 @@ export default function InquiryForm({
           )}
         />
       </label>
+      <p
+        className={
+          messageLength > MESSAGE_LIMIT
+            ? "message-budget over"
+            : "message-budget"
+        }
+      >
+        {tr("Combined enquiry", "合并询盘")} {messageLength} / {MESSAGE_LIMIT} ·{" "}
+        {tr(
+          "Includes the product and market details. For longer briefs, please use email.",
+          "含产品与市场信息，较长需求请使用邮箱。",
+        )}
+      </p>
       <label className="trap" aria-hidden="true">
         Website
         <input name="website" tabIndex={-1} autoComplete="off" />
@@ -150,15 +217,18 @@ export default function InquiryForm({
         {status === "success" && (
           <p className="form-success">
             {tr(
-              "Your enquiry has been received. Thank you.",
-              "已收到您的需求，谢谢。",
+              "Your enquiry has been submitted. Thank you.",
+              "您的询盘已提交，谢谢。",
             )}
           </p>
         )}
         {status === "error" && (
-          <p role="alert" className="form-error">
-            {error}
-          </p>
+          <div>
+            <p role="alert" className="form-error">
+              {error}
+            </p>
+            <ContactChannels locale={locale} compact />
+          </div>
         )}
       </div>
     </form>

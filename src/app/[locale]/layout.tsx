@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, t, nav } from "@/content/site";
 import SiteHeader from "@/components/SiteHeader";
+import ContactChannels, { FloatingContact } from "@/components/ContactChannels";
 export default async function LocaleLayout({
   children,
   params,
@@ -52,6 +53,7 @@ export default async function LocaleLayout({
               <br />
               {t(locale, "Anhui, China", "中国 · 安徽")}
             </p>
+            <ContactChannels locale={locale} compact />
           </div>
         </div>
         <div className="wrap footer-bottom">
@@ -68,6 +70,7 @@ export default async function LocaleLayout({
           </Link>
         </div>
       </footer>
+      <FloatingContact locale={locale} />
     </>
   );
 }

@@ -1,4 +1,87 @@
 /* Interior pages: selection, applications and sourcing collaboration. */
+.contact-channels {
+  display: grid;
+  gap: 17px;
+  margin-top: 28px;
+  max-width: 100%;
+}
+.contact-channels > a {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.contact-channels > a > svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: var(--gold);
+}
+.contact-channels small {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.contact-channels a:hover {
+  color: var(--gold);
+}
+.contact-channels.compact {
+  gap: 12px;
+  margin-top: 20px;
+}
+.contact-channels.compact > a {
+  font-size: 12px;
+}
+.contact-channels.compact small {
+  font-size: 9px;
+}
+.message-budget {
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.message-budget.over {
+  color: #a12b27;
+}
+.floating-contact {
+  position: fixed;
+  right: 22px;
+  bottom: calc(22px + env(safe-area-inset-bottom));
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--ink);
+  color: white;
+  border: 1px solid #b48a3d;
+  padding: 12px 17px;
+  border-radius: 30px;
+  font-size: 12px;
+  box-shadow: 0 4px 20px #112d3a22;
+}
+.floating-contact svg {
+  color: #e0be7a;
+}
+.floating-contact:hover {
+  background: #285062;
+}
+@media (max-width: 600px) {
+  .floating-contact {
+    right: 15px;
+    bottom: calc(15px + env(safe-area-inset-bottom));
+    font-size: 11px;
+    padding: 10px 14px;
+  }
+  .footer-bottom {
+    padding-bottom: 80px;
+  }
+  .contact-channels > a {
+    font-size: 13px;
+  }
+}
 .breadcrumbs {
   display: flex;
   align-items: center;

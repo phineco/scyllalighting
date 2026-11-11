@@ -4,14 +4,23 @@ import { spawn } from "node:child_process";
 import { once } from "node:events";
 
 // Uses only local mock data. No real enquiries or external services are contacted.
-let confirmed = true;
+let reply = {
+  status: 200,
+  body: JSON.stringify({ success: true }),
+  type: "application/json",
+};
 let received;
+let receivedPath;
+let writes = 0;
 const backend = createServer(async (req, res) => {
   let body = "";
   for await (const part of req) body += part;
   received = JSON.parse(body);
-  res.setHeader("Content-Type", "application/json");
-  res.end(JSON.stringify({ success: confirmed }));
+  receivedPath = req.url;
+  writes++;
+  res.statusCode = reply.status;
+  res.setHeader("Content-Type", reply.type);
+  res.end(reply.body);
 });
 backend.listen(0, "127.0.0.1");
 await once(backend, "listening");
@@ -29,7 +38,8 @@ const server = spawn(
   {
     env: {
       ...process.env,
-      INQUIRY_API_URL: "http://127.0.0.1:" + backendPort,
+      INQUIRY_API_URL: "",
+      API_BASE_URL: "http://127.0.0.1:" + backendPort + "/api/",
       INQUIRY_API_TOKEN: "",
     },
     stdio: ["ignore", "pipe", "pipe"],
@@ -51,6 +61,9 @@ const data = {
   locale: "en",
   consent: "yes",
   product: "flood",
+  company: "Scylla contract check",
+  quantity: "1000",
+  phoneNumber: "+1234567890",
 };
 async function post(body, headers = {}) {
   return fetch(base + "/api/inquiries", {
@@ -90,9 +103,21 @@ try {
       assert.equal(response.status, 200, path);
       const html = await response.text();
       assert.ok(html.includes('lang="' + locale + '"'));
-      assert.ok(!/世林|shilin|machinery100|excavator/i.test(html));
+      assert.ok(
+        !/世林|shilin|machinery100|excavator/i.test(
+          html.replaceAll("info@machinery100.com", ""),
+        ),
+      );
+      assert.ok(html.includes("mailto:info@machinery100.com"));
+      assert.ok(html.includes("https://wa.me/8618949813729"));
     }
-  for (const path of ["/en/unknown", "/fr", "/en/products/invalid", "/en/toString", "/en/constructor"])
+  for (const path of [
+    "/en/unknown",
+    "/fr",
+    "/en/products/invalid",
+    "/en/toString",
+    "/en/constructor",
+  ])
     assert.equal((await fetch(base + path)).status, 404);
   for (const locale of ["en", "zh-CN"])
     for (const type of ["selection", "brief"]) {
@@ -129,21 +154,86 @@ try {
     (await post(data, { origin: "https://untrusted.example" })).status,
     403,
   );
-  confirmed = false;
+  assert.equal((await post({ ...data, name: "x".repeat(65) })).status, 400);
+  assert.equal(
+    (await post({ ...data, phoneNumber: "1".repeat(21) })).status,
+    400,
+  );
+  assert.equal((await post({ ...data, product: "not-a-product" })).status, 400);
+  const tooLong = await post({ ...data, message: "x".repeat(1000) });
+  assert.equal(tooLong.status, 400);
+  assert.equal((await tooLong.json()).error, "message_too_long");
+  assert.equal(
+    writes,
+    0,
+    "Invalid or over-length enquiries must not reach the backend",
+  );
+  for (const body of [
+    { success: false },
+    { code: 500 },
+    { code: 200, success: false },
+    { error: "Failed" },
+    {},
+  ]) {
+    reply = {
+      status: 200,
+      body: JSON.stringify(body),
+      type: "application/json",
+    };
+    assert.equal((await post(data)).status, 502);
+  }
+  reply = { status: 200, body: "<html>Login</html>", type: "text/html" };
   assert.equal(
     (await post(data)).status,
     502,
-    "Unconfirmed upstream must never produce success",
+    "An HTML login page cannot acknowledge a submission",
   );
-  confirmed = true;
+  reply = { status: 401, body: "Unauthorized", type: "text/plain" };
+  assert.equal((await post(data)).status, 502);
+  for (const body of [
+    { code: 0 },
+    { code: 200 },
+    { code: "200" },
+    { success: true },
+    true,
+  ]) {
+    reply = {
+      status: 200,
+      body: JSON.stringify(body),
+      type: "application/json",
+    };
+    assert.equal((await post(data)).status, 201);
+  }
+  reply = { status: 204, body: "", type: "application/json" };
+  assert.equal(
+    (await post(data)).status,
+    201,
+    "Legacy empty 2xx response acknowledges submission",
+  );
+  reply = {
+    status: 200,
+    body: JSON.stringify({ success: true }),
+    type: "application/json",
+  };
   const success = await post(data);
   assert.equal(success.status, 201);
   assert.equal((await success.json()).success, true);
-  assert.equal(received.source, "scylla-lighting");
-  assert.equal(received.product, "flood");
-  assert.equal(received.market, "Kazakhstan");
+  assert.equal(receivedPath, "/api/machiapi/saveInquiry");
+  assert.deepEqual(
+    Object.keys(received).sort(),
+    ["name", "email", "phoneNumber", "message", "productId"].sort(),
+  );
+  assert.equal(received.productId, "");
+  assert.equal(received.phoneNumber, data.phoneNumber);
+  assert.ok(received.message.includes("[Scylla Lighting]"));
+  assert.ok(received.message.includes("Market: Kazakhstan"));
+  assert.ok(received.message.includes("Company: Scylla contract check"));
+  assert.ok(received.message.includes("Quantity: 1000"));
+  assert.ok(received.message.includes("LED Floodlights"));
+  assert.ok(received.message.endsWith(data.message));
+  assert.ok(received.message.length <= 1024);
   console.log(
-    "PASS: 18 production pages, locale HTML, public term scan, bilingual file downloads, real 404s, validation, origin check and confirmed enquiry delivery contract.",
+    "PASS: 18 production pages, real contact links, downloads, strict validation, legacy saveInquiry fields/path, message limit and success/failure acknowledgement handling. No production writes.",
   );
 } catch (error) {
   console.error(log);
