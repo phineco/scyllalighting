@@ -21,10 +21,10 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
           aria-label="Scylla Lighting home"
         >
           <Image
-            src="/images/brand-lockup.webp"
+            src="/brand/logo-horizontal.png"
             alt="Scylla Lighting"
-            width={155}
-            height={65}
+            width={160}
+            height={67}
             priority
           />
         </Link>

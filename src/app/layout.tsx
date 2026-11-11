@@ -5,7 +5,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
   title: "Scylla Lighting",
   description: "LED lighting and OEM/ODM manufacturing support.",
-  icons: { icon: "/icon.png" },
+  icons: {
+    icon: [
+      { url: "/brand/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/brand/favicon-64.png", type: "image/png", sizes: "64x64" },
+    ],
+    shortcut: "/favicon.ico",
+  },
 };
 export default async function RootLayout({
   children,
