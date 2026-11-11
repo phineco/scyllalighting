@@ -9,7 +9,7 @@
   display: flex;
   gap: 12px;
   align-items: flex-start;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -20,7 +20,7 @@
 }
 .contact-channels small {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.04em;
   color: var(--muted);
   margin-bottom: 2px;
@@ -33,13 +33,13 @@
   margin-top: 20px;
 }
 .contact-channels.compact > a {
-  font-size: 12px;
+  font-size: 14px;
 }
 .contact-channels.compact small {
-  font-size: 9px;
+  font-size: 11px;
 }
 .message-budget {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.6;
   margin-top: 10px;
 }
@@ -59,7 +59,7 @@
   border: 1px solid #b48a3d;
   padding: 12px 17px;
   border-radius: 30px;
-  font-size: 12px;
+  font-size: 14px;
   box-shadow: 0 4px 20px #112d3a22;
 }
 .floating-contact svg {
@@ -72,21 +72,21 @@
   .floating-contact {
     right: 15px;
     bottom: calc(15px + env(safe-area-inset-bottom));
-    font-size: 11px;
+    font-size: 13px;
     padding: 10px 14px;
   }
   .footer-bottom {
     padding-bottom: 80px;
   }
   .contact-channels > a {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 .breadcrumbs {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin-bottom: 38px;
   line-height: 1.6;
@@ -110,12 +110,12 @@
 }
 .interior-hero .eyebrow {
   color: var(--gold);
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 .interior-hero .intro-copy {
   max-width: 620px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .hero-links {
   display: flex;
@@ -149,7 +149,7 @@
   right: 0;
   padding: 45px 22px 20px;
   background: linear-gradient(transparent, #112d3adb);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.13em;
   color: white;
 }
@@ -174,7 +174,7 @@
   line-height: 1.08;
 }
 .hero-index p {
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.12em;
   margin-top: 23px;
 }
@@ -185,7 +185,7 @@
   background: #b5bba9;
 }
 .hero-index .hero-index-bottom {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   display: flex;
   align-items: center;
@@ -204,7 +204,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 11px;
+  font-size: 13px;
   padding: 11px 0;
   color: var(--muted);
 }
@@ -240,14 +240,14 @@
 .note-grid article > svg {
   display: block;
   color: var(--gold);
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 24px;
 }
 .note-grid h3 {
   margin-bottom: 12px;
 }
 .note-grid p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .faq-section {
   display: grid;
@@ -256,7 +256,7 @@
 }
 .faq-section > div:first-child > p:not(.eyebrow) {
   margin-top: 20px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .faq-section h2 {
   font-size: 36px;
@@ -275,7 +275,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   padding: 23px 0;
 }
@@ -292,10 +292,10 @@
 }
 .faq-list details > p {
   padding: 0 28px 25px 0;
-  font-size: 13px;
+  font-size: 15px;
 }
 .application-disclosure {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.06em;
   margin-bottom: 35px;
 }
@@ -313,7 +313,7 @@
   margin-bottom: 20px;
 }
 .application-row > div > p:not(.eyebrow) {
-  font-size: 14px;
+  font-size: 16px;
 }
 .application-visual {
   background: #eaece5;
@@ -321,7 +321,7 @@
   min-width: 0;
 }
 .application-visual > span {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -344,7 +344,7 @@
   justify-self: center;
 }
 .application-visual > p {
-  font-size: 9px !important;
+  font-size: 11px !important;
   letter-spacing: 0.12em;
 }
 .family-tags {
@@ -357,7 +357,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 10px;
+  font-size: 12px;
   border: 1px solid #cbd0c8;
   padding: 8px 10px;
 }
@@ -365,7 +365,7 @@
   background: white;
 }
 .application-row .check-list li {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .check-list svg {
@@ -383,14 +383,14 @@
 .process-grid article > span {
   display: block;
   color: var(--gold);
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 26px;
 }
 .process-grid h3 {
   margin-bottom: 12px;
 }
 .process-grid p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .consistency-band {
   background: #e8eade;
@@ -409,11 +409,11 @@
   margin-bottom: 25px;
 }
 .document-grid h3 {
-  font-size: 17px;
+  font-size: 19px;
   margin-bottom: 12px;
 }
 .document-grid p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .service-routes {
   display: grid;
@@ -441,7 +441,7 @@
 }
 .service-routes .eyebrow {
   color: var(--gold);
-  font-size: 10px;
+  font-size: 12px;
 }
 .service-routes h2 {
   font-size: 28px;
@@ -450,13 +450,13 @@
   margin-bottom: 20px;
 }
 .service-routes article > p:not(.eyebrow) {
-  font-size: 13px;
+  font-size: 15px;
 }
 .service-routes .check-list {
   margin-top: 20px;
 }
 .service-routes .check-list li {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
 }
 .service-routes .text-link {
@@ -475,10 +475,10 @@
   border-bottom: 1px solid #cdd2c6;
 }
 .options-table h3 {
-  font-size: 17px;
+  font-size: 19px;
 }
 .options-table p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .options-table svg {
   color: var(--gold);
@@ -501,7 +501,7 @@
   margin-bottom: 45px;
 }
 .download-top span {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
 }
 .download-grid h2 {
@@ -509,7 +509,7 @@
   margin-bottom: 20px;
 }
 .download-grid p {
-  font-size: 14px;
+  font-size: 16px;
   min-height: 76px;
 }
 .principles-band {
@@ -530,12 +530,12 @@
   border-bottom: 1px solid #ffffff30;
 }
 .principles-list article > span {
-  font-size: 12px;
+  font-size: 14px;
   color: #e0be7a;
 }
 .principles-list p {
   color: #b8c5c8;
-  font-size: 13px;
+  font-size: 15px;
 }
 .principles-band .text-link {
   color: #e0be7a;
@@ -552,7 +552,7 @@
 }
 .home-pathways span {
   display: block;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.13em;
   color: var(--gold);
   margin-bottom: 15px;
@@ -562,7 +562,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  font-size: 19px;
+  font-size: 21px;
 }
 .brand {
   flex-shrink: 0;
@@ -580,7 +580,7 @@
   }
   .navigation {
     gap: 14px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .header-actions {
     gap: 12px;
@@ -605,7 +605,7 @@
     padding: 27px 20px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1280px) {
   .navigation {
     display: none;
   }
@@ -624,11 +624,13 @@
     padding: 15px 32px 25px;
     background: var(--paper);
     border-bottom: 1px solid var(--line);
-    font-size: 15px;
+    font-size: 17px;
   }
   .navigation.open a {
     padding: 14px 0;
   }
+}
+@media (max-width: 1050px) {
   .interior-hero-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -696,7 +698,7 @@
     padding-inline: 20px;
   }
   .breadcrumbs {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 25px;
   }
   .interior-hero {
@@ -708,25 +710,25 @@
     line-height: 1.14;
   }
   .interior-hero .intro-copy {
-    font-size: 13px;
+    font-size: 15px;
   }
   .hero-links {
     gap: 16px;
     margin-top: 23px;
   }
   .hero-links .button {
-    font-size: 12px;
+    font-size: 14px;
     gap: 16px;
     padding-inline: 15px;
   }
   .hero-links .text-link {
-    font-size: 11px;
+    font-size: 13px;
   }
   .interior-image {
     min-height: 230px;
   }
   .interior-image > span {
-    font-size: 8px;
+    font-size: 10px;
     padding-inline: 15px;
   }
   .jump-nav {
@@ -734,7 +736,7 @@
     padding-block: 7px;
   }
   .jump-nav a {
-    font-size: 10px;
+    font-size: 12px;
     gap: 10px;
     min-height: 40px;
     padding-block: 8px;
@@ -751,17 +753,17 @@
     margin-bottom: 18px;
   }
   .note-grid p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .faq-section h2 {
     font-size: 30px;
   }
   .faq-list summary {
-    font-size: 13px;
+    font-size: 15px;
     padding: 20px 0;
   }
   .faq-list details > p {
-    font-size: 12px;
+    font-size: 14px;
     padding-right: 8px;
   }
   .application-row {
@@ -770,7 +772,7 @@
     padding: 35px 0;
   }
   .application-disclosure {
-    font-size: 9px;
+    font-size: 11px;
     line-height: 1.8;
   }
   .application-visual {
@@ -785,13 +787,13 @@
     width: 100%;
   }
   .application-visual > span {
-    font-size: 9px;
+    font-size: 11px;
   }
   .application-row h2 {
     font-size: 31px;
   }
   .application-row > div > p:not(.eyebrow) {
-    font-size: 13px;
+    font-size: 15px;
   }
   .application-row .eyebrow {
     margin-bottom: 14px;
@@ -807,7 +809,7 @@
     margin-bottom: 18px;
   }
   .process-grid p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .document-grid {
     grid-template-columns: 1fr;
@@ -823,7 +825,7 @@
     margin: 0;
   }
   .document-grid h3 {
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 7px;
   }
   .service-routes > article {
@@ -838,12 +840,12 @@
     padding-block: 21px;
   }
   .options-table h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .options-table p {
     grid-column: 1/2;
     grid-row: 2/3;
-    font-size: 12px;
+    font-size: 14px;
   }
   .options-table svg {
     grid-column: 2/3;
@@ -863,7 +865,7 @@
     font-size: 29px;
   }
   .download-grid p {
-    font-size: 13px;
+    font-size: 15px;
     min-height: 0;
   }
   .principles-list article {
@@ -872,10 +874,10 @@
   }
   .principles-list p {
     grid-column: 2/3;
-    font-size: 12px;
+    font-size: 14px;
   }
   .principles-list h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .home-pathways {
     grid-template-columns: 1fr;
@@ -883,7 +885,7 @@
     padding-bottom: 45px;
   }
   .home-pathways h3 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .page-intro .breadcrumbs {
     margin-bottom: 25px;

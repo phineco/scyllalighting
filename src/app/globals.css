@@ -76,12 +76,12 @@ h2 {
   font-size: clamp(31px, 3vw, 44px);
 }
 h3 {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 500;
   line-height: 1.35;
 }
 p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   color: var(--muted);
 }
@@ -95,7 +95,7 @@ p {
   padding-bottom: 100px;
 }
 .eyebrow {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
   letter-spacing: 0.15em;
   font-weight: 600;
@@ -110,7 +110,7 @@ p {
   background: var(--ink);
   color: #fff;
   padding: 17px 23px;
-  font-size: 13px;
+  font-size: 15px;
   border: 1px solid var(--ink);
   min-height: 50px;
   transition:
@@ -122,7 +122,7 @@ p {
 }
 .button.small {
   padding: 11px 16px;
-  font-size: 12px;
+  font-size: 14px;
   gap: 16px;
   min-height: 42px;
 }
@@ -133,7 +133,7 @@ p {
   border-bottom: 1px solid currentColor;
   padding-bottom: 7px;
   margin-top: 24px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .text-link:hover {
   color: var(--gold);
@@ -191,13 +191,13 @@ p {
 }
 .brand-icon > span {
   position: absolute;
-  font-size: 13px;
+  font-size: 15px;
   right: -6px;
   top: -5px;
   background: var(--paper);
 }
 .brand-sub {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.29em;
   display: block;
   margin-top: 7px;
@@ -207,7 +207,7 @@ p {
   display: flex;
   align-items: center;
   gap: 27px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .navigation a {
   padding: 12px 0;
@@ -226,7 +226,7 @@ p {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
 }
 .menu-button {
@@ -259,14 +259,14 @@ p {
   color: #8a743f;
 }
 .hero-side p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 24px;
 }
 .hero-secondary {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 17px;
 }
 .hero-photo {
@@ -290,10 +290,10 @@ p {
   display: flex;
   align-items: center;
   gap: 25px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .photo-caption > span:first-child {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.17em;
 }
 .photo-caption > span:nth-child(2) {
@@ -309,7 +309,7 @@ p {
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
@@ -367,7 +367,7 @@ p {
   top: 16px;
   left: 17px;
   color: #8a918c;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.1em;
 }
 .product-arrow {
@@ -380,10 +380,10 @@ p {
   padding: 20px 0 0;
 }
 .product-caption h3 {
-  font-size: 17px;
+  font-size: 19px;
 }
 .product-caption p {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 7px;
 }
 .section-end {
@@ -395,7 +395,7 @@ p {
   padding-top: 25px;
 }
 .section-end > span {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
 }
 .section-end .text-link {
@@ -427,7 +427,7 @@ p {
   bottom: 18px;
   left: 20px;
   background: rgba(17, 45, 58, 0.88);
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.1em;
   color: #fff;
   padding: 9px 13px;
@@ -450,7 +450,7 @@ p {
   margin-bottom: 12px;
 }
 .capabilities p {
-  font-size: 13px;
+  font-size: 15px;
   max-width: 330px;
 }
 .steps {
@@ -464,7 +464,7 @@ p {
   padding-top: 24px;
 }
 .steps span {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold);
   display: block;
   margin-bottom: 40px;
@@ -473,7 +473,7 @@ p {
   margin-bottom: 15px;
 }
 .steps p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .cta {
   background: #e8e8dd;
@@ -492,7 +492,7 @@ p {
   margin-bottom: 17px;
 }
 .cta p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .button.light {
   background: transparent;
@@ -521,23 +521,23 @@ footer {
   line-height: 1;
 }
 .footer-brand span {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.35em;
   display: block;
   margin-top: 8px;
 }
 .footer-grid p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 23px;
   max-width: 280px;
 }
 .footer-grid .eyebrow {
   margin: 0 0 22px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .footer-grid > div > a:not(.footer-brand) {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 15px;
 }
 .footer-bottom {
@@ -546,7 +546,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
 }
 .page-intro {
@@ -590,18 +590,18 @@ footer {
   padding: 25px 0 5px;
 }
 .product-detail dt {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.05em;
   color: var(--muted);
   margin-bottom: 9px;
 }
 .product-detail dd {
   margin: 0 0 20px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
 }
 .fine-print {
-  font-size: 11px;
+  font-size: 13px;
   margin-bottom: 25px;
 }
 .quality-note {
@@ -613,7 +613,7 @@ footer {
   gap: 50px;
 }
 .quality-note p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .custom-options {
   margin-top: 55px;
@@ -629,7 +629,7 @@ footer {
   margin-bottom: 12px;
 }
 .custom-options p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .about-grid {
   display: grid;
@@ -657,7 +657,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 13px;
+  font-size: 15px;
   padding: 10px 0;
 }
 .check-list svg {
@@ -682,17 +682,17 @@ footer {
 }
 .contact-company > span {
   display: block;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   margin-bottom: 12px;
   color: var(--muted);
 }
 .contact-company strong {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
 }
 .contact-company p {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 15px;
 }
 .inquiry-form {
@@ -701,7 +701,7 @@ footer {
   border: 1px solid var(--line);
 }
 .inquiry-form label {
-  font-size: 12px;
+  font-size: 14px;
   display: block;
 }
 .form-grid {
@@ -720,7 +720,7 @@ footer {
   padding: 13px 12px;
   margin-top: 9px;
   color: var(--ink);
-  font-size: 14px;
+  font-size: 16px;
   min-width: 0;
 }
 .inquiry-form textarea {
@@ -736,7 +736,7 @@ footer {
   align-items: flex-start;
   line-height: 1.6;
   color: var(--muted);
-  font-size: 11px !important;
+  font-size: 13px !important;
 }
 .consent input {
   margin: 3px 0 0;
@@ -754,12 +754,12 @@ footer {
 }
 .form-error {
   color: #a12b27;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 20px;
 }
 .form-success {
   color: #236c4a;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 20px;
 }
 .legal {
@@ -794,7 +794,7 @@ footer {
   }
   .navigation {
     gap: 17px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .header-inner {
     gap: 20px;
@@ -834,7 +834,7 @@ footer {
     padding: 15px 32px 25px;
     background: var(--paper);
     border-bottom: 1px solid var(--line);
-    font-size: 15px;
+    font-size: 17px;
   }
   .navigation.open a {
     padding: 16px 0;
@@ -915,17 +915,17 @@ footer {
     gap: 10px;
   }
   .brand {
-    font-size: 24px;
+    font-size: 26px;
     gap: 8px;
   }
   .brand-icon {
     width: 30px;
     height: 39px;
-    font-size: 23px;
+    font-size: 25px;
     padding-top: 6px;
   }
   .brand-sub {
-    font-size: 7px;
+    font-size: 9px;
   }
   .header-actions {
     gap: 10px;
@@ -934,7 +934,7 @@ footer {
     display: none;
   }
   .language {
-    font-size: 11px;
+    font-size: 13px;
   }
   .navigation.open {
     top: 75px;
@@ -945,7 +945,7 @@ footer {
     gap: 25px;
   }
   .hero .eyebrow {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 0.1em;
     margin-bottom: 22px;
   }
@@ -958,18 +958,18 @@ footer {
     display: block;
   }
   .hero-side p {
-    font-size: 13px;
+    font-size: 15px;
     max-width: 340px;
     margin-bottom: 22px;
   }
   .hero-secondary {
     display: inline-flex;
     margin: 0 0 0 20px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .hero-side .button {
     padding: 14px 17px;
-    font-size: 12px;
+    font-size: 14px;
     gap: 17px;
   }
   .hero-photo {
@@ -992,7 +992,7 @@ footer {
     padding: 8px;
   }
   .hero-bottom {
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0.03em;
     gap: 10px;
     padding: 19px 0;
@@ -1018,10 +1018,10 @@ footer {
     max-width: 100%;
   }
   .section-heading p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .section-heading .eyebrow {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 18px;
   }
   .section-heading h2 {
@@ -1035,17 +1035,17 @@ footer {
     padding-top: 14px;
   }
   .product-caption h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .product-caption p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.6;
     margin-top: 7px;
   }
   .product-number {
     top: 10px;
     left: 10px;
-    font-size: 8px;
+    font-size: 10px;
   }
   .product-arrow {
     right: 8px;
@@ -1064,12 +1064,12 @@ footer {
     padding-top: 20px;
   }
   .section-end > span {
-    font-size: 11px;
+    font-size: 13px;
     display: block;
     margin-bottom: 15px;
   }
   .text-link {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 16px;
   }
   .production-image img {
@@ -1078,7 +1078,7 @@ footer {
     object-position: 45%;
   }
   .production-image > span {
-    font-size: 8px;
+    font-size: 10px;
     bottom: 12px;
     left: 12px;
     padding: 7px;
@@ -1100,12 +1100,12 @@ footer {
     width: 22px;
   }
   .capabilities h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 7px;
   }
   .capabilities p {
     max-width: none;
-    font-size: 12px;
+    font-size: 14px;
   }
   .steps {
     grid-template-columns: repeat(2, 1fr);
@@ -1115,10 +1115,10 @@ footer {
     margin-bottom: 24px;
   }
   .steps h3 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .steps p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .cta {
     padding: 45px 0;
@@ -1130,7 +1130,7 @@ footer {
     font-size: 32px;
   }
   .cta p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .cta .button {
     margin-top: 25px;
@@ -1148,7 +1148,7 @@ footer {
   }
   .footer-bottom {
     flex-wrap: wrap;
-    font-size: 9px;
+    font-size: 11px;
     gap: 15px;
   }
   .footer-bottom > span:nth-child(2) {
@@ -1165,10 +1165,10 @@ footer {
     font-size: 39px;
   }
   .page-intro .eyebrow {
-    font-size: 9px;
+    font-size: 11px;
   }
   .intro-copy {
-    font-size: 13px;
+    font-size: 15px;
   }
   .product-details {
     margin-top: 55px;
@@ -1183,10 +1183,10 @@ footer {
     font-size: 30px;
   }
   .product-detail p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .product-detail .fine-print {
-    font-size: 11px;
+    font-size: 13px;
   }
   .quality-note {
     grid-template-columns: 1fr;
@@ -1197,7 +1197,7 @@ footer {
     gap: 20px;
   }
   .custom-options p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .about-grid {
     grid-template-columns: 1fr;
@@ -1210,7 +1210,7 @@ footer {
     font-size: 31px;
   }
   .about-grid p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .contact-grid aside h2 {
     font-size: 31px;
@@ -1224,13 +1224,13 @@ footer {
   }
   .form-grid label,
   .inquiry-form > label {
-    font-size: 12px;
+    font-size: 14px;
   }
   .page-intro + .section {
     padding-top: 40px;
   }
   .legal p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .error-page h1 {
     font-size: 38px;
