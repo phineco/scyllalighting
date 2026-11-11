@@ -1,33 +1,37 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale, pageNames } from "@/content/site";
 import {
-  Home,
-  Intro,
-  Products,
-  Manufacturing,
-  OEM,
-  About,
-  Contact,
-  Privacy,
-  CTA,
-} from "@/components/SiteContent";
+  isLocale,
+  pageNames,
+  pageDescriptions,
+  categories,
+} from "@/content/site";
+import { Home, Privacy } from "@/components/SiteContent";
+import {
+  ProductsPage,
+  ApplicationsPage,
+  ManufacturingPage,
+  OEMPage,
+  AboutPage,
+  ResourcesPage,
+  ContactPage,
+} from "@/components/InteriorPages";
 type Props = {
   params: Promise<{ locale: string; page?: string[] }>;
-  searchParams: Promise<{ product?: string }>;
+  searchParams: Promise<{
+    product?: string | string[];
+    context?: string | string[];
+  }>;
 };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
-  if (!isLocale(locale) || !(slug in pageNames)) return {};
+  if (!isLocale(locale) || !Object.hasOwn(pageNames, slug)) return {};
   const title = pageNames[slug][locale === "en" ? 0 : 1] + " | Scylla Lighting";
   const path = slug ? "/" + slug : "";
   return {
     title,
-    description:
-      locale === "en"
-        ? "Selected LED lighting, manufacturing support and OEM/ODM solutions for importers, distributors and brands."
-        : "锡拉照明为进口商、分销商与品牌客户提供精选 LED 灯具、制造配套与 OEM/ODM 服务。",
+    description: pageDescriptions[slug]?.[locale === "en" ? 0 : 1],
     alternates: {
       canonical: "/" + locale + path,
       languages: {
@@ -52,23 +56,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
-  if (!isLocale(locale) || !(slug in pageNames)) notFound();
+  if (!isLocale(locale) || !Object.hasOwn(pageNames, slug)) notFound();
   if (slug === "") return <Home locale={locale} />;
-  if (slug === "about") return <About locale={locale} />;
-  if (slug === "contact")
-    return <Contact locale={locale} product={(await searchParams).product} />;
+  if (slug === "about") return <AboutPage locale={locale} />;
+  if (slug === "applications") return <ApplicationsPage locale={locale} />;
+  if (slug === "resources") return <ResourcesPage locale={locale} />;
+  if (slug === "contact") {
+    const query = await searchParams;
+    const product =
+      typeof query.product === "string" &&
+      (query.product === "custom" ||
+        categories.some((c) => c.id === query.product))
+        ? query.product
+        : "";
+    const context = typeof query.context === "string" ? query.context : "";
+    return <ContactPage locale={locale} product={product} context={context} />;
+  }
   if (slug === "privacy") return <Privacy locale={locale} />;
-  return (
-    <>
-      <Intro locale={locale} page={slug} />
-      {slug === "products" ? (
-        <Products locale={locale} full />
-      ) : slug === "manufacturing" ? (
-        <Manufacturing locale={locale} full />
-      ) : (
-        <OEM locale={locale} full />
-      )}
-      <CTA locale={locale} />
-    </>
-  );
+  if (slug === "products") return <ProductsPage locale={locale} />;
+  if (slug === "manufacturing") return <ManufacturingPage locale={locale} />;
+  return <OEMPage locale={locale} />;
 }

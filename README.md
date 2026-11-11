@@ -13,7 +13,9 @@ npm run build
 npm run start
 ```
 
-Routes: /en, /zh-CN, and products, manufacturing, oem-odm, about, contact, privacy under each locale. Unsupported routes return 404. Root redirects to /en.
+Routes: /en, /zh-CN, and products, applications, manufacturing, oem-odm, about, resources, contact, privacy under each locale. Unsupported routes return 404. Root redirects to /en.
+
+Application and OEM links pass only known context keys to the contact page; the form is prefilled with a localized brief. Language switching preserves the product/context selection and section anchor, but not personal information entered in the form. The resources page downloads actual bilingual selected-range CSV and enquiry-template TXT files through /api/resources. Model-specific reports and conformity documents remain available by enquiry and require review; there are no placeholder certificate downloads or supplier catalogues.
 
 ## Configuration
 

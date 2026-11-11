@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
+import "./interior.css";
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
   title: "Scylla Lighting",
@@ -21,7 +22,7 @@ export default async function RootLayout({
   const locale =
     (await headers()).get("x-site-locale") === "zh-CN" ? "zh-CN" : "en";
   return (
-    <html lang={locale}>
+    <html lang={locale} data-scroll-behavior="smooth">
       <body>{children}</body>
     </html>
   );

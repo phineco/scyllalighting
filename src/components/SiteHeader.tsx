@@ -49,6 +49,17 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
             className="language"
             href={alternate}
             aria-label={t(locale, "Switch to Chinese", "切换至英文")}
+            onClick={(event) => {
+              const current = new URL(window.location.href);
+              const destination = new URL(alternate, window.location.origin);
+              for (const key of ["product", "context"]) {
+                const value = current.searchParams.get(key);
+                if (value) destination.searchParams.set(key, value);
+              }
+              destination.hash = current.hash;
+              event.currentTarget.href =
+                destination.pathname + destination.search + destination.hash;
+            }}
           >
             <Globe2 size={15} />
             {locale === "en" ? "中文" : "EN"}

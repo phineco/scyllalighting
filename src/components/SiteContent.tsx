@@ -12,9 +12,24 @@ import {
 } from "lucide-react";
 import { categories, Locale, t, pageNames } from "@/content/site";
 import InquiryForm from "./InquiryForm";
+import { briefFor } from "@/content/journey";
 export function Intro({ locale, page }: { locale: Locale; page: string }) {
   return (
     <section className="wrap page-intro">
+      <nav
+        className="breadcrumbs"
+        aria-label={t(locale, "Breadcrumb", "面包屑")}
+      >
+        <Link href={"/" + locale}>{t(locale, "Home", "首页")}</Link>
+        <span>/</span>
+        <span aria-current="page">
+          {t(
+            locale,
+            page === "privacy" ? "Privacy" : "Contact",
+            page === "privacy" ? "隐私说明" : "联系",
+          )}
+        </span>
+      </nav>
       <p className="eyebrow">SCYLLA LIGHTING / {page.toUpperCase()}</p>
       <h1>{pageNames[page]?.[locale === "en" ? 0 : 1]}</h1>
       <p className="intro-copy">
@@ -461,17 +476,42 @@ export function Home({ locale }: { locale: Locale }) {
         </div>
       </section>
       <Products locale={locale} />
+      <section
+        className="wrap home-pathways"
+        aria-label={tr("Explore further", "进一步了解")}
+      >
+        <Link href={"/" + locale + "/applications"}>
+          <span>{tr("START WITH THE SPACE", "从空间开始")}</span>
+          <h3>
+            {tr("Find lighting by application", "按应用场景选择照明")}
+            <ArrowUpRight size={18} />
+          </h3>
+        </Link>
+        <Link href={"/" + locale + "/resources"}>
+          <span>{tr("PREPARE YOUR NEXT ENQUIRY", "准备下一次询盘")}</span>
+          <h3>
+            {tr("Download the selection reference", "下载精选参数与需求模板")}
+            <ArrowUpRight size={18} />
+          </h3>
+        </Link>
+      </section>
       <Manufacturing locale={locale} />
       <OEM locale={locale} />
       <CTA locale={locale} />
     </>
   );
 }
-export function About({ locale }: { locale: Locale }) {
+export function About({
+  locale,
+  embedded = false,
+}: {
+  locale: Locale;
+  embedded?: boolean;
+}) {
   const tr = (en: string, zh: string) => t(locale, en, zh);
   return (
     <>
-      <Intro locale={locale} page="about" />
+      {!embedded && <Intro locale={locale} page="about" />}
       <section className="wrap about-grid section">
         <Image
           src="/images/manufacturing-campus.webp"
@@ -513,16 +553,18 @@ export function About({ locale }: { locale: Locale }) {
           </ul>
         </div>
       </section>
-      <CTA locale={locale} />
+      {!embedded && <CTA locale={locale} />}
     </>
   );
 }
 export function Contact({
   locale,
   product,
+  context,
 }: {
   locale: Locale;
   product?: string;
+  context?: string;
 }) {
   const tr = (en: string, zh: string) => t(locale, en, zh);
   return (
@@ -554,7 +596,11 @@ export function Contact({
             </p>
           </div>
         </aside>
-        <InquiryForm locale={locale} initialProduct={product} />
+        <InquiryForm
+          locale={locale}
+          initialProduct={product}
+          initialMessage={briefFor(locale, context)}
+        />
       </section>
     </>
   );

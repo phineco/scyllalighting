@@ -6,9 +6,11 @@ import { categories, Locale, t } from "@/content/site";
 export default function InquiryForm({
   locale,
   initialProduct = "",
+  initialMessage = "",
 }: {
   locale: Locale;
   initialProduct?: string;
+  initialMessage?: string;
 }) {
   const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
@@ -110,6 +112,8 @@ export default function InquiryForm({
       <label>
         {tr("Tell us about your project", "项目需求")} *
         <textarea
+          key={initialMessage}
+          defaultValue={initialMessage}
           required
           name="message"
           maxLength={3000}
