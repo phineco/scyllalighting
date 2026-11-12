@@ -6,6 +6,9 @@ import { inquiryResponseDiagnostic } from "@/lib/inquiry-response-diagnostic";
 import {
   legacyMessage,
   legacyAcknowledged,
+  NAME_LIMIT,
+  PHONE_LIMIT,
+  EMAIL_LIMIT,
   MESSAGE_LIMIT,
 } from "@/lib/inquiry-payload";
 export async function POST(request: NextRequest) {
@@ -57,9 +60,9 @@ export async function POST(request: NextRequest) {
   );
   if (
     !payload.name ||
-    payload.name.length > 64 ||
+    payload.name.length > NAME_LIMIT ||
     !validator.isEmail(payload.email) ||
-    payload.email.length > 160 ||
+    payload.email.length > EMAIL_LIMIT ||
     !payload.market ||
     payload.market.length > 100 ||
     !payload.message ||
@@ -67,7 +70,7 @@ export async function POST(request: NextRequest) {
     payload.company.length > 160 ||
     payload.quantity.length > 60 ||
     payload.product.length > 80 ||
-    payload.phoneNumber.length > 20 ||
+    payload.phoneNumber.length > PHONE_LIMIT ||
     (payload.product !== "" &&
       payload.product !== "custom" &&
       !categories.some((c) => c.id === payload.product)) ||
@@ -89,7 +92,10 @@ export async function POST(request: NextRequest) {
     message,
     productId: "",
   };
-  if (legacyPayload.name.length > 64 || legacyPayload.phoneNumber.length > 20)
+  if (
+    legacyPayload.name.length > NAME_LIMIT ||
+    legacyPayload.phoneNumber.length > PHONE_LIMIT
+  )
     return NextResponse.json({ error: "invalid_fields" }, { status: 400 });
   const baseUrl =
     process.env.API_BASE_URL ||

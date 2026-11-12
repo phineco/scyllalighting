@@ -3,7 +3,13 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { categories, Locale, t } from "@/content/site";
-import { legacyMessage, MESSAGE_LIMIT } from "@/lib/inquiry-payload";
+import {
+  legacyMessage,
+  NAME_LIMIT,
+  PHONE_LIMIT,
+  EMAIL_LIMIT,
+  MESSAGE_LIMIT,
+} from "@/lib/inquiry-payload";
 import ContactChannels from "./ContactChannels";
 export default function InquiryForm({
   locale,
@@ -109,7 +115,7 @@ export default function InquiryForm({
       <div className="form-grid">
         <label>
           {tr("Your name", "姓名")} *
-          <input required name="name" maxLength={64} autoComplete="name" />
+          <input required name="name" maxLength={NAME_LIMIT} autoComplete="name" />
         </label>
         <label>
           {tr("Work email", "工作邮箱")} *
@@ -117,7 +123,7 @@ export default function InquiryForm({
             required
             name="email"
             type="email"
-            maxLength={160}
+            maxLength={EMAIL_LIMIT}
             autoComplete="email"
           />
         </label>
@@ -130,7 +136,7 @@ export default function InquiryForm({
           <input
             name="phoneNumber"
             type="tel"
-            maxLength={20}
+            maxLength={PHONE_LIMIT}
             autoComplete="tel"
           />
         </label>

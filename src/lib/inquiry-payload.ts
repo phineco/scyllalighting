@@ -1,4 +1,7 @@
 import { categories } from "@/content/site";
+export const NAME_LIMIT = 64;
+export const PHONE_LIMIT = 64;
+export const EMAIL_LIMIT = 64;
 export const MESSAGE_LIMIT = 1024;
 export function legacyMessage(data: Record<string, string>): string {
   const product = categories.find((c) => c.id === data.product);

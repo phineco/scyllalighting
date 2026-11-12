@@ -56,12 +56,14 @@ The 2026-11-12 check returned HTTP 200 with `Allow: POST,OPTIONS`. This confirms
 | Java field | Lighting form mapping |
 | --- | --- |
 | `name` | Customer name, maximum 64 characters |
-| `email` | Customer email |
-| `phoneNumber` | Optional customer phone/WhatsApp, maximum 20 characters |
+| `email` | Customer email, maximum 64 characters |
+| `phoneNumber` | Optional customer phone/WhatsApp, maximum 64 characters |
 | `message` | Scylla Lighting source marker, company, market, selected family, quantity, locale and original enquiry; maximum 1024 characters combined |
 | `productId` | Empty string: a lighting family is not a machinery database entity ID |
 
 Input is validated and sanitized. Over-length messages are rejected without contacting Java or silently truncating information. The form shows the combined length and offers direct email/WhatsApp when delivery fails. It preserves the entered details after failure.
+
+Limits follow the operator-provided `m_inquiry` schema (2026-11-12) and are shared by browser `maxLength` attributes and server validation: name/phone/email 64, combined message 1024. Company, market, product, quantity and language are included in that message budget. Internal columns such as `memo`, `status`, IDs and audit fields are not customer-editable form fields.
 
 The original client treats HTTP 2xx as submission acknowledgement. This adapter supports empty successful responses, JSON `true`, explicit `success:true`, and conventional `code` 0/200 results. On 2026-11-12 the operator confirmed the Java success body is `保存留言信息成功`; that exact text is accepted as plain text (ignoring surrounding whitespace) or a JSON string. Failure messages, substring matches, non-2xx responses, explicit business failures, unrecognised bodies and HTML login/error pages are rejected. Success copy says “submitted”, not database-verified. Actual persistence still depends on the Java endpoint. Contract tests use only a local mock; no production inquiry was created for verification.
 

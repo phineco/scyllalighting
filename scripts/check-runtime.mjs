@@ -110,6 +110,14 @@ try {
       );
       assert.ok(html.includes("mailto:info@machinery100.com"));
       assert.ok(html.includes("https://wa.me/8618949813729"));
+      if (path === "contact") {
+        for (const field of ["name", "phoneNumber", "email"]) {
+          const input = html.match(new RegExp('<input\\b[^>]*name="' + field + '"[^>]*>'))?.[0];
+          assert.ok(input, "Contact input must exist: " + field);
+          assert.match(input, /maxLength="64"/i);
+        }
+        assert.match(html, /<textarea\b[^>]*maxLength="1024"/i);
+      }
     }
   for (const path of [
     "/en/unknown",
@@ -156,7 +164,11 @@ try {
   );
   assert.equal((await post({ ...data, name: "x".repeat(65) })).status, 400);
   assert.equal(
-    (await post({ ...data, phoneNumber: "1".repeat(21) })).status,
+    (await post({ ...data, phoneNumber: "1".repeat(65) })).status,
+    400,
+  );
+  assert.equal(
+    (await post({ ...data, email: "a".repeat(53) + "@example.com" })).status,
     400,
   );
   assert.equal((await post({ ...data, product: "not-a-product" })).status, 400);
@@ -168,6 +180,27 @@ try {
     0,
     "Invalid or over-length enquiries must not reach the backend",
   );
+  const boundaryData = {
+    ...data,
+    name: "名".repeat(64),
+    phoneNumber: "+" + "1".repeat(63),
+    email: "a".repeat(52) + "@example.com",
+  };
+  assert.equal((await post(boundaryData)).status, 201);
+  assert.equal(received.name, boundaryData.name);
+  assert.equal(received.phoneNumber, boundaryData.phoneNumber);
+  assert.equal(received.email, boundaryData.email);
+  const overhead = received.message.length - data.message.length;
+  assert.equal(
+    (await post({ ...data, message: "x".repeat(1024 - overhead) })).status,
+    201,
+  );
+  assert.equal(received.message.length, 1024);
+  const boundaryWrites = writes;
+  const overBudget = await post({ ...data, message: "x".repeat(1025 - overhead) });
+  assert.equal(overBudget.status, 400);
+  assert.equal((await overBudget.json()).error, "message_too_long");
+  assert.equal(writes, boundaryWrites, "A 1025-character message must not be forwarded");
   for (const body of [
     { success: false },
     { code: 500 },
