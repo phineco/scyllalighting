@@ -1,4 +1,5 @@
 import { Locale, t } from "./site";
+import { productSeries } from "./catalogue";
 export const applications = [
   {
     id: "commercial",
@@ -137,6 +138,13 @@ export const presets: Record<string, [string, string]> = {
 };
 export function briefFor(locale: Locale, context?: string) {
   if (!context) return "";
+  const series = productSeries.find((item) => "series-" + item.id === context);
+  if (series)
+    return t(
+      locale,
+      "Selected series: " + series.titleEn + "\nReference: " + series.spec + "\nProject requirements: ",
+      "意向系列：" + series.titleZh + "\n参考规格：" + series.spec + "\n项目需求：",
+    );
   const app = applications.find((a) => a.id === context);
   if (app)
     return t(

@@ -10,7 +10,9 @@ import {
   SlidersHorizontal,
   Check,
 } from "lucide-react";
-import { categories, Locale, t, pageNames } from "@/content/site";
+import { featuredCategories, Locale, t, pageNames } from "@/content/site";
+import { catalogueCategories } from "@/content/catalogue";
+import { CategoryGrid } from "./ProductCatalog";
 import InquiryForm from "./InquiryForm";
 import ContactChannels from "./ContactChannels";
 import { briefFor } from "@/content/journey";
@@ -55,109 +57,20 @@ export function Products({
     <section className="section wrap" id="collections">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">
-            {tr("01 / THE COLLECTION", "01 / 精选产品")}
-          </p>
-          <h2>{tr("Lighting for everyday spaces.", "照亮每一种日常空间。")}</h2>
+          <p className="eyebrow">{tr("01 / THE COLLECTION", "01 / 精选产品")}</p>
+          <h2>{full ? tr("Find your lighting category.", "从产品分类开始。") : tr("Lighting for everyday spaces.", "照亮每一种日常空间。")}</h2>
         </div>
-        <p>
-          {tr(
-            "A focused selection for commercial, residential and industrial projects.",
-            "聚焦商业、住宅与工业应用的精选照明系列。",
-          )}
-        </p>
+        <p>{full
+          ? tr("Choose a category to explore selected series, specifications and enquiry options.", "选择产品分类，查看精选系列、参考规格与询盘入口。")
+          : tr("A focused selection for commercial, residential and industrial projects.", "聚焦商业、住宅与工业应用的精选照明系列。")}</p>
       </div>
-      <div className="product-grid">
-        {categories.map((c, i) => (
-          <article id={c.id} className="product-card" key={c.id}>
-            <Link
-              className="product-image"
-              href={
-                full
-                  ? "#detail-" + c.id
-                  : "/" + locale + "/products#detail-" + c.id
-              }
-              aria-label={locale === "en" ? c.en : c.zh}
-            >
-              <span className="product-number">0{i + 1}</span>
-              <Image
-                src={"/images/" + c.id + ".webp"}
-                alt={locale === "en" ? c.en : c.zh}
-                width={800}
-                height={600}
-              />
-              <span className="product-arrow">
-                <ArrowUpRight size={20} />
-              </span>
-            </Link>
-            <div className="product-caption">
-              <h3>{locale === "en" ? c.en : c.zh}</h3>
-              <p>{locale === "en" ? c.useEn : c.useZh}</p>
-            </div>
-          </article>
-        ))}
-      </div>
+      <CategoryGrid locale={locale} items={full ? catalogueCategories : featuredCategories} compact={!full} />
       {!full && (
         <div className="section-end">
-          <span>
-            {tr(
-              "The right starting point for your next range.",
-              "从精选系列出发，构建您的产品组合。",
-            )}
-          </span>
+          <span>{tr("The right starting point for your next range.", "从精选系列出发，构建您的产品组合。")}</span>
           <Link className="text-link" href={"/" + locale + "/products"}>
-            {tr("Explore the collection", "了解全部精选系列")}
-            <ArrowRight size={17} />
+            {tr("View all products", "查看全部产品分类")}<ArrowRight size={17} />
           </Link>
-        </div>
-      )}
-      {full && (
-        <div className="product-details">
-          {categories.map((c) => (
-            <article
-              className="product-detail"
-              id={"detail-" + c.id}
-              key={c.id}
-            >
-              <div className="detail-image">
-                <Image
-                  src={"/images/" + c.id + ".webp"}
-                  alt={locale === "en" ? c.en : c.zh}
-                  width={800}
-                  height={600}
-                />
-              </div>
-              <div>
-                <p className="eyebrow">SCYLLA / {c.id.toUpperCase()}</p>
-                <h2>{locale === "en" ? c.en : c.zh}</h2>
-                <p>{locale === "en" ? c.descEn : c.descZh}</p>
-                <dl>
-                  <dt>{tr("Selected range", "精选规格")}</dt>
-                  <dd>{c.spec}</dd>
-                  <dt>{tr("Customisation brief", "定制需求")}</dt>
-                  <dd>
-                    {tr(
-                      "Discuss power, colour temperature, controls, branding and packaging. Options depend on the selected model.",
-                      "可洽谈功率、色温、控制、品牌与包装；具体选项按型号确认。",
-                    )}
-                  </dd>
-                </dl>
-                <p className="fine-print">
-                  {tr(
-                    "Images represent a product family. Specifications vary by model. Configuration and market documentation are confirmed with your quotation.",
-                    "图片为产品系列示意。规格因型号而异，最终配置和目标市场资料以确认报价为准。",
-                  )}
-                </p>
-                <Link
-                  className="button"
-                  href={"/" + locale + "/contact?product=" + c.id}
-                >
-                  {tr("Enquire about this series", "咨询此系列")}
-                  <ArrowUpRight size={17} />
-                </Link>
-              </div>
-            </article>
-          ))}
         </div>
       )}
     </section>

@@ -53,6 +53,11 @@ server.stderr.on("data", (chunk) => {
   log += chunk;
 });
 const base = "http://127.0.0.1:3107";
+const categorySlugs = [
+  "panel-lights", "ceiling-lights", "downlights", "battens", "led-tubes",
+  "strip-lights", "led-bulbs", "filament-bulbs", "smart-lighting", "flood-lights",
+  "tri-proof-lights", "high-bay-lights", "street-lights", "moisture-proof-lights", "solar-lighting",
+];
 const data = {
   name: "Integration test",
   email: "test@example.com",
@@ -96,6 +101,7 @@ try {
       "resources",
       "contact",
       "privacy",
+      ...categorySlugs.map((slug) => "products/" + slug),
     ]) {
       const response = await fetch(
         base + "/" + locale + (path ? "/" + path : ""),
@@ -110,6 +116,19 @@ try {
       );
       assert.ok(html.includes("mailto:info@machinery100.com"));
       assert.ok(html.includes("https://wa.me/8618949813729"));
+      assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, "One page title: " + path);
+      if (path === "products") {
+        for (const slug of categorySlugs)
+          assert.ok(html.includes('href="/' + locale + '/products/' + slug + '"'));
+        assert.ok(html.includes('id="detail-flood"'), "Keep existing category hash targets");
+      }
+      if (path.startsWith("products/")) {
+        assert.ok(html.includes('href="/' + locale + '/' + path + '"'));
+        assert.ok(html.includes('href="/' + locale + '/contact?product='));
+        assert.ok(html.includes('id="series"'));
+        if (path === "products/flood-lights")
+          assert.ok(html.includes("/images/catalogue/flood-sensor.webp"));
+      }
       if (path === "contact") {
         for (const field of ["name", "phoneNumber", "email"]) {
           const input = html.match(new RegExp('<input\\b[^>]*name="' + field + '"[^>]*>'))?.[0];
@@ -123,10 +142,22 @@ try {
     "/en/unknown",
     "/fr",
     "/en/products/invalid",
+    "/en/products/flood-lights/missing",
+    "/en/products/table-lamps",
+    "/zh-CN/products/toString",
     "/en/toString",
     "/en/constructor",
   ])
     assert.equal((await fetch(base + path)).status, 404);
+  for (const locale of ["en", "zh-CN"]) {
+    const response = await fetch(base + "/" + locale + "/contact?product=flood&context=series-flood-sensor");
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.ok(html.includes(locale === "en" ? "Selected series: PIR sensor floodlights" : "意向系列：PIR 感应投光灯系列"));
+    assert.match(html, /<option value="flood" selected="">/);
+    const solar = await fetch(base + "/" + locale + "/contact?product=solar");
+    assert.match(await solar.text(), /<option value="solar" selected="">/);
+  }
   for (const locale of ["en", "zh-CN"])
     for (const type of ["selection", "brief"]) {
       const response = await fetch(
@@ -141,7 +172,7 @@ try {
       );
       assert.ok(!/世林|shilin|machinery100/i.test(content));
       if (type === "selection")
-        assert.equal(content.trim().split("\r\n").length, 9);
+        assert.equal(content.trim().split("\r\n").length, 16);
       if (locale === "zh-CN")
         assert.ok(content.includes(type === "brief" ? "目标市场" : "参考规格"));
     }
@@ -310,7 +341,7 @@ try {
   assert.ok(received.message.endsWith(data.message));
   assert.ok(received.message.length <= 1024);
   console.log(
-    "PASS: 18 production pages, real contact links, downloads, strict validation, legacy saveInquiry fields/path, message limit and success/failure acknowledgement handling. No production writes.",
+    "PASS: 48 bilingual production pages, category links and series, real contact links, downloads, strict validation, legacy saveInquiry fields/path, message limit and success/failure acknowledgement handling. No production writes.",
   );
 } catch (error) {
   console.error(log);

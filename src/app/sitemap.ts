@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
-import { locales, pageNames } from "@/content/site";
+import { locales, pageNames, categories } from "@/content/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = process.env.SITE_URL;
   if (!base) return [];
   return locales.flatMap((locale) =>
-    Object.keys(pageNames).map((p) => ({
+    [...Object.keys(pageNames), ...categories.map((c) => "products/" + c.slug)].map((p) => ({
       url: base + "/" + locale + (p ? "/" + p : ""),
       alternates: {
         languages: {

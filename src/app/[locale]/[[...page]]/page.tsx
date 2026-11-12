@@ -7,6 +7,8 @@ import {
   categories,
 } from "@/content/site";
 import { Home, Privacy } from "@/components/SiteContent";
+import { CategoryPage } from "@/components/ProductCatalog";
+import { categoryForPath } from "@/content/catalogue";
 import {
   ProductsPage,
   ApplicationsPage,
@@ -26,12 +28,13 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
-  if (!isLocale(locale) || !Object.hasOwn(pageNames, slug)) return {};
-  const title = pageNames[slug][locale === "en" ? 0 : 1] + " | Scylla Lighting";
+  const category = categoryForPath(slug);
+  if (!isLocale(locale) || (!category && !Object.hasOwn(pageNames, slug))) return {};
+  const title = (category ? (locale === "en" ? category.en : category.zh) : pageNames[slug][locale === "en" ? 0 : 1]) + " | Scylla Lighting";
   const path = slug ? "/" + slug : "";
   return {
     title,
-    description: pageDescriptions[slug]?.[locale === "en" ? 0 : 1],
+    description: category ? (locale === "en" ? category.descEn : category.descZh) : pageDescriptions[slug]?.[locale === "en" ? 0 : 1],
     alternates: {
       canonical: "/" + locale + path,
       languages: {
@@ -45,7 +48,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "Scylla Lighting",
       locale: locale === "en" ? "en_US" : "zh_CN",
       images: [
-        { url: "/images/manufacturing-campus.webp", width: 2200, height: 1352 },
+        category
+          ? { url: "/images/catalogue/" + category.id + ".webp", width: 800, height: 600 }
+          : { url: "/images/manufacturing-campus.webp", width: 2200, height: 1352 },
       ],
     },
     robots: process.env.SITE_URL
@@ -56,7 +61,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params, searchParams }: Props) {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
-  if (!isLocale(locale) || !Object.hasOwn(pageNames, slug)) notFound();
+  const category = categoryForPath(slug);
+  if (!isLocale(locale) || (!category && !Object.hasOwn(pageNames, slug))) notFound();
+  if (category) return <CategoryPage locale={locale} category={category} />;
   if (slug === "") return <Home locale={locale} />;
   if (slug === "about") return <AboutPage locale={locale} />;
   if (slug === "applications") return <ApplicationsPage locale={locale} />;

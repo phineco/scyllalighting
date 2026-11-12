@@ -13,8 +13,9 @@ import {
 } from "lucide-react";
 import { categories, Locale, t, nav, pageNames } from "@/content/site";
 import { applications, faq } from "@/content/journey";
+import { categoryPath } from "@/content/catalogue";
+import { ProductOverview } from "./ProductCatalog";
 import {
-  Products,
   Manufacturing,
   OEM,
   About,
@@ -223,17 +224,7 @@ export function ProductsPage({ locale }: { locale: Locale }) {
   const tr = local(locale);
   return (
     <>
-      <PageHero locale={locale} page="products" />
-      <JumpNav
-        locale={locale}
-        items={categories.map((c) => [
-          "detail-" + c.id,
-          locale === "en" ? c.en : c.zh,
-        ])}
-      />
-      <div id="page-content">
-        <Products locale={locale} full />
-      </div>
+      <ProductOverview locale={locale} />
       <section className="selection-help">
         <div className="wrap section">
           <SectionHead
@@ -343,7 +334,7 @@ export function ApplicationsPage({ locale }: { locale: Locale }) {
               </ul>
               <div className="family-tags">
                 {a.products.map((id) => (
-                  <Link key={id} href={"/" + locale + "/products#detail-" + id}>
+                  <Link key={id} href={categoryPath(locale, categories.find((c) => c.id === id)!)}>
                     {
                       categories.find((c) => c.id === id)?.[
                         locale === "en" ? "en" : "zh"
@@ -761,8 +752,8 @@ export function ResourcesPage({ locale }: { locale: Locale }) {
               format: "CSV / UTF-8",
               title: tr("Selected range reference", "精选系列参数参考"),
               desc: tr(
-                "Eight product families, indicative ranges and applications in a spreadsheet-friendly format. Final specifications are confirmed per model.",
-                "八类产品的参考规格与应用，可用表格软件打开。最终规格按型号确认。",
+                "Selected product categories, indicative ranges and applications in a spreadsheet-friendly format. Final specifications are confirmed per model.",
+                "精选产品分类的参考规格与应用，可用表格软件打开。最终规格按型号确认。",
               ),
             },
             {

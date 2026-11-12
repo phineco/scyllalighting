@@ -36,7 +36,7 @@ export default function SiteHeader({ locale }: { locale: Locale }) {
           {nav(locale).map((n) => (
             <Link
               onClick={() => setOpen(false)}
-              className={path.endsWith("/" + n.path) ? "active" : ""}
+              className={path === "/" + locale + "/" + n.path || path.startsWith("/" + locale + "/" + n.path + "/") ? "active" : ""}
               key={n.path}
               href={"/" + locale + "/" + n.path}
             >

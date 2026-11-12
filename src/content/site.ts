@@ -6,6 +6,7 @@ export const t = (l: Locale, en: string, zh: string) => (l === "en" ? en : zh);
 export const categories = [
   {
     id: "panel",
+    slug: "panel-lights",
     en: "LED Panel Lights",
     zh: "LED 面板灯",
     useEn: "Offices · Education · Retail",
@@ -16,6 +17,7 @@ export const categories = [
   },
   {
     id: "flood",
+    slug: "flood-lights",
     en: "LED Floodlights",
     zh: "LED 投光灯",
     useEn: "Facades · Yards · Outdoor areas",
@@ -27,6 +29,7 @@ export const categories = [
   },
   {
     id: "highbay",
+    slug: "high-bay-lights",
     en: "LED High Bay Lights",
     zh: "LED 工矿灯",
     useEn: "Warehouses · Workshops · Logistics",
@@ -38,6 +41,7 @@ export const categories = [
   },
   {
     id: "bulb",
+    slug: "led-bulbs",
     en: "LED Bulbs & Light Sources",
     zh: "LED 灯泡与光源",
     useEn: "Residential · Hospitality · Distribution",
@@ -49,6 +53,7 @@ export const categories = [
   },
   {
     id: "ceiling",
+    slug: "ceiling-lights",
     en: "LED Ceiling Lights",
     zh: "LED 吸顶灯",
     useEn: "Homes · Corridors · Hospitality",
@@ -60,6 +65,7 @@ export const categories = [
   },
   {
     id: "downlight",
+    slug: "downlights",
     en: "LED Downlights",
     zh: "LED 筒灯",
     useEn: "Retail · Offices · Residential",
@@ -71,6 +77,7 @@ export const categories = [
   },
   {
     id: "strip",
+    slug: "strip-lights",
     en: "LED Strip Lights",
     zh: "LED 灯带",
     useEn: "Coves · Displays · Accent lighting",
@@ -82,6 +89,7 @@ export const categories = [
   },
   {
     id: "tri-proof",
+    slug: "tri-proof-lights",
     en: "LED Tri-proof Lights",
     zh: "LED 三防灯",
     useEn: "Parking · Utility areas · Workshops",
@@ -91,7 +99,72 @@ export const categories = [
       "Linear enclosed luminaires for practical lighting in service and working areas.",
     descZh: "封闭式线性灯具，为配套与作业空间提供实用照明。",
   },
+  {
+    id: "batten", slug: "battens",
+    en: "LED Battens", zh: "LED 支架灯具",
+    useEn: "Utility rooms · Workshops · Tube installations",
+    useZh: "配套用房 · 车间 · 灯管安装",
+    spec: "600 / 1200 / 1500 mm · Single / Twin tube",
+    descEn: "Single- and twin-tube batten housings for T8 installations. Match the tube length and wiring arrangement before ordering.",
+    descZh: "适用于 T8 灯管安装的单管、双管支架灯具，订货前确认灯管长度与接线方式。",
+  },
+  {
+    id: "tube", slug: "led-tubes",
+    en: "LED Tubes", zh: "LED 灯管",
+    useEn: "Offices · Retail · Replacement lighting",
+    useZh: "办公 · 零售 · 替换照明",
+    spec: "9 / 18 / 22 W · 600 / 1200 / 1500 mm",
+    descEn: "T8 LED tubes in standard lengths. Confirm the base, supply voltage and existing fixture compatibility for the selected model.",
+    descZh: "提供常用长度的 T8 LED 灯管，按具体型号确认灯头、供电电压及现有灯具兼容性。",
+  },
+  {
+    id: "filament", slug: "filament-bulbs",
+    en: "LED Filament Bulbs", zh: "LED 灯丝灯",
+    useEn: "Hospitality · Decorative fixtures · Retail",
+    useZh: "酒店餐饮 · 装饰灯具 · 零售",
+    spec: "2.5–12 W · E14 / E27",
+    descEn: "Glass filament light sources in candle, standard and globe shapes, with clear or amber finishes depending on the selected model.",
+    descZh: "提供烛形、标准球形与大球泡等玻璃灯丝光源，可按型号选择透明或琥珀外观。",
+  },
+  {
+    id: "smart", slug: "smart-lighting",
+    en: "Smart Lighting", zh: "智能照明",
+    useEn: "Homes · Hospitality · Ambient lighting",
+    useZh: "住宅 · 酒店 · 氛围照明",
+    spec: "20 / 24 W · RGB+CW / CW",
+    descEn: "Smart ceiling lighting with colour and white-light options. Confirm the control platform, network requirements and target-market compatibility with your brief.",
+    descZh: "支持彩光或白光配置的智能吸顶照明，需结合需求确认控制平台、网络条件和目标市场兼容性。",
+  },
+  {
+    id: "street", slug: "street-lights",
+    en: "LED Street Lights", zh: "LED 路灯",
+    useEn: "Roadways · Industrial parks · Access roads",
+    useZh: "道路 · 工业园区 · 厂区通道",
+    spec: "40–200 W · 4000 / 6500 K",
+    descEn: "Roadway luminaires with aluminium housings. Share pole dimensions, mounting height and distribution requirements for model selection.",
+    descZh: "铝制外壳道路灯具，可根据灯杆尺寸、安装高度和配光要求选择具体型号。",
+  },
+  {
+    id: "moisture", slug: "moisture-proof-lights",
+    en: "LED Moisture-proof Lights", zh: "LED 防潮灯",
+    useEn: "Stairwells · Corridors · Utility areas",
+    useZh: "楼梯间 · 走廊 · 配套区域",
+    spec: "8 / 12 / 18 / 24 W · Round / Oval",
+    descEn: "Sealed round and oval luminaires with black or white frames for wall or ceiling installation.",
+    descZh: "圆形与椭圆形封闭式灯具，提供黑白边框，可用于墙面或天花安装。",
+  },
+  {
+    id: "solar", slug: "solar-lighting",
+    en: "Solar Lighting", zh: "太阳能照明",
+    useEn: "Access roads · Outdoor areas · Off-grid sites",
+    useZh: "通道 · 户外区域 · 离网场所",
+    spec: "40 W · 4000 K",
+    descEn: "Solar street lighting with a separate panel. Site sunlight, battery configuration and operating schedule must be reviewed for each project.",
+    descZh: "配独立太阳能板的道路照明，需按项目评审现场日照、电池配置与运行时段。",
+  },
 ];
+export type ProductCategory = (typeof categories)[number];
+export const featuredCategories = categories.slice(0, 8);
 export const nav = (l: Locale) => [
   { path: "products", label: t(l, "Products", "精选产品") },
   { path: "applications", label: t(l, "Applications", "应用场景") },
@@ -142,8 +215,8 @@ export const pageDescriptions: Record<string, [string, string]> = {
     "锡拉照明为进口商、分销商与品牌客户提供精选 LED 灯具、制造配套与 OEM/ODM 服务。",
   ],
   products: [
-    "Explore eight selected LED lighting families, compare indicative specifications and discuss a configuration for your market.",
-    "查看八类精选 LED 照明系列、参考规格与可洽谈配置，为目标市场建立产品组合。",
+    "Browse selected LED lighting categories, open each series list and discuss specifications for your market.",
+    "按分类浏览精选 LED 灯具，查看系列列表与参考规格，为目标市场建立产品组合。",
   ],
   applications: [
     "Connect office, residential, warehouse and outdoor lighting requirements with selected Scylla Lighting product families.",
