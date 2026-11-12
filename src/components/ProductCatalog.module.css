@@ -44,17 +44,17 @@
 .listHeading h2 { font-size: 32px; line-height: 1.2; }
 .listHeading > span { font-size: 13px; color: var(--muted); flex-shrink: 0; padding-bottom: 3px; }
 .listIntro { font-size: 16px; margin-top: 16px; margin-bottom: 28px; max-width: 650px; }
-.seriesList { display: grid; gap: 24px; }
-.seriesCard { display: grid; grid-template-columns: .9fr 1.1fr; border: 1px solid var(--line); background: white; border-radius: 6px; overflow: hidden; }
+.seriesList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
+.seriesCard { min-width: 0; display: flex; flex-direction: column; border: 1px solid var(--line); background: white; border-radius: 6px; overflow: hidden; scroll-margin-top: 120px; }
 .seriesVisual { display: flex; flex-direction: column; justify-content: center; padding: 22px; background: #f0f2ed; }
 .seriesVisual > span { font-size: 11px; letter-spacing: .08em; color: var(--muted); margin-bottom: 15px; }
 .seriesVisual img { width: 100%; object-fit: contain; }
-.seriesBody { padding: 30px; }
+.seriesBody { padding: 26px; }
 .seriesBody h3 { font-size: 24px; line-height: 1.3; }
-.seriesBody > p { font-size: 15px; margin-top: 14px; }
+.seriesBody > p { font-size: 17px; margin-top: 14px; }
 .seriesBody dl { margin: 20px 0 25px; border-top: 1px solid var(--line); padding-top: 15px; }
 .seriesBody dt { font-size: 12px; color: var(--muted); margin-bottom: 7px; }
-.seriesBody dd { font-size: 15px; line-height: 1.7; }
+.seriesBody dd { font-size: 17px; line-height: 1.7; }
 .seriesBody :global(.text-link) { margin-top: 0; font-size: 14px; }
 .disclosure { font-size: 13px; line-height: 1.8; margin-top: 22px; color: var(--muted); }
 .brief { padding: 30px; margin-top: 45px; background: #e9ede2; }
@@ -68,6 +68,33 @@
 .overviewHeading > div > span { font-size: 13px; letter-spacing: .06em; color: var(--gold); }
 .overviewHeading p { font-size: 17px; margin-top: 12px; max-width: 400px; }
 .overviewGrid { padding-bottom: 80px; }
+.sceneHero img { aspect-ratio: 4/3; object-fit: cover; }
+.seriesVisual > a { position: relative; display: block; }
+.seriesVisual > a img { aspect-ratio: 4/3; height: auto; object-fit: contain; background: white; }
+.enlarge { position: absolute; right: 8px; bottom: 8px; display: inline-flex; align-items: center; gap: 4px; padding: 4px 7px; background: #ffffffed; border: 1px solid var(--line); font-size: 12px; }
+.seriesIndex { margin: 0 0 24px; border: 1px solid var(--line); background: #f0f2ed; }
+.seriesIndex summary, .options summary, .gallery summary { cursor: pointer; padding: 14px 0; font-size: 15px; font-weight: 500; line-height: 1.6; }
+.seriesIndex summary { padding: 16px 20px; }
+.seriesIndex summary span, .gallery summary span { margin-left: 8px; color: var(--muted); font-size: 13px; }
+.seriesIndex nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 20px; padding: 0 20px 20px; }
+.seriesIndex nav a { display: flex; align-items: baseline; gap: 10px; padding: 9px 0; font-size: 15px; line-height: 1.5; border-top: 1px solid var(--line); }
+.seriesIndex nav a span { color: var(--gold); font-size: 12px; }
+.options, .gallery { border-top: 1px solid var(--line); }
+.options ul { margin: 0 0 18px; padding-left: 19px; display: grid; gap: 9px; }
+.options li { color: var(--muted); font-size: 15px; line-height: 1.7; overflow-wrap: anywhere; }
+.gallery { margin-bottom: 20px; }
+.gallery > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-bottom: 20px; }
+.gallery figure { min-width: 0; margin: 0; }
+.gallery figure:only-child { grid-column: 1 / -1; }
+.gallery img { width: 100%; height: auto; background: #f3f5ef; }
+.gallery figcaption, .scenes figcaption { font-size: 13px; color: var(--muted); line-height: 1.7; margin-top: 8px; }
+.seriesBody > :global(.text-link) { margin-top: 20px; font-size: 15px; }
+.scenes { margin-top: 45px; padding-top: 35px; border-top: 1px solid var(--line); }
+.scenes h2 { font-size: 32px; line-height: 1.3; }
+.scenes > p:not(:global(.eyebrow)) { font-size: 16px; margin-top: 15px; max-width: 660px; }
+.scenes > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 25px; }
+.scenes figure { margin: 0; min-width: 0; }
+.scenes img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; }
 @media (max-width: 1100px) {
   .compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .catalogueLayout { grid-template-columns: 200px minmax(0, 1fr); gap: 30px; }
@@ -106,7 +133,7 @@
   .catalogueLayout { padding-bottom: 50px; gap: 26px; }
   .listHeading { flex-direction: column; gap: 12px; }
   .listHeading h2 { font-size: 29px; }
-  .seriesCard { grid-template-columns: 1fr; }
+  .seriesList, .seriesIndex nav, .scenes > div { grid-template-columns: 1fr; }
   .seriesVisual { padding: 20px; }
   .seriesBody { padding: 24px 20px; }
   .seriesBody h3 { font-size: 23px; }

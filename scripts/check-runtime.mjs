@@ -2,6 +2,17 @@ import assert from "node:assert/strict";
 import { createServer } from "node:http";
 import { spawn } from "node:child_process";
 import { once } from "node:events";
+import { readFile } from "node:fs/promises";
+
+const catalogue = JSON.parse(await readFile(new URL("../src/content/catalogue-products.json", import.meta.url), "utf8"));
+const privateManifest = JSON.parse(await readFile(new URL("../assets/catalogue-products.json", import.meta.url), "utf8"));
+const expectedCounts = { panel: 16, ceiling: 7, downlight: 7, batten: 7, tube: 9, strip: 12, bulb: 16, filament: 6, smart: 6, flood: 3, "tri-proof": 1, highbay: 1, street: 2, moisture: 2, solar: 2 };
+assert.equal(catalogue.products.length, 97, "Reviewed source coverage");
+for (const [id, count] of Object.entries(expectedCounts)) {
+  const records = catalogue.products.filter((p) => p.categoryId === id);
+  assert.equal(records.length, count, "Source series coverage: " + id);
+  assert.equal(privateManifest.categories.find((c) => c.id === id)?.products.length, count);
+}
 
 // Uses only local mock data. No real enquiries or external services are contacted.
 let reply = {
@@ -126,8 +137,17 @@ try {
         assert.ok(html.includes('href="/' + locale + '/' + path + '"'));
         assert.ok(html.includes('href="/' + locale + '/contact?product='));
         assert.ok(html.includes('id="series"'));
-        if (path === "products/flood-lights")
-          assert.ok(html.includes("/images/catalogue/flood-sensor.webp"));
+        const categoryId = Object.keys(expectedCounts)[categorySlugs.indexOf(path.slice(9))];
+        const series = catalogue.products.filter((p) => p.categoryId === categoryId);
+        assert.equal((html.match(/<article\b/g) || []).length, series.length, "Every series visible: " + path);
+        for (const item of series) {
+          assert.ok(html.includes('id="' + item.id + '"'), "Missing series " + item.id);
+          assert.ok(html.includes(item.image));
+          assert.ok(html.includes("context=series-" + item.id));
+          for (const view of item.gallery) assert.ok(html.includes(view.src));
+        }
+        if (catalogue.scenes.some((s) => s.categoryId === categoryId))
+          assert.ok(html.includes('id="scene-title"'));
       }
       if (path === "contact") {
         for (const field of ["name", "phoneNumber", "email"]) {
@@ -172,10 +192,26 @@ try {
       );
       assert.ok(!/世林|shilin|machinery100/i.test(content));
       if (type === "selection")
-        assert.equal(content.trim().split("\r\n").length, 16);
+        assert.equal(content.trim().split("\r\n").length, 98);
       if (locale === "zh-CN")
         assert.ok(content.includes(type === "brief" ? "目标市场" : "参考规格"));
     }
+  const media = new Set(catalogue.products.flatMap((p) => [p.image, ...p.gallery.map((v) => v.src)]).concat(catalogue.scenes.map((s) => s.image)));
+  for (const path of media) {
+    const response = await fetch(base + path);
+    assert.equal(response.status, 200, path);
+    assert.match(response.headers.get("content-type"), /image\/webp/);
+    const image = Buffer.from(await response.arrayBuffer());
+    assert.equal(image.toString("ascii", 8, 12), "WEBP", path);
+    for (const metadata of ["EXIF", "XMP ", "ICCP"]) assert.ok(!image.includes(Buffer.from(metadata)), path + ": " + metadata);
+  }
+  for (const locale of ["en", "zh-CN"]) for (const item of catalogue.products) {
+    const response = await fetch(base + "/" + locale + "/contact?product=" + item.categoryId + "&context=series-" + item.id);
+    const html = await response.text();
+    assert.equal(response.status, 200);
+    assert.ok(html.includes((locale === "en" ? "Selected series: " + item.titleEn : "意向系列：" + item.titleZh).replaceAll("&", "&amp;")), item.id);
+    assert.match(html, new RegExp('<option value="' + item.categoryId + '" selected="">'));
+  }
   assert.equal(
     (await fetch(base + "/api/resources?locale=fr&type=brief")).status,
     400,

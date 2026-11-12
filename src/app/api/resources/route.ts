@@ -1,5 +1,7 @@
 import { NextRequest } from "next/server";
-import { categories, isLocale, t } from "@/content/site";
+import { isLocale, t } from "@/content/site";
+import { catalogueCategories, seriesFor } from "@/content/catalogue";
+import { localizeSpec } from "@/content/specification";
 export async function GET(request: NextRequest) {
   const locale = request.nextUrl.searchParams.get("locale") || "en";
   const type = request.nextUrl.searchParams.get("type");
@@ -17,18 +19,22 @@ export async function GET(request: NextRequest) {
     const rows = [
       [
         tr("Brand", "品牌"),
+        tr("Category", "产品分类"),
         tr("Product family", "产品系列"),
         tr("Indicative range", "参考规格"),
+        tr("Configuration options", "配置选项"),
         tr("Application", "应用"),
         tr("Notes", "说明"),
       ],
-      ...categories.map((c) => [
+      ...catalogueCategories.flatMap((c) => seriesFor(c).map((series) => [
         "Scylla Lighting",
         locale === "en" ? c.en : c.zh,
-        c.spec,
+        locale === "en" ? series.titleEn : series.titleZh,
+        localizeSpec(locale, series.spec),
+        (locale === "en" ? series.variantsEn : series.variantsZh).join("; "),
         locale === "en" ? c.useEn : c.useZh,
         note,
-      ]),
+      ])),
     ];
     content =
       "\uFEFF" + rows.map((row) => row.map(quote).join(",")).join("\r\n");

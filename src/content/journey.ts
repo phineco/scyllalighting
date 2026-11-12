@@ -1,5 +1,6 @@
 import { Locale, t } from "./site";
 import { productSeries } from "./catalogue";
+import { localizeSpec } from "./specification";
 export const applications = [
   {
     id: "commercial",
@@ -113,8 +114,8 @@ export const faq = [
       "网站是否展示了全部产品？",
     ],
     a: [
-      "The website presents selected product families. Share your application if you need an alternative configuration or a coordinated range.",
-      "网站集中展示精选产品系列。如需其他配置或组合选型，请提供应用需求进一步洽谈。",
+      "The category pages list the product series currently documented in our collection, grouping power, size and control options within each series. This is a sourcing reference; availability and model-specific details are confirmed with your enquiry.",
+      "分类页展示当前资料已覆盖的产品系列，同系列的功率、尺寸和控制选项集中列出。页面用于采购选型参考，具体供货与型号细节通过询盘确认。",
     ],
   },
 ] as const;
@@ -143,7 +144,7 @@ export function briefFor(locale: Locale, context?: string) {
     return t(
       locale,
       "Selected series: " + series.titleEn + "\nReference: " + series.spec + "\nProject requirements: ",
-      "意向系列：" + series.titleZh + "\n参考规格：" + series.spec + "\n项目需求：",
+      "意向系列：" + series.titleZh + "\n参考规格：" + localizeSpec(locale, series.spec) + "\n项目需求：",
     );
   const app = applications.find((a) => a.id === context);
   if (app)

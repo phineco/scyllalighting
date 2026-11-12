@@ -1,4 +1,5 @@
 import { categories, Locale, ProductCategory } from "./site";
+import catalogueData from "./catalogue-products.json";
 
 const catalogueOrder = [
   "panel", "ceiling", "downlight", "batten", "tube", "strip", "bulb",
@@ -12,23 +13,8 @@ export const categoryPath = (locale: Locale, category: ProductCategory) =>
 export const categoryForPath = (path: string) =>
   categories.find((c) => path === "products/" + c.slug);
 
-export const productSeries = categories.map((c) => ({
-  id: c.id + "-selected",
-  categoryId: c.id,
-  titleEn: c.id === "flood" ? "General-purpose floodlights" : c.en,
-  titleZh: c.id === "flood" ? "通用投光灯系列" : c.zh,
-  descEn: c.descEn,
-  descZh: c.descZh,
-  spec: c.spec,
-  image: "/images/catalogue/" + c.id + ".webp",
-}));
-productSeries.push({
-  id: "flood-sensor", categoryId: "flood",
-  titleEn: "PIR sensor floodlights", titleZh: "PIR 感应投光灯系列",
-  descEn: "Floodlights with an adjustable PIR motion sensor for entrances and outdoor service areas. Confirm the sensor settings and installation conditions for your project.",
-  descZh: "配可调 PIR 人体感应器的投光灯，可用于入口和户外配套空间，按项目确认感应设置与安装条件。",
-  spec: "10 / 20 / 30 / 50 W · 3000 / 4000 / 6500 K",
-  image: "/images/catalogue/flood-sensor.webp",
-});
+export const productSeries = catalogueData.products;
 export const seriesFor = (category: ProductCategory) =>
   productSeries.filter((series) => series.categoryId === category.id);
+export const scenesFor = (category: ProductCategory) =>
+  catalogueData.scenes.filter((scene) => scene.categoryId === category.id);

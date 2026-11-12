@@ -1,0 +1,2291 @@
+{
+  "products": [
+    {
+      "id": "flood-selected",
+      "categoryId": "flood",
+      "titleEn": "General-purpose floodlights",
+      "titleZh": "通用投光灯系列",
+      "descEn": "Slim floodlights with an adjustable bracket and black or white housing options.",
+      "descZh": "轻薄型投光灯，配可调安装支架，提供黑色与白色外壳选择。",
+      "spec": "10 / 20 / 30 / 50 / 70 / 100 / 150 / 200 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "Black or white housing",
+        "Wall, ceiling or ground bracket mounting"
+      ],
+      "variantsZh": [
+        "黑色或白色外壳",
+        "支架适配墙面、天花或地面安装"
+      ],
+      "image": "/images/catalogue/series/flood-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/flood-selected-view-1.webp",
+          "altEn": "Floodlight rear view and bracket",
+          "altZh": "投光灯背面与支架"
+        },
+        {
+          "src": "/images/catalogue/series/flood-selected-view-2.webp",
+          "altEn": "White floodlight housing",
+          "altZh": "白色投光灯外壳"
+        }
+      ]
+    },
+    {
+      "id": "flood-sensor",
+      "categoryId": "flood",
+      "titleEn": "PIR sensor floodlights",
+      "titleZh": "PIR 感应投光灯系列",
+      "descEn": "An adjustable motion sensor adds light-level, time and sensitivity settings for entrance and yard lighting.",
+      "descZh": "配可调人体感应器，可设置光感、延时与感应灵敏度，用于入口和庭院照明。",
+      "spec": "10 / 20 / 30 / 50 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "Black or white housing",
+        "PIR motion detection"
+      ],
+      "variantsZh": [
+        "黑色或白色外壳",
+        "PIR 人体感应"
+      ],
+      "image": "/images/catalogue/series/flood-sensor.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/flood-sensor-view-1.webp",
+          "altEn": "PIR sensor adjustment controls",
+          "altZh": "PIR 感应器调节结构"
+        }
+      ]
+    },
+    {
+      "id": "flood-high-output",
+      "categoryId": "flood",
+      "titleEn": "Die-cast area floodlights",
+      "titleZh": "压铸铝区域投光灯",
+      "descEn": "A deeper die-cast body and finned rear housing for area-lighting applications, with an adjustable mounting bracket.",
+      "descZh": "较深的压铸灯体搭配背部散热结构和可调支架，适用于区域照明选型。",
+      "spec": "50 / 100 / 200 / 300 W · 4000 / 6500 K",
+      "variantsEn": [
+        "50W, 100W, 200W and 300W configurations",
+        "Die-cast aluminium and glass construction"
+      ],
+      "variantsZh": [
+        "50W、100W、200W、300W 配置",
+        "压铸铝与玻璃结构"
+      ],
+      "image": "/images/catalogue/series/flood-high-output.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/flood-high-output-view-1.webp",
+          "altEn": "Area floodlight side and bracket",
+          "altZh": "区域投光灯侧面与支架"
+        },
+        {
+          "src": "/images/catalogue/series/flood-high-output-view-2.webp",
+          "altEn": "Finned heat-dissipation housing",
+          "altZh": "背部散热鳍片结构"
+        }
+      ]
+    },
+    {
+      "id": "panel-selected",
+      "categoryId": "panel",
+      "titleEn": "High-efficiency back-lit panel",
+      "titleZh": "高光效背光面板灯",
+      "descEn": "A recessed square panel with an external driver for general ceiling lighting.",
+      "descZh": "采用外置驱动的方形嵌入式面板灯，用于基础天花照明。",
+      "spec": "21 W · 595 × 595 × 50 mm",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-anti-glare",
+      "categoryId": "panel",
+      "titleEn": "Anti-glare back-lit panel",
+      "titleZh": "防眩背光面板灯",
+      "descEn": "A textured optical face for office and education lighting briefs.",
+      "descZh": "采用纹理光学面罩，适用于办公与教育空间的选型需求。",
+      "spec": "36 W · 595 × 595 × 34 mm",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-anti-glare.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-sealed",
+      "categoryId": "panel",
+      "titleEn": "Sealed back-lit panels",
+      "titleZh": "密封式背光面板灯",
+      "descEn": "Sealed panel and driver construction, with square and rectangular formats.",
+      "descZh": "灯体与驱动采用密封结构，提供方形与长方形规格。",
+      "spec": "36 W · 295 × 595 / 595 × 595 / 295 × 1195 mm",
+      "variantsEn": [
+        "Three panel formats",
+        "Sealed driver arrangement"
+      ],
+      "variantsZh": [
+        "三种面板尺寸",
+        "密封驱动结构"
+      ],
+      "image": "/images/catalogue/series/panel-sealed.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/panel-sealed-view-1.webp",
+          "altEn": "Rear driver and cable arrangement",
+          "altZh": "背部驱动与接线结构"
+        }
+      ]
+    },
+    {
+      "id": "panel-wave",
+      "categoryId": "panel",
+      "titleEn": "Wave optical panel",
+      "titleZh": "波形光学面板灯",
+      "descEn": "A shaped diffuser creates a different ceiling appearance from a flat panel.",
+      "descZh": "立体波形扩散面罩，为天花提供区别于平板的外观。",
+      "spec": "36 W · 595 × 595 × 80 mm · 3000 / 4000 / 6000 K",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-wave.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-crystal",
+      "categoryId": "panel",
+      "titleEn": "Sparkling diffuser panels",
+      "titleZh": "星点扩散面板灯",
+      "descEn": "A sparkling-effect diffuser in multiple square and rectangular sizes.",
+      "descZh": "采用星点效果扩散面罩，提供多种方形和长方形尺寸。",
+      "spec": "4000 K · 300 × 300 / 600 × 600 / 300 × 1200 / 600 × 1200 mm",
+      "variantsEn": [
+        "PVC sparkling-effect diffuser",
+        "Power confirmed for the selected size"
+      ],
+      "variantsZh": [
+        "PVC 星点效果面罩",
+        "功率按所选尺寸核实"
+      ],
+      "image": "/images/catalogue/series/panel-crystal.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-dali",
+      "categoryId": "panel",
+      "titleEn": "DALI control panels",
+      "titleZh": "DALI 控制面板灯",
+      "descEn": "Panels for projects specifying a DALI control arrangement.",
+      "descZh": "适用于采用 DALI 控制方案的项目照明。",
+      "spec": "36 W · 595 × 595 / 295 × 1195 mm",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-dali.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-sensing",
+      "categoryId": "panel",
+      "titleEn": "Smart sensing panel",
+      "titleZh": "智能感应面板灯",
+      "descEn": "Panel lighting with PIR and daylight sensing for a defined control brief.",
+      "descZh": "集成人体与日光感应，适合需要明确控制策略的照明项目。",
+      "spec": "30 W · 595 × 595 × 25 mm · BLE / PIR / Daylight",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-sensing.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-selectable",
+      "categoryId": "panel",
+      "titleEn": "Selectable-power and CCT panel",
+      "titleZh": "可调功率与色温面板灯",
+      "descEn": "Rear selection switches allow the power and white-light configuration to be set for the order.",
+      "descZh": "背部设置开关用于选择功率和白光配置。",
+      "spec": "24 / 36 / 40 / 48 W · 3000 / 4000 / 5000 / 6500 K",
+      "variantsEn": [
+        "595 × 595 × 34 mm",
+        "Power and CCT selection"
+      ],
+      "variantsZh": [
+        "595 × 595 × 34 mm",
+        "功率和色温选择"
+      ],
+      "image": "/images/catalogue/series/panel-selectable.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/panel-selectable-view-1.webp",
+          "altEn": "Panel rear selection controls",
+          "altZh": "面板灯背部选择开关"
+        }
+      ]
+    },
+    {
+      "id": "panel-standard",
+      "categoryId": "panel",
+      "titleEn": "Recessed panel range",
+      "titleZh": "嵌入式面板灯系列",
+      "descEn": "A broad set of square and rectangular panels with black or white frame options.",
+      "descZh": "提供多种方形和长方形尺寸，可按型号选择黑白边框。",
+      "spec": "13 / 20 / 36 / 40 / 62 W · 1CCT / 3CCT",
+      "variantsEn": [
+        "295×295 / 295×595 / 595×595 mm",
+        "620×620 / 295×1195 / 595×1195 mm"
+      ],
+      "variantsZh": [
+        "295×295 / 295×595 / 595×595 mm",
+        "620×620 / 295×1195 / 595×1195 mm"
+      ],
+      "image": "/images/catalogue/series/panel-standard.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-surface",
+      "categoryId": "panel",
+      "titleEn": "Surface-mounted panels",
+      "titleZh": "明装面板灯系列",
+      "descEn": "Low-profile ceiling panels for direct surface installation.",
+      "descZh": "适用于直接明装的薄型天花面板灯。",
+      "spec": "32 / 40 W · Square / Rectangular",
+      "variantsEn": [
+        "400×400 / 300×600 / 600×600 mm",
+        "620×620 / 320×1220 mm"
+      ],
+      "variantsZh": [
+        "400×400 / 300×600 / 600×600 mm",
+        "620×620 / 320×1220 mm"
+      ],
+      "image": "/images/catalogue/series/panel-surface.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-square-surface",
+      "categoryId": "panel",
+      "titleEn": "Slim surface-mounted square panel",
+      "titleZh": "超薄明装方形面板灯",
+      "descEn": "A square surface-mounted panel with a side CCT selector.",
+      "descZh": "侧边配色温选择开关的方形明装面板灯。",
+      "spec": "32 W · 600 × 600 × 16 mm · 3CCT",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-square-surface.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/panel-square-surface-view-1.webp",
+          "altEn": "Slim surface-panel frame detail",
+          "altZh": "超薄明装面板边框细节"
+        }
+      ]
+    },
+    {
+      "id": "panel-frame-screws",
+      "categoryId": "panel",
+      "titleEn": "Screw-assembled mounting frames",
+      "titleZh": "螺丝组装明装框",
+      "descEn": "Frame components convert a compatible panel to a surface-mounted installation.",
+      "descZh": "通过框架组件将匹配的面板灯用于明装。",
+      "spec": "Panel mounting accessory · Frame fit confirmed per panel",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-frame-screws.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-frame-screwfree",
+      "categoryId": "panel",
+      "titleEn": "Screw-free mounting frames",
+      "titleZh": "免螺丝明装框",
+      "descEn": "A clip-together frame system for compatible panel dimensions.",
+      "descZh": "采用拼接卡扣结构，适配相应面板灯尺寸。",
+      "spec": "Screw-free assembly · Multiple frame formats",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-frame-screwfree.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-suspension",
+      "categoryId": "panel",
+      "titleEn": "Panel suspension kits",
+      "titleZh": "面板灯吊装配件",
+      "descEn": "Cable and ceiling-fixing parts for a suspended panel installation.",
+      "descZh": "由吊线和天花固定件组成，用于面板灯吊装。",
+      "spec": "Suspension accessory · Compatibility checked per panel",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-suspension.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-safety-cable",
+      "categoryId": "panel",
+      "titleEn": "Panel safety cables",
+      "titleZh": "面板灯安全绳",
+      "descEn": "Supplementary wire retainers for a compatible panel installation.",
+      "descZh": "适用于匹配面板安装方式的辅助钢丝防坠配件。",
+      "spec": "Safety-wire accessory · Fixing method confirmed with order",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-safety-cable.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "panel-clips",
+      "categoryId": "panel",
+      "titleEn": "Recessed panel mounting clips",
+      "titleZh": "面板灯嵌入式安装夹",
+      "descEn": "Spring clips for compatible recessed panel frames.",
+      "descZh": "用于相应嵌入式面板边框的弹簧安装夹。",
+      "spec": "Spring-clip accessory · Match frame and ceiling",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/panel-clips.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "ceiling-basic",
+      "categoryId": "ceiling",
+      "titleEn": "Classic ceiling lights",
+      "titleZh": "基础款吸顶灯",
+      "descEn": "Round ceiling lighting with a choice of diffuser patterns and covers.",
+      "descZh": "圆形基础吸顶照明，提供多种扩散罩纹理和面罩选择。",
+      "spec": "12 / 18 / 24 W · 1CCT / 3CCT",
+      "variantsEn": [
+        "260 / 330 / 380 mm sizes",
+        "Multiple decorative cover options"
+      ],
+      "variantsZh": [
+        "260 / 330 / 380 mm 尺寸",
+        "多种装饰面罩"
+      ],
+      "image": "/images/catalogue/series/ceiling-basic.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-basic-view-1.webp",
+          "altEn": "Full selection of ceiling-light diffuser covers",
+          "altZh": "吸顶灯面罩外观选项"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-selected",
+      "categoryId": "ceiling",
+      "titleEn": "Decorative-frame ceiling lights",
+      "titleZh": "装饰边框吸顶灯",
+      "descEn": "A slim round body with white, black or wood-look frame choices.",
+      "descZh": "薄型圆形灯体，可选择白色、黑色或木纹装饰边框。",
+      "spec": "12 / 18 / 30 / 36 W · 1CCT / 3CCT",
+      "variantsEn": [
+        "230 / 300 / 400 / 500 mm diameters",
+        "White / Black / Mahogany-look / Natural-wood-look frame"
+      ],
+      "variantsZh": [
+        "230 / 300 / 400 / 500 mm 直径",
+        "白色 / 黑色 / 红木纹 / 原木纹边框"
+      ],
+      "image": "/images/catalogue/series/ceiling-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-selected-view-1.webp",
+          "altEn": "White ceiling-light frame",
+          "altZh": "白色吸顶灯边框"
+        },
+        {
+          "src": "/images/catalogue/series/ceiling-selected-view-2.webp",
+          "altEn": "Mahogany-look ceiling-light frame",
+          "altZh": "红木纹吸顶灯边框"
+        },
+        {
+          "src": "/images/catalogue/series/ceiling-selected-view-3.webp",
+          "altEn": "Natural-wood-look ceiling-light frame",
+          "altZh": "原木纹吸顶灯边框"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-wall-switch",
+      "categoryId": "ceiling",
+      "titleEn": "Wall-switch colour-changing ceiling lights",
+      "titleZh": "墙壁开关调色吸顶灯",
+      "descEn": "Change between three white-light settings using a normal wall switch.",
+      "descZh": "通过普通墙壁开关切换三档白光色温。",
+      "spec": "12 / 18 / 24 / 36 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "290 / 330 / 380 / 480 mm diameters",
+        "Wall-switch CCT selection"
+      ],
+      "variantsZh": [
+        "290 / 330 / 380 / 480 mm 直径",
+        "墙壁开关选择色温"
+      ],
+      "image": "/images/catalogue/series/ceiling-wall-switch.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "ceiling-dip",
+      "categoryId": "ceiling",
+      "titleEn": "DIP-selectable ceiling lights",
+      "titleZh": "拨码选择吸顶灯",
+      "descEn": "Set the power and colour temperature using the internal selector.",
+      "descZh": "通过灯内拨码开关设置功率与色温。",
+      "spec": "16 / 20 / 24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "310 mm body",
+        "Power and CCT selection"
+      ],
+      "variantsZh": [
+        "310 mm 灯体",
+        "功率与色温选择"
+      ],
+      "image": "/images/catalogue/series/ceiling-dip.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-dip-view-1.webp",
+          "altEn": "Power and CCT selection switches",
+          "altZh": "功率与色温拨码开关"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-ir",
+      "categoryId": "ceiling",
+      "titleEn": "IR-remote ceiling light",
+      "titleZh": "红外遥控吸顶灯",
+      "descEn": "Control brightness and white-light colour with the supplied remote arrangement.",
+      "descZh": "通过配套红外遥控方案调节亮度与白光色温。",
+      "spec": "24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "Use a regular on/off wall switch",
+        "Not compatible with wall dimmers"
+      ],
+      "variantsZh": [
+        "配普通通断墙壁开关使用",
+        "不兼容墙壁调光开关"
+      ],
+      "image": "/images/catalogue/series/ceiling-ir.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-ir-view-1.webp",
+          "altEn": "Ceiling-light IR remote control",
+          "altZh": "吸顶灯红外遥控器"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-pir",
+      "categoryId": "ceiling",
+      "titleEn": "PIR sensor ceiling lights",
+      "titleZh": "PIR 感应吸顶灯",
+      "descEn": "An exposed motion detector adds automatic switching to round ceiling lights.",
+      "descZh": "外置人体感应头为圆形吸顶灯提供自动开关功能。",
+      "spec": "12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/ceiling-pir.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-pir-view-1.webp",
+          "altEn": "External PIR detector detail",
+          "altZh": "外置 PIR 感应头细节"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-radar",
+      "categoryId": "ceiling",
+      "titleEn": "Microwave sensor ceiling lights",
+      "titleZh": "微波感应吸顶灯",
+      "descEn": "A detector concealed inside the housing provides movement-triggered switching.",
+      "descZh": "感应器隐藏于灯体内部，以微波探测触发开关。",
+      "spec": "12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/ceiling-radar.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/ceiling-radar-view-1.webp",
+          "altEn": "Concealed microwave sensor inside the ceiling light",
+          "altZh": "吸顶灯内部微波感应结构"
+        }
+      ]
+    },
+    {
+      "id": "downlight-selected",
+      "categoryId": "downlight",
+      "titleEn": "Aluminium-and-iron recessed downlights",
+      "titleZh": "铝铁结构嵌入式筒灯",
+      "descEn": "Slim recessed luminaires in round and square versions with spring-clip installation.",
+      "descZh": "薄型嵌入式灯具，提供圆形与方形，采用弹簧夹安装。",
+      "spec": "9 / 12 / 15 / 18 / 24 W · Round / Square",
+      "variantsEn": [
+        "3000 / 4000 / 6500 K",
+        "Round and square cut-outs matched per size"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500 K",
+        "圆形和方形开孔按尺寸匹配"
+      ],
+      "image": "/images/catalogue/series/downlight-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-selected-view-1.webp",
+          "altEn": "Recessed downlight optical and spring-clip details",
+          "altZh": "嵌入式筒灯光学面罩与弹簧夹细节"
+        }
+      ]
+    },
+    {
+      "id": "downlight-plastic-round",
+      "categoryId": "downlight",
+      "titleEn": "Plastic recessed round downlights",
+      "titleZh": "塑料嵌入式圆形筒灯",
+      "descEn": "A light round body with rear spring clips and selectable-CCT options.",
+      "descZh": "轻型圆形灯体，配背部弹簧夹，可按型号选择色温配置。",
+      "spec": "3 / 6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/downlight-plastic-round.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-plastic-round-view-1.webp",
+          "altEn": "Plastic round downlight rear",
+          "altZh": "塑料圆形筒灯背面"
+        }
+      ]
+    },
+    {
+      "id": "downlight-plastic-square",
+      "categoryId": "downlight",
+      "titleEn": "Plastic recessed square downlights",
+      "titleZh": "塑料嵌入式方形筒灯",
+      "descEn": "Square recessed lighting with a plastic frame and spring clips.",
+      "descZh": "塑料方形边框搭配弹簧夹，适用于嵌入式安装。",
+      "spec": "6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT",
+      "variantsEn": [],
+      "variantsZh": [],
+      "image": "/images/catalogue/series/downlight-plastic-square.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-plastic-square-view-1.webp",
+          "altEn": "Plastic square downlight rear",
+          "altZh": "塑料方形筒灯背面"
+        }
+      ]
+    },
+    {
+      "id": "downlight-surface-round",
+      "categoryId": "downlight",
+      "titleEn": "Surface-mounted round downlights",
+      "titleZh": "圆形明装筒灯",
+      "descEn": "A shallow round plastic housing for ceilings without a recessed opening.",
+      "descZh": "浅型圆形塑料灯体，可用于无需嵌入开孔的天花安装。",
+      "spec": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "151 / 176 / 226 / 296 mm diameter",
+        "1CCT / 3CCT options"
+      ],
+      "variantsZh": [
+        "151 / 176 / 226 / 296 mm 直径",
+        "1CCT / 3CCT 选择"
+      ],
+      "image": "/images/catalogue/series/downlight-surface-round.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-surface-round-view-1.webp",
+          "altEn": "Surface-mounted round downlight rear",
+          "altZh": "圆形明装筒灯背面"
+        }
+      ]
+    },
+    {
+      "id": "downlight-surface-square",
+      "categoryId": "downlight",
+      "titleEn": "Surface-mounted square downlights",
+      "titleZh": "方形明装筒灯",
+      "descEn": "A square plastic body with a shallow surface-mounting profile.",
+      "descZh": "采用浅型方形塑料灯体，适用于直接明装。",
+      "spec": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "151 / 176 / 226 / 296 mm square",
+        "1CCT / 3CCT options"
+      ],
+      "variantsZh": [
+        "151 / 176 / 226 / 296 mm 方形",
+        "1CCT / 3CCT 选择"
+      ],
+      "image": "/images/catalogue/series/downlight-surface-square.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-surface-square-view-1.webp",
+          "altEn": "Surface-mounted square downlight rear",
+          "altZh": "方形明装筒灯背面"
+        }
+      ]
+    },
+    {
+      "id": "downlight-steel",
+      "categoryId": "downlight",
+      "titleEn": "One-piece steel recessed downlights",
+      "titleZh": "一体式钢结构嵌入筒灯",
+      "descEn": "A round steel body with built-in or external driver arrangements.",
+      "descZh": "圆形一体式钢结构灯体，可按型号选择内置或外置驱动方案。",
+      "spec": "7 / 10 / 15 / 20 / 26 W · 3000 / 4000 / 6500 K",
+      "variantsEn": [
+        "Built-in / External driver",
+        "75 / 90 / 115 / 150 / 185 mm cut-outs"
+      ],
+      "variantsZh": [
+        "内置 / 外置驱动",
+        "75 / 90 / 115 / 150 / 185 mm 开孔"
+      ],
+      "image": "/images/catalogue/series/downlight-steel.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-steel-view-1.webp",
+          "altEn": "External-driver steel downlight arrangement",
+          "altZh": "外置驱动钢结构筒灯方案"
+        }
+      ]
+    },
+    {
+      "id": "downlight-aluminium-driver",
+      "categoryId": "downlight",
+      "titleEn": "Aluminium downlights with external driver",
+      "titleZh": "铝制外置驱动筒灯",
+      "descEn": "A deeper aluminium body with separate driver and spring clips.",
+      "descZh": "较深的铝制灯体搭配独立驱动和弹簧安装夹。",
+      "spec": "15 / 18 / 24 W · 1CCT / 3CCT",
+      "variantsEn": [
+        "122 / 175 / 220 mm cut-outs",
+        "4000 K or 3000 / 4000 / 6500 K"
+      ],
+      "variantsZh": [
+        "122 / 175 / 220 mm 开孔",
+        "4000 K 或 3000 / 4000 / 6500 K"
+      ],
+      "image": "/images/catalogue/series/downlight-aluminium-driver.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/downlight-aluminium-driver-view-1.webp",
+          "altEn": "Aluminium downlight rear and external driver",
+          "altZh": "铝制筒灯背面与外置驱动"
+        }
+      ]
+    },
+    {
+      "id": "batten-selected",
+      "categoryId": "batten",
+      "titleEn": "Slim single-tube weatherproof batten",
+      "titleZh": "纤薄单管防水支架",
+      "descEn": "A covered T8 housing with one replaceable tube position.",
+      "descZh": "带防护罩的单灯管 T8 支架。",
+      "spec": "1 × T8 · 600–1500 mm",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm T8 tubes",
+        "Single-ended tube input; confirm tube compatibility with your enquiry"
+      ],
+      "variantsZh": [
+        "适配 600 / 1200 / 1500 mm T8 灯管",
+        "单端输入，询价时确认灯管兼容性"
+      ],
+      "image": "/images/catalogue/series/batten-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-slim-twin",
+      "categoryId": "batten",
+      "titleEn": "Slim twin-tube weatherproof batten",
+      "titleZh": "纤薄双管防水支架",
+      "descEn": "A covered twin-tube format for linear lighting layouts.",
+      "descZh": "带防护罩的双灯管线性照明支架。",
+      "spec": "2 × T8 · 600–1500 mm",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm T8 tubes",
+        "Single-ended tube input; confirm tube compatibility with your enquiry"
+      ],
+      "variantsZh": [
+        "适配 600 / 1200 / 1500 mm T8 灯管",
+        "单端输入，询价时确认灯管兼容性"
+      ],
+      "image": "/images/catalogue/series/batten-slim-twin.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-standard-single",
+      "categoryId": "batten",
+      "titleEn": "Standard single-tube weatherproof batten",
+      "titleZh": "标准单管防水支架",
+      "descEn": "Standard-depth ABS base with a PC cover; housing image is a family reference.",
+      "descZh": "ABS 底座搭配 PC 灯罩；图片为同系列灯体示意。",
+      "spec": "1 × T8 · 600–1500 mm",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm T8 tubes",
+        "Single-ended tube input; confirm tube compatibility with your enquiry"
+      ],
+      "variantsZh": [
+        "适配 600 / 1200 / 1500 mm T8 灯管",
+        "单端输入，询价时确认灯管兼容性"
+      ],
+      "image": "/images/catalogue/series/batten-standard-single.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-standard-twin",
+      "categoryId": "batten",
+      "titleEn": "Standard twin-tube weatherproof batten",
+      "titleZh": "标准双管防水支架",
+      "descEn": "Standard-depth twin-tube housing; housing image is a family reference.",
+      "descZh": "标准双管灯体；图片为同系列灯体示意。",
+      "spec": "2 × T8 · 600–1500 mm",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm T8 tubes",
+        "Single-ended tube input; confirm tube compatibility with your enquiry"
+      ],
+      "variantsZh": [
+        "适配 600 / 1200 / 1500 mm T8 灯管",
+        "单端输入，询价时确认灯管兼容性"
+      ],
+      "image": "/images/catalogue/series/batten-standard-twin.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-open-single",
+      "categoryId": "batten",
+      "titleEn": "Open single-tube T8 batten",
+      "titleZh": "开放式单管 T8 支架",
+      "descEn": "White end-cap fittings for one T8 tube.",
+      "descZh": "白色端座的单管 T8 支架。",
+      "spec": "1 × T8 · 610 / 1220 mm",
+      "variantsEn": [
+        "610 × 33.8 × 45 / 1220 × 33.8 × 45 mm"
+      ],
+      "variantsZh": [
+        "610 × 33.8 × 45 / 1220 × 33.8 × 45 mm"
+      ],
+      "image": "/images/catalogue/series/batten-open-single.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-open-twin",
+      "categoryId": "batten",
+      "titleEn": "Open twin-tube T8 batten",
+      "titleZh": "开放式双管 T8 支架",
+      "descEn": "Parallel T8 positions with white end caps.",
+      "descZh": "并列双 T8 灯管位置，搭配白色端座。",
+      "spec": "2 × T8 · 610 / 1220 mm",
+      "variantsEn": [
+        "610 × 72 × 40 / 1220 × 72 × 40 mm"
+      ],
+      "variantsZh": [
+        "610 × 72 × 40 / 1220 × 72 × 40 mm"
+      ],
+      "image": "/images/catalogue/series/batten-open-twin.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "batten-clear-single",
+      "categoryId": "batten",
+      "titleEn": "Clear-cap single-tube T8 batten",
+      "titleZh": "透明端座单管 T8 支架",
+      "descEn": "Single-tube fittings with clear PC end caps.",
+      "descZh": "采用透明 PC 端座的单管支架。",
+      "spec": "1 × T8 · Clear PC caps",
+      "variantsEn": [
+        "610 / 1200 mm housing lengths"
+      ],
+      "variantsZh": [
+        "灯体长度 610 / 1200 mm"
+      ],
+      "image": "/images/catalogue/series/batten-clear-single.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-selected",
+      "categoryId": "tube",
+      "titleEn": "High-efficacy glass T8 tube",
+      "titleZh": "高光效玻璃 T8 灯管",
+      "descEn": "Glass tubes for longer linear runs with G13 end caps.",
+      "descZh": "玻璃灯管搭配 G13 灯头，适合长条照明布局。",
+      "spec": "12 / 15W · 1200 / 1500 mm",
+      "variantsEn": [
+        "G13 base · 220–240V",
+        "12W / 1200 mm; 15W / 1500 mm"
+      ],
+      "variantsZh": [
+        "G13 灯头 · 220–240V",
+        "12W / 1200 mm；15W / 1500 mm"
+      ],
+      "image": "/images/catalogue/series/tube-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-nano",
+      "categoryId": "tube",
+      "titleEn": "Nano / PC T8 tube",
+      "titleZh": "纳米 / PC T8 灯管",
+      "descEn": "Alternative diffuser materials in three common tube lengths.",
+      "descZh": "提供不同扩散罩材质和三种常用长度。",
+      "spec": "9 / 18 / 22W · G13",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm",
+        "Nano or PC diffuser; 220–240V"
+      ],
+      "variantsZh": [
+        "600 / 1200 / 1500 mm",
+        "纳米或 PC 扩散罩；220–240V"
+      ],
+      "image": "/images/catalogue/series/tube-nano.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-selectable",
+      "categoryId": "tube",
+      "titleEn": "Three-colour T8 tube",
+      "titleZh": "三色温 T8 灯管",
+      "descEn": "An end-cap switch selects the required colour temperature.",
+      "descZh": "通过端部开关选择色温。",
+      "spec": "9 / 18 / 22 / 24W · 3CCT",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "600 / 1200 / 1500 mm · G13"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "600 / 1200 / 1500 mm · G13"
+      ],
+      "image": "/images/catalogue/series/tube-selectable.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-microwave",
+      "categoryId": "tube",
+      "titleEn": "Microwave-sensing T8 tube",
+      "titleZh": "微波感应 T8 灯管",
+      "descEn": "An internal movement sensor supports full light and a reduced standby level.",
+      "descZh": "内置移动感应器，支持全亮和低亮待机。",
+      "spec": "9 / 18 / 22W · G13",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm",
+        "10% standby output when no movement is detected"
+      ],
+      "variantsZh": [
+        "600 / 1200 / 1500 mm",
+        "无人移动时降至 10% 待机亮度"
+      ],
+      "image": "/images/catalogue/series/tube-microwave.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-bluetooth",
+      "categoryId": "tube",
+      "titleEn": "Bluetooth sensing T8 tube",
+      "titleZh": "蓝牙感应 T8 灯管",
+      "descEn": "Glass T8 tubes combining a microwave sensor with Bluetooth control options.",
+      "descZh": "玻璃 T8 灯管结合微波感应与蓝牙控制选项。",
+      "spec": "6 / 12W · 600 / 1200 mm",
+      "variantsEn": [
+        "6W / 600 mm; 12W / 1200 mm",
+        "Single-ended or double-ended input options; confirm wiring before ordering"
+      ],
+      "variantsZh": [
+        "6W / 600 mm；12W / 1200 mm",
+        "提供单端或双端输入方案，下单前确认接线"
+      ],
+      "image": "/images/catalogue/series/tube-bluetooth.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-dali",
+      "categoryId": "tube",
+      "titleEn": "DALI-control T8 tube",
+      "titleZh": "DALI 控制 T8 灯管",
+      "descEn": "Tube lighting for a specified DALI driver and control system.",
+      "descZh": "适用于指定 DALI 驱动和控制系统的灯管方案。",
+      "spec": "9 / 18 / 22W · DALI",
+      "variantsEn": [
+        "600 / 1200 / 1500 mm",
+        "Confirm driver, dimming and colour-control configuration with your enquiry"
+      ],
+      "variantsZh": [
+        "600 / 1200 / 1500 mm",
+        "询价时确认驱动、调光及色温控制配置"
+      ],
+      "image": "/images/catalogue/series/tube-dali.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-waterproof",
+      "categoryId": "tube",
+      "titleEn": "Sealed-end waterproof T8 tube",
+      "titleZh": "密封端防水 T8 灯管",
+      "descEn": "A cable-entry tube format with sealed end fittings.",
+      "descZh": "带密封端座和引出线的灯管结构。",
+      "spec": "18W · 1200 mm",
+      "variantsEn": [
+        "G13 format · 220–240V",
+        "180° beam"
+      ],
+      "variantsZh": [
+        "G13 规格 · 220–240V",
+        "180° 光束角"
+      ],
+      "image": "/images/catalogue/series/tube-waterproof.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-colour",
+      "categoryId": "tube",
+      "titleEn": "Coloured PC T8 tube",
+      "titleZh": "彩色 PC T8 灯管",
+      "descEn": "Coloured tubes for decorative linear lighting.",
+      "descZh": "适合装饰性线性照明的彩色灯管。",
+      "spec": "12W · 1200 mm",
+      "variantsEn": [
+        "Red / yellow / green / blue / purple",
+        "G13 base · 220–240V"
+      ],
+      "variantsZh": [
+        "红 / 黄 / 绿 / 蓝 / 紫",
+        "G13 灯头 · 220–240V"
+      ],
+      "image": "/images/catalogue/series/tube-colour.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tube-regional",
+      "categoryId": "tube",
+      "titleEn": "Regional electrical T8 ranges",
+      "titleZh": "区域电气规格 T8 系列",
+      "descEn": "Tube options with different input voltages, lengths and wiring arrangements; image is a family reference.",
+      "descZh": "提供不同输入电压、长度和接线方式；图片为同系列灯管示意。",
+      "spec": "8–24W · G13",
+      "variantsEn": [
+        "Brazil: 9 / 18W, 600 / 1200 mm, 100–240V",
+        "Mexico: 9 / 18 / 24W, 600 / 1200 / 1500 mm, 100–264V",
+        "Russia: 8 / 16 / 22W, 600 / 1200 / 1500 mm, 176–264V",
+        "Asia-Pacific: 9 / 18 / 24W, 600 / 1200 / 1500 mm, 176–264V",
+        "Thailand: 9 / 18W, 600 / 1200 mm, 176–264V",
+        "Taiwan: 10 / 15 / 20W, 580 / 900 / 1200 mm, 100–264V",
+        "Market-specific compliance documents must be confirmed for the ordered model"
+      ],
+      "variantsZh": [
+        "巴西：9 / 18W，600 / 1200 mm，100–240V",
+        "墨西哥：9 / 18 / 24W，600 / 1200 / 1500 mm，100–264V",
+        "俄罗斯：8 / 16 / 22W，600 / 1200 / 1500 mm，176–264V",
+        "亚太：9 / 18 / 24W，600 / 1200 / 1500 mm，176–264V",
+        "泰国：9 / 18W，600 / 1200 mm，176–264V",
+        "中国台湾：10 / 15 / 20W，580 / 900 / 1200 mm，100–264V",
+        "具体订购型号的目标市场合规文件需另行确认"
+      ],
+      "image": "/images/catalogue/series/tube-regional.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-high-voltage",
+      "categoryId": "strip",
+      "titleEn": "High-voltage PVC strip",
+      "titleZh": "高压 PVC 灯带",
+      "descEn": "Reel-format PVC lighting for continuous linear layouts.",
+      "descZh": "卷装 PVC 灯带，适合连续线性布光。",
+      "spec": "220V · 3000 / 4000 / 6500K",
+      "variantsEn": [
+        "60 / 120 / 180 LED density options",
+        "50 / 100 m reel options"
+      ],
+      "variantsZh": [
+        "60 / 120 / 180 灯珠密度选项",
+        "50 / 100 m 卷装选项"
+      ],
+      "image": "/images/catalogue/series/strip-high-voltage.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-driver-free",
+      "categoryId": "strip",
+      "titleEn": "Driver-free high-voltage strip",
+      "titleZh": "免驱高压灯带",
+      "descEn": "A separate high-voltage strip family with driver-free construction.",
+      "descZh": "采用免驱结构的独立高压灯带系列。",
+      "spec": "220V · 3000 / 4000 / 6500K",
+      "variantsEn": [
+        "60 / 120 LED density options",
+        "50 / 100 m reel options"
+      ],
+      "variantsZh": [
+        "60 / 120 灯珠密度选项",
+        "50 / 100 m 卷装选项"
+      ],
+      "image": "/images/catalogue/series/strip-driver-free.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-bare",
+      "categoryId": "strip",
+      "titleEn": "Bare low-voltage strip",
+      "titleZh": "低压裸板灯带",
+      "descEn": "Flexible exposed LED tape for integration into suitable indoor fittings.",
+      "descZh": "可集成于合适室内灯具的柔性裸板 LED 灯带。",
+      "spec": "5 / 12 / 24V · White / RGB / RGBW",
+      "variantsEn": [
+        "60 / 120 / 180 / 240 LED density options",
+        "Select driver and channel for the required installation"
+      ],
+      "variantsZh": [
+        "60 / 120 / 180 / 240 灯珠密度选项",
+        "根据安装要求选择驱动与型材"
+      ],
+      "image": "/images/catalogue/series/strip-bare.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-drip-glue",
+      "categoryId": "strip",
+      "titleEn": "PU-coated strip",
+      "titleZh": "PU 滴胶灯带",
+      "descEn": "A coated flexible strip in white colour-temperature options.",
+      "descZh": "提供多种白光色温的涂胶柔性灯带。",
+      "spec": "5 / 12 / 24V · 3 white options",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "60 / 120 / 180 / 240 LED density options"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "60 / 120 / 180 / 240 灯珠密度选项"
+      ],
+      "image": "/images/catalogue/series/strip-drip-glue.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-silicone-sleeve",
+      "categoryId": "strip",
+      "titleEn": "Silicone-sleeved strip",
+      "titleZh": "硅胶套管灯带",
+      "descEn": "Flexible LED tape with a silicone casing option.",
+      "descZh": "带硅胶套管的柔性 LED 灯带。",
+      "spec": "5 / 12 / 24V · White / RGB / RGBW",
+      "variantsEn": [
+        "60 / 120 / 180 / 240 LED density options",
+        "Sealing configuration selected for the installation"
+      ],
+      "variantsZh": [
+        "60 / 120 / 180 / 240 灯珠密度选项",
+        "按安装环境选定密封配置"
+      ],
+      "image": "/images/catalogue/series/strip-silicone-sleeve.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-pvc-coated",
+      "categoryId": "strip",
+      "titleEn": "PVC-coated high-voltage strip",
+      "titleZh": "PVC 包覆高压灯带",
+      "descEn": "An enclosed flexible strip family for higher-voltage input.",
+      "descZh": "适用于较高输入电压的包覆柔性灯带系列。",
+      "spec": "110 / 220V · White / RGB",
+      "variantsEn": [
+        "60 / 120 / 180 / 240 LED density options",
+        "Single-colour or two-colour material options"
+      ],
+      "variantsZh": [
+        "60 / 120 / 180 / 240 灯珠密度选项",
+        "单色或双色材料选项"
+      ],
+      "image": "/images/catalogue/series/strip-pvc-coated.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-silicone-extrusion",
+      "categoryId": "strip",
+      "titleEn": "Silicone-encapsulated strip",
+      "titleZh": "硅胶封装灯带",
+      "descEn": "An enclosed low-voltage strip with configurable colour and dimensions.",
+      "descZh": "颜色与尺寸可选的低压封装灯带。",
+      "spec": "12 / 24V · White / RGB / RGBW",
+      "variantsEn": [
+        "Custom dimensions",
+        "50 m reel option"
+      ],
+      "variantsZh": [
+        "尺寸可定制",
+        "50 m 卷装选项"
+      ],
+      "image": "/images/catalogue/series/strip-silicone-extrusion.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-neon",
+      "categoryId": "strip",
+      "titleEn": "Flexible neon strip",
+      "titleZh": "柔性霓虹灯带",
+      "descEn": "A diffused linear profile in white and coloured lighting options.",
+      "descZh": "提供白光与彩色光的扩散式线性灯带。",
+      "spec": "12 / 24 / 110 / 220V",
+      "variantsEn": [
+        "6 × 12 / 8 × 16 mm profiles",
+        "White / RGB / RGBW; 5 / 50 / 100 m packing options"
+      ],
+      "variantsZh": [
+        "6 × 12 / 8 × 16 mm 截面",
+        "白光 / RGB / RGBW；5 / 50 / 100 m 包装选项"
+      ],
+      "image": "/images/catalogue/series/strip-neon.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-profile",
+      "categoryId": "strip",
+      "titleEn": "Aluminium-profile linear light",
+      "titleZh": "铝型材线条灯",
+      "descEn": "An aluminium channel and diffuser system for linear lighting.",
+      "descZh": "由铝型材和扩散罩组成的线性照明方案。",
+      "spec": "12 / 24V · Black / white / silver",
+      "variantsEn": [
+        "Custom dimensions",
+        "White / RGB / RGBW configuration options"
+      ],
+      "variantsZh": [
+        "尺寸可定制",
+        "白光 / RGB / RGBW 配置选项"
+      ],
+      "image": "/images/catalogue/series/strip-profile.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-battery",
+      "categoryId": "strip",
+      "titleEn": "Dry-cell strip kit",
+      "titleZh": "干电池灯带套装",
+      "descEn": "A compact battery-powered strip set for decorative layouts.",
+      "descZh": "适合装饰布光的小型电池供电灯带套装。",
+      "spec": "5V · 1 / 3 m",
+      "variantsEn": [
+        "Clear or matte material options",
+        "White or RGB options"
+      ],
+      "variantsZh": [
+        "透明或磨砂材质选项",
+        "白光或 RGB 选项"
+      ],
+      "image": "/images/catalogue/series/strip-battery.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-rechargeable",
+      "categoryId": "strip",
+      "titleEn": "Rechargeable sensor strip kit",
+      "titleZh": "充电感应灯带套装",
+      "descEn": "A short strip with a rechargeable control unit and Type-C port.",
+      "descZh": "搭配充电控制器和 Type-C 接口的短灯带套装。",
+      "spec": "5V · 1 m · Type-C",
+      "variantsEn": [
+        "Lithium-battery charging",
+        "White or RGB options"
+      ],
+      "variantsZh": [
+        "锂电池充电",
+        "白光或 RGB 选项"
+      ],
+      "image": "/images/catalogue/series/strip-rechargeable.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "strip-selected",
+      "categoryId": "strip",
+      "titleEn": "COB strip lighting",
+      "titleZh": "COB 灯带",
+      "descEn": "A continuous-looking light line for coves, profiles and furniture details.",
+      "descZh": "适合灯槽、型材和家具细部的连续光线效果。",
+      "spec": "12 / 24V · COB",
+      "variantsEn": [
+        "320 / 480 LED density options",
+        "White / RGB / RGBW options"
+      ],
+      "variantsZh": [
+        "320 / 480 灯珠密度选项",
+        "白光 / RGB / RGBW 选项"
+      ],
+      "image": "/images/catalogue/series/strip-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/strip-selected-view-1.webp",
+          "altEn": "Strip cutting detail",
+          "altZh": "灯带裁切细节"
+        }
+      ]
+    },
+    {
+      "id": "bulb-selected",
+      "categoryId": "bulb",
+      "titleEn": "General-purpose LED bulbs",
+      "titleZh": "通用 LED 球泡",
+      "descEn": "A-shape, candle and globe options for replacement lighting.",
+      "descZh": "适合替换照明的 A 型、蜡烛型和球形灯泡。",
+      "spec": "4.2–15W · A60 / C37 / G45 / G95 / G120",
+      "variantsEn": [
+        "A60: 4.9 / 6.5 / 7 / 9 / 9.5 / 10 / 11 / 11.5 / 12 / 15W",
+        "C37: 4.2 / 4.9 / 7W; G45: 4.2 / 6 / 7W",
+        "G95: 15W; G120: 10W",
+        "E27 / B22; selected small shapes offer E14 / B15D",
+        "Non-dimmable; 3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "A60：4.9 / 6.5 / 7 / 9 / 9.5 / 10 / 11 / 11.5 / 12 / 15W",
+        "C37：4.2 / 4.9 / 7W；G45：4.2 / 6 / 7W",
+        "G95：15W；G120：10W",
+        "E27 / B22；部分小型灯泡可选 E14 / B15D",
+        "不可调光；3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-spot",
+      "categoryId": "bulb",
+      "titleEn": "Non-dimmable GU10 / MR16 spots",
+      "titleZh": "不可调光 GU10 / MR16 射灯泡",
+      "descEn": "Compact spot lamps with material and beam options.",
+      "descZh": "提供不同材质和光束角选项的小型射灯泡。",
+      "spec": "2.9–8W · GU10 / GU5.3",
+      "variantsEn": [
+        "GU10: 2.9 / 4.9 / 6 / 7 / 8W",
+        "MR16: 6W · GU5.3 · 220–240V",
+        "38° / 100° beam options by model",
+        "3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "GU10：2.9 / 4.9 / 6 / 7 / 8W",
+        "MR16：6W · GU5.3 · 220–240V",
+        "按型号提供 38° / 100° 光束角",
+        "3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-spot.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-dimmable",
+      "categoryId": "bulb",
+      "titleEn": "Dimmable LED bulbs and spots",
+      "titleZh": "可调光球泡与射灯泡",
+      "descEn": "Dimmable A60, globe and GU10 formats.",
+      "descZh": "提供可调光 A60、球形和 GU10 规格。",
+      "spec": "5–15W · Dimmable",
+      "variantsEn": [
+        "A60: 10 / 12W; G120: 15W",
+        "GU10: 5 / 6 / 7W",
+        "E27 / B22 / GU10 by shape; 3000 / 4000 / 6500K",
+        "Confirm the dimmer model and supported load"
+      ],
+      "variantsZh": [
+        "A60：10 / 12W；G120：15W",
+        "GU10：5 / 6 / 7W",
+        "按灯形提供 E27 / B22 / GU10；3000 / 4000 / 6500K",
+        "需确认调光器型号与支持负载"
+      ],
+      "image": "/images/catalogue/series/bulb-dimmable.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-reflector",
+      "categoryId": "bulb",
+      "titleEn": "LED reflector bulbs",
+      "titleZh": "LED 反射灯泡",
+      "descEn": "Three reflector sizes for directional replacement lighting.",
+      "descZh": "用于定向替换照明的三种反射灯规格。",
+      "spec": "6 / 8 / 9W · R50 / R63 / R80",
+      "variantsEn": [
+        "R50: 6W / E14; R63: 8W / E27; R80: 9W / E27",
+        "Non-dimmable · 3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "R50：6W / E14；R63：8W / E27；R80：9W / E27",
+        "不可调光 · 3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-reflector.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-glass-gu10",
+      "categoryId": "bulb",
+      "titleEn": "Glass GU10 spot",
+      "titleZh": "玻璃 GU10 射灯泡",
+      "descEn": "Glass-bodied spots with different optics and dimming options.",
+      "descZh": "提供不同光学和调光选项的玻璃灯体射灯泡。",
+      "spec": "5 / 7 / 10W · GU10",
+      "variantsEn": [
+        "38° / 60° / 100° beam options",
+        "Dimmable or non-dimmable variants · 220–240V",
+        "3000 / 4000 / 6500K",
+        "Confirm base and dimmer compatibility before ordering"
+      ],
+      "variantsZh": [
+        "38° / 60° / 100° 光束角选项",
+        "可调光或不可调光版本 · 220–240V",
+        "3000 / 4000 / 6500K",
+        "下单前确认灯头和调光兼容性"
+      ],
+      "image": "/images/catalogue/series/bulb-glass-gu10.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-glass-mr16",
+      "categoryId": "bulb",
+      "titleEn": "Glass MR16 spot",
+      "titleZh": "玻璃 MR16 射灯泡",
+      "descEn": "A glass-bodied MR16-format lamp with a GU5.3 base.",
+      "descZh": "采用 GU5.3 灯头的玻璃 MR16 规格灯泡。",
+      "spec": "8W · GU5.3 · 220–240V",
+      "variantsEn": [
+        "60° beam",
+        "Dimmable or non-dimmable variants",
+        "3000 / 4000 / 6500K",
+        "Confirm base and dimmer compatibility before ordering"
+      ],
+      "variantsZh": [
+        "60° 光束角",
+        "可调光或不可调光版本",
+        "3000 / 4000 / 6500K",
+        "下单前确认灯头和调光兼容性"
+      ],
+      "image": "/images/catalogue/series/bulb-glass-mr16.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-t",
+      "categoryId": "bulb",
+      "titleEn": "T-shape LED bulb",
+      "titleZh": "T 型 LED 灯泡",
+      "descEn": "Higher-power cylindrical bulbs in two input-voltage families.",
+      "descZh": "提供两种输入电压系列的较高功率柱形灯泡。",
+      "spec": "20 / 30 / 40 / 50W · E27 / B22",
+      "variantsEn": [
+        "220–240V: T80 / T100 / T120 / T140",
+        "100–240V: T70 / T80 / T100 / T120",
+        "3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "220–240V：T80 / T100 / T120 / T140",
+        "100–240V：T70 / T80 / T100 / T120",
+        "3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-t.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/bulb-t-view-1.webp",
+          "altEn": "Wide-input T-shape bulb",
+          "altZh": "宽电压 T 型灯泡"
+        }
+      ]
+    },
+    {
+      "id": "bulb-stick",
+      "categoryId": "bulb",
+      "titleEn": "Stick LED bulb",
+      "titleZh": "柱形 LED 灯泡",
+      "descEn": "Narrow tubular replacement bulbs in five power options.",
+      "descZh": "提供五种功率的细长柱形替换灯泡。",
+      "spec": "5 / 7 / 9 / 12 / 15W",
+      "variantsEn": [
+        "T28 / T32 / T36 / T45 / T50 formats",
+        "E27 / B22 · 220–240V · 3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "T28 / T32 / T36 / T45 / T50 规格",
+        "E27 / B22 · 220–240V · 3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-stick.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-wall-switch",
+      "categoryId": "bulb",
+      "titleEn": "Wall-switch three-colour A60",
+      "titleZh": "墙壁开关三色温 A60",
+      "descEn": "Change between three white tones using the wall switch. Image is an A60 family reference.",
+      "descZh": "通过墙壁开关在三种白光色温之间切换。 图片为 A60 同系列示意。",
+      "spec": "9 / 12W · E27 · 3CCT",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "Colour-mode memory"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "色温模式记忆"
+      ],
+      "image": "/images/catalogue/series/bulb-wall-switch.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-five-cct",
+      "categoryId": "bulb",
+      "titleEn": "Body-switch five-colour bulb",
+      "titleZh": "灯体开关五色温球泡",
+      "descEn": "A selector on the lamp body offers five white tones.",
+      "descZh": "通过灯体上的选择开关提供五种白光色温。",
+      "spec": "9 / 12 / 15W · E27 · 5CCT",
+      "variantsEn": [
+        "A60 / A70 formats",
+        "2700 / 3000 / 4000 / 5000 / 6500K"
+      ],
+      "variantsZh": [
+        "A60 / A70 规格",
+        "2700 / 3000 / 4000 / 5000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/bulb-five-cct.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/bulb-five-cct-view-1.webp",
+          "altEn": "Five-position colour selector",
+          "altZh": "五档色温选择开关"
+        }
+      ]
+    },
+    {
+      "id": "bulb-24v",
+      "categoryId": "bulb",
+      "titleEn": "24V DC A60 bulb",
+      "titleZh": "24V 直流 A60 灯泡",
+      "descEn": "A low-voltage lamp for a specified 24V DC lighting supply. Image is an A60 family reference.",
+      "descZh": "适用于指定 24V 直流照明电源的低压灯泡。 图片为 A60 同系列示意。",
+      "spec": "9W · 24V DC · E27",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "Confirm base and dimmer compatibility before ordering"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "下单前确认灯头和调光兼容性"
+      ],
+      "image": "/images/catalogue/series/bulb-24v.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-remote",
+      "categoryId": "bulb",
+      "titleEn": "Remote-control A60 bulb",
+      "titleZh": "遥控 A60 灯泡",
+      "descEn": "Adjust brightness and white tone with a matching remote. Image is an A60 family reference.",
+      "descZh": "搭配适配遥控器调节亮度和白光色温。 图片为 A60 同系列示意。",
+      "spec": "9 / 12W · E27 · 2700–6500K",
+      "variantsEn": [
+        "220–240V",
+        "Confirm remote and wireless-control configuration with your enquiry"
+      ],
+      "variantsZh": [
+        "220–240V",
+        "询价时确认遥控器和无线控制配置"
+      ],
+      "image": "/images/catalogue/series/bulb-remote.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/bulb-remote-view-1.webp",
+          "altEn": "Matching handheld remote",
+          "altZh": "配套手持遥控器"
+        }
+      ]
+    },
+    {
+      "id": "bulb-pir",
+      "categoryId": "bulb",
+      "titleEn": "PIR-sensing A60 bulb",
+      "titleZh": "PIR 人体感应 A60",
+      "descEn": "A visible PIR sensor provides movement-triggered lighting in dark conditions.",
+      "descZh": "外置 PIR 探头支持暗环境下的移动触发照明。",
+      "spec": "9W · E27 · PIR",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "Daylight inhibit; approximately 30-second switch-off after movement stops"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "白天抑制点亮；移动停止后约 30 秒关灯"
+      ],
+      "image": "/images/catalogue/series/bulb-pir.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-microwave",
+      "categoryId": "bulb",
+      "titleEn": "Microwave-sensing A60 bulb",
+      "titleZh": "微波感应 A60",
+      "descEn": "A concealed sensor responds to movement in dark conditions. Image is an A60 family reference.",
+      "descZh": "内置感应器响应暗环境中的移动。 图片为 A60 同系列示意。",
+      "spec": "9W · E27 · Microwave",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "Daylight inhibit; approximately 30-second switch-off after movement stops"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "白天抑制点亮；移动停止后约 30 秒关灯"
+      ],
+      "image": "/images/catalogue/series/bulb-microwave.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-daylight",
+      "categoryId": "bulb",
+      "titleEn": "Daylight-sensing A60 bulb",
+      "titleZh": "光感 A60 灯泡",
+      "descEn": "Automatic dusk-to-dawn switching using ambient light.",
+      "descZh": "根据环境光实现天黑开启、天亮关闭。",
+      "spec": "9W · E27 · Daylight sensor",
+      "variantsEn": [
+        "3000 / 4000 / 6500K",
+        "220–240V"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K",
+        "220–240V"
+      ],
+      "image": "/images/catalogue/series/bulb-daylight.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "bulb-efficient-gu10",
+      "categoryId": "bulb",
+      "titleEn": "High-efficacy glass GU10",
+      "titleZh": "高光效玻璃 GU10",
+      "descEn": "A narrow-beam glass spot in dimmable and non-dimmable variants.",
+      "descZh": "提供可调光与不可调光版本的窄光束玻璃射灯泡。",
+      "spec": "8W · GU10 · 30°",
+      "variantsEn": [
+        "Dimmable or non-dimmable",
+        "Use only the dimmable variant with a compatible wall dimmer; not a three-way touch-lamp replacement"
+      ],
+      "variantsZh": [
+        "可调光或不可调光",
+        "仅可调光版本可搭配兼容墙壁调光器；不适用于三档触摸台灯"
+      ],
+      "image": "/images/catalogue/series/bulb-efficient-gu10.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "filament-selected",
+      "categoryId": "filament",
+      "titleEn": "Classic filament bulbs",
+      "titleZh": "经典灯丝泡",
+      "descEn": "Clear and amber glass in candle, pear and globe shapes.",
+      "descZh": "提供透明和琥珀玻璃，以及蜡烛、梨形和球形外观。",
+      "spec": "2.5–12W · E14 / E27",
+      "variantsEn": [
+        "C37: 2.5W; C35: 4W; G45: 4 / 6W",
+        "A60: 4 / 6 / 8 / 12W; ST64: 6 / 8 / 12W",
+        "G80: 6W; G95 / G125: 6 / 8W",
+        "Clear or amber by model"
+      ],
+      "variantsZh": [
+        "C37：2.5W；C35：4W；G45：4 / 6W",
+        "A60：4 / 6 / 8 / 12W；ST64：6 / 8 / 12W",
+        "G80：6W；G95 / G125：6 / 8W",
+        "按型号提供透明或琥珀玻璃"
+      ],
+      "image": "/images/catalogue/series/filament-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "filament-spiral",
+      "categoryId": "filament",
+      "titleEn": "Spiral filament bulbs",
+      "titleZh": "螺旋灯丝泡",
+      "descEn": "Decorative spiral filaments in several glass shapes.",
+      "descZh": "多种玻璃外观搭配装饰性螺旋灯丝。",
+      "spec": "4W · E27 / E14",
+      "variantsEn": [
+        "A60 / ST64 / G45 / G80 / G95 / G125",
+        "Clear / amber / smoky glass options"
+      ],
+      "variantsZh": [
+        "A60 / ST64 / G45 / G80 / G95 / G125",
+        "透明 / 琥珀 / 烟灰玻璃选项"
+      ],
+      "image": "/images/catalogue/series/filament-spiral.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/filament-spiral-view-1.webp",
+          "altEn": "Illuminated spiral filament detail",
+          "altZh": "螺旋灯丝点亮细节"
+        }
+      ]
+    },
+    {
+      "id": "filament-colour",
+      "categoryId": "filament",
+      "titleEn": "Coloured decorative filament bulbs",
+      "titleZh": "彩色装饰灯丝泡",
+      "descEn": "Tinted and graduated glass finishes for decorative lighting.",
+      "descZh": "适合装饰照明的染色和渐变玻璃外观。",
+      "spec": "4.5 / 5W · Decorative glass",
+      "variantsEn": [
+        "A60 4.5W: green / blue / orange / red; E27 / B22",
+        "5W E27: G125 amber, A165 pink / smoke, D170 blue, D140 brown / black"
+      ],
+      "variantsZh": [
+        "A60 4.5W：绿 / 蓝 / 橙 / 红；E27 / B22",
+        "5W E27：G125 琥珀，A165 粉 / 烟灰，D170 蓝，D140 棕 / 黑"
+      ],
+      "image": "/images/catalogue/series/filament-colour.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/filament-colour-view-1.webp",
+          "altEn": "Large decorative glass shapes",
+          "altZh": "大尺寸装饰玻璃外观"
+        }
+      ]
+    },
+    {
+      "id": "filament-efficient",
+      "categoryId": "filament",
+      "titleEn": "High-efficacy A60 filament bulb",
+      "titleZh": "高光效 A60 灯丝泡",
+      "descEn": "A lower-power A60 filament range; photograph is a glass-body family reference.",
+      "descZh": "较低功率 A60 灯丝泡系列；图片为同系列玻璃灯体示意。",
+      "spec": "2.3 / 4 / 5.2 / 7.3W · E27",
+      "variantsEn": [
+        "Clear or frosted glass",
+        "60 × 105 mm · 220–240V"
+      ],
+      "variantsZh": [
+        "透明或磨砂玻璃",
+        "60 × 105 mm · 220–240V"
+      ],
+      "image": "/images/catalogue/series/filament-efficient.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "filament-half-chrome",
+      "categoryId": "filament",
+      "titleEn": "Smart half-mirror filament bulb",
+      "titleZh": "智能半镜面灯丝泡",
+      "descEn": "A reflective bowl tip with app-controlled white tone.",
+      "descZh": "反射式镜面灯顶，支持应用控制白光色温。",
+      "spec": "4.9 / 7W · E27 · 2700–6500K",
+      "variantsEn": [
+        "A60 4.9W / G95 7W",
+        "Gold- or silver-plated bowl tip",
+        "Confirm app and control configuration"
+      ],
+      "variantsZh": [
+        "A60 4.9W / G95 7W",
+        "金色或银色镀层灯顶",
+        "需确认应用和控制配置"
+      ],
+      "image": "/images/catalogue/series/filament-half-chrome.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "filament-daylight",
+      "categoryId": "filament",
+      "titleEn": "Daylight-sensing filament bulb",
+      "titleZh": "光感灯丝泡",
+      "descEn": "Dusk-to-dawn switching in clear or amber decorative formats.",
+      "descZh": "透明或琥珀装饰外观，支持天黑开灯、天亮关灯。",
+      "spec": "7W · E27 · Daylight sensor",
+      "variantsEn": [
+        "A60 / ST58 formats",
+        "2700 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "A60 / ST58 规格",
+        "2700 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/filament-daylight.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "smart-selected",
+      "categoryId": "smart",
+      "titleEn": "Smart ceiling light",
+      "titleZh": "智能吸顶灯",
+      "descEn": "App-controlled ceiling lighting with RGB and tunable-white options.",
+      "descZh": "支持应用控制，提供 RGB 和可调白光选项。",
+      "spec": "20 / 24W · 290 mm",
+      "variantsEn": [
+        "20W RGB + 3000–6500K; 24W white 3000–6500K",
+        "Wi-Fi + Bluetooth configuration; confirm app and regional compatibility",
+        "290 × 95 mm"
+      ],
+      "variantsZh": [
+        "20W RGB + 3000–6500K；24W 白光 3000–6500K",
+        "Wi-Fi + 蓝牙配置；需确认应用和区域兼容性",
+        "290 × 95 mm"
+      ],
+      "image": "/images/catalogue/series/smart-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/smart-selected-view-1.webp",
+          "altEn": "Smart ceiling internal light engine",
+          "altZh": "智能吸顶灯内部光源组件"
+        }
+      ]
+    },
+    {
+      "id": "smart-recessed",
+      "categoryId": "smart",
+      "titleEn": "Smart recessed downlight",
+      "titleZh": "智能嵌入式筒灯",
+      "descEn": "Round and square recessed formats with RGB and tunable-white control.",
+      "descZh": "圆形和方形嵌入式规格，支持 RGB 和可调白光。",
+      "spec": "6 / 12 / 18 / 24W · Recessed",
+      "variantsEn": [
+        "Round: 120 / 170 / 220 / 300 mm",
+        "Square: 120 / 170 / 220 / 300 mm",
+        "Cut-out: 105 / 150 / 200 / 280 mm, matching round or square shape",
+        "Wi-Fi + Bluetooth configuration"
+      ],
+      "variantsZh": [
+        "圆形：120 / 170 / 220 / 300 mm",
+        "方形：120 / 170 / 220 / 300 mm",
+        "开孔：105 / 150 / 200 / 280 mm，匹配圆形或方形",
+        "Wi-Fi + 蓝牙配置"
+      ],
+      "image": "/images/catalogue/series/smart-recessed.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/smart-recessed-view-1.webp",
+          "altEn": "Recessed smart downlight rear view",
+          "altZh": "智能嵌入式筒灯背面"
+        }
+      ]
+    },
+    {
+      "id": "smart-surface",
+      "categoryId": "smart",
+      "titleEn": "Smart surface-mounted downlight",
+      "titleZh": "智能明装筒灯",
+      "descEn": "Round and square surface-mounted formats with multicolour control.",
+      "descZh": "支持多彩控制的圆形和方形明装规格。",
+      "spec": "6 / 12 / 18 / 24W · Surface mounted",
+      "variantsEn": [
+        "Round: 120 / 170 / 223 / 300 mm",
+        "Square: 121 / 172 / 224 / 300 mm",
+        "RGB + tunable white · Wi-Fi + Bluetooth configuration"
+      ],
+      "variantsZh": [
+        "圆形：120 / 170 / 223 / 300 mm",
+        "方形：121 / 172 / 224 / 300 mm",
+        "RGB + 可调白光 · Wi-Fi + 蓝牙配置"
+      ],
+      "image": "/images/catalogue/series/smart-surface.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "smart-bulb",
+      "categoryId": "smart",
+      "titleEn": "Smart A60 / A70 bulb",
+      "titleZh": "智能 A60 / A70 球泡",
+      "descEn": "App-controlled E27 bulbs with multicolour and tunable-white output.",
+      "descZh": "采用 E27 灯头，支持应用控制多彩光和可调白光。",
+      "spec": "9 / 12 / 15W · E27",
+      "variantsEn": [
+        "A60 9W; A70 12 / 15W",
+        "RGB + tunable white · 220–240V",
+        "Confirm app and wireless-control configuration"
+      ],
+      "variantsZh": [
+        "A60 9W；A70 12 / 15W",
+        "RGB + 可调白光 · 220–240V",
+        "需确认应用和无线控制配置"
+      ],
+      "image": "/images/catalogue/series/smart-bulb.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "smart-gu10",
+      "categoryId": "smart",
+      "titleEn": "Smart GU10 spot",
+      "titleZh": "智能 GU10 射灯泡",
+      "descEn": "A directional smart spot with multicolour and white-tone control.",
+      "descZh": "支持彩色与白光色温控制的定向智能射灯泡。",
+      "spec": "5W · GU10 · 38°",
+      "variantsEn": [
+        "RGB + tunable white · 220–240V",
+        "Wi-Fi + Bluetooth configuration"
+      ],
+      "variantsZh": [
+        "RGB + 可调白光 · 220–240V",
+        "Wi-Fi + 蓝牙配置"
+      ],
+      "image": "/images/catalogue/series/smart-gu10.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "smart-filament",
+      "categoryId": "smart",
+      "titleEn": "Smart tunable-white filament bulb",
+      "titleZh": "智能调色温灯丝泡",
+      "descEn": "Glass filament bulbs with app dimming and white-tone control.",
+      "descZh": "支持应用调光和白光色温控制的玻璃灯丝泡。",
+      "spec": "4 / 7W · A60 / ST64",
+      "variantsEn": [
+        "A60 4W: 2200–6500K",
+        "ST64 7W: tunable white; confirm requested CCT range",
+        "Wi-Fi + Bluetooth configuration"
+      ],
+      "variantsZh": [
+        "A60 4W：2200–6500K",
+        "ST64 7W：可调白光；需确认所需色温范围",
+        "Wi-Fi + 蓝牙配置"
+      ],
+      "image": "/images/catalogue/series/smart-filament.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "tri-proof-selected",
+      "categoryId": "tri-proof",
+      "titleEn": "Linear tri-proof light",
+      "titleZh": "线性三防灯",
+      "descEn": "A sealed linear fitting with end-entry connection details.",
+      "descZh": "采用端部进线结构的密封线性灯具。",
+      "spec": "18 / 36 / 48W · 600–1500 mm",
+      "variantsEn": [
+        "18W: 600 × 54 × 68 mm",
+        "36W: 1200 × 54 × 68 mm",
+        "48W: 1500 × 54 × 68 mm",
+        "3000 / 4000 / 6500K"
+      ],
+      "variantsZh": [
+        "18W：600 × 54 × 68 mm",
+        "36W：1200 × 54 × 68 mm",
+        "48W：1500 × 54 × 68 mm",
+        "3000 / 4000 / 6500K"
+      ],
+      "image": "/images/catalogue/series/tri-proof-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/tri-proof-selected-view-1.webp",
+          "altEn": "End-cap and connection detail",
+          "altZh": "端盖与连接细节"
+        },
+        {
+          "src": "/images/catalogue/series/tri-proof-selected-view-2.webp",
+          "altEn": "Cable-entry fitting view",
+          "altZh": "进线接头视图"
+        },
+        {
+          "src": "/images/catalogue/series/tri-proof-selected-view-3.webp",
+          "altEn": "Sealed cable gland detail",
+          "altZh": "密封电缆接头细节"
+        },
+        {
+          "src": "/images/catalogue/series/tri-proof-selected-view-4.webp",
+          "altEn": "Linear fitting rear view",
+          "altZh": "线性灯具背面"
+        }
+      ]
+    },
+    {
+      "id": "highbay-selected",
+      "categoryId": "highbay",
+      "titleEn": "UFO LED high bay",
+      "titleZh": "UFO LED 工矿灯",
+      "descEn": "A suspended round high-bay fitting with a finned aluminium housing.",
+      "descZh": "圆形吊装工矿灯，采用带散热鳍片的铝灯体。",
+      "spec": "50 / 100 / 150W · 4000 / 6500K",
+      "variantsEn": [
+        "50W: Ø236 × 108 mm",
+        "100W: Ø276 × 108 mm",
+        "150W: Ø319 × 108 mm",
+        "220–240V · 120° beam"
+      ],
+      "variantsZh": [
+        "50W：Ø236 × 108 mm",
+        "100W：Ø276 × 108 mm",
+        "150W：Ø319 × 108 mm",
+        "220–240V · 120° 光束角"
+      ],
+      "image": "/images/catalogue/series/highbay-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/highbay-selected-view-1.webp",
+          "altEn": "High-bay rear heat-sink view",
+          "altZh": "工矿灯背部散热器"
+        },
+        {
+          "src": "/images/catalogue/series/highbay-selected-view-2.webp",
+          "altEn": "High-bay side profile and hanging eye",
+          "altZh": "工矿灯侧面与吊环"
+        }
+      ]
+    },
+    {
+      "id": "street-selected",
+      "categoryId": "street",
+      "titleEn": "Compact LED street light",
+      "titleZh": "紧凑型 LED 路灯",
+      "descEn": "A slim rectangular road-lighting head with a rear heat-sink profile.",
+      "descZh": "薄型矩形道路照明灯头，背部带散热结构。",
+      "spec": "50 / 100 / 150 / 200W · 220–240V",
+      "variantsEn": [
+        "4000 / 6500K",
+        "50W: 115 × 444 × 71 mm",
+        "100W: 130 × 497 × 71 mm",
+        "150W: 166 × 565 × 71 mm",
+        "200W: 198 × 682 × 71 mm"
+      ],
+      "variantsZh": [
+        "4000 / 6500K",
+        "50W：115 × 444 × 71 mm",
+        "100W：130 × 497 × 71 mm",
+        "150W：166 × 565 × 71 mm",
+        "200W：198 × 682 × 71 mm"
+      ],
+      "image": "/images/catalogue/series/street-selected.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/street-selected-view-1.webp",
+          "altEn": "Compact street-light rear view",
+          "altZh": "紧凑型路灯背面"
+        }
+      ]
+    },
+    {
+      "id": "street-wide-input",
+      "categoryId": "street",
+      "titleEn": "Wide-input LED street light",
+      "titleZh": "宽电压 LED 路灯",
+      "descEn": "A finned die-cast housing with a separate input-voltage range.",
+      "descZh": "采用带散热鳍片的压铸灯体，提供独立宽电压系列。",
+      "spec": "40 / 60 / 100 / 150 / 200W · 100–277V",
+      "variantsEn": [
+        "4000 / 6500K",
+        "40 / 60W: 423 × 172 × 75 mm",
+        "100W: 505 × 215 × 75 mm",
+        "150W: 601 × 226.5 × 75 mm",
+        "200W: 658 × 240 × 75 mm"
+      ],
+      "variantsZh": [
+        "4000 / 6500K",
+        "40 / 60W：423 × 172 × 75 mm",
+        "100W：505 × 215 × 75 mm",
+        "150W：601 × 226.5 × 75 mm",
+        "200W：658 × 240 × 75 mm"
+      ],
+      "image": "/images/catalogue/series/street-wide-input.webp",
+      "applicationImage": false,
+      "gallery": [
+        {
+          "src": "/images/catalogue/series/street-wide-input-view-1.webp",
+          "altEn": "Wide-input street-light heat sink",
+          "altZh": "宽电压路灯散热器"
+        }
+      ]
+    },
+    {
+      "id": "moisture-selected",
+      "categoryId": "moisture",
+      "titleEn": "Round moisture-proof light",
+      "titleZh": "圆形防潮灯",
+      "descEn": "A sealed round fitting with black or white frame options.",
+      "descZh": "密封圆形灯体，提供黑色或白色边框选项。",
+      "spec": "8 / 12 / 18 / 24W · Round",
+      "variantsEn": [
+        "3000 / 4000 / 6500K · 220–240V",
+        "8 / 12W: Ø140 × 50 mm",
+        "18W: Ø155 × 50 mm; 24W: Ø175 × 50 mm"
+      ],
+      "variantsZh": [
+        "3000 / 4000 / 6500K · 220–240V",
+        "8 / 12W：Ø140 × 50 mm",
+        "18W：Ø155 × 50 mm；24W：Ø175 × 50 mm"
+      ],
+      "image": "/images/catalogue/series/moisture-selected.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "moisture-oval",
+      "categoryId": "moisture",
+      "titleEn": "Oval moisture-proof light",
+      "titleZh": "椭圆形防潮灯",
+      "descEn": "A sealed oval fitting for flat-wall mounting in either orientation.",
+      "descZh": "密封椭圆灯体，可在平整墙面横向或纵向安装。",
+      "spec": "8 / 12 / 18 / 24W · Oval",
+      "variantsEn": [
+        "Black / white frame options",
+        "3000 / 4000 / 6500K · 220–240V",
+        "8 / 12W: 158 × 88 × 50 mm",
+        "18 / 24W: 197 × 96 × 47 mm"
+      ],
+      "variantsZh": [
+        "黑色 / 白色边框选项",
+        "3000 / 4000 / 6500K · 220–240V",
+        "8 / 12W：158 × 88 × 50 mm",
+        "18 / 24W：197 × 96 × 47 mm"
+      ],
+      "image": "/images/catalogue/series/moisture-oval.webp",
+      "applicationImage": false,
+      "gallery": []
+    },
+    {
+      "id": "solar-selected",
+      "categoryId": "solar",
+      "titleEn": "Solar floodlight system",
+      "titleZh": "太阳能投光灯系统",
+      "descEn": "A separate-panel solar lighting family with remote, timer and dimming options. Image shows an application reference.",
+      "descZh": "独立光伏板太阳能照明系列，提供遥控、定时与调光选项。图片为场景参考。",
+      "spec": "3.7 / 6.7 / 12 / 15 / 20W",
+      "variantsEn": [
+        "Catalogue power tolerance: ±15%",
+        "Panel options: 6V, 8 / 12 / 18 / 22 / 30W by lamp configuration",
+        "Confirm battery, location and operating schedule for the requested system"
+      ],
+      "variantsZh": [
+        "图册功率公差：±15%",
+        "光伏板选项：6V，按灯具配置提供 8 / 12 / 18 / 22 / 30W",
+        "需结合所需系统确认电池、安装地点与工作时段"
+      ],
+      "image": "/images/catalogue/series/solar-selected.webp",
+      "applicationImage": true,
+      "gallery": []
+    },
+    {
+      "id": "solar-street",
+      "categoryId": "solar",
+      "titleEn": "Solar street-light system",
+      "titleZh": "太阳能路灯系统",
+      "descEn": "A road-lighting head and separate solar-panel system.",
+      "descZh": "由道路照明灯头与独立光伏板组成的系统。",
+      "spec": "40W · 4000K",
+      "variantsEn": [
+        "Separate 66W / 18V solar panel",
+        "Remote and timer control options",
+        "System sizing and operating time require site-specific confirmation"
+      ],
+      "variantsZh": [
+        "独立 66W / 18V 光伏板",
+        "遥控与定时控制选项",
+        "系统选型和工作时长需根据现场条件确认"
+      ],
+      "image": "/images/catalogue/series/solar-street.webp",
+      "applicationImage": false,
+      "gallery": []
+    }
+  ],
+  "scenes": [
+    {
+      "id": "flood-facade",
+      "categoryId": "flood",
+      "image": "/images/catalogue/scenes/flood-facade.webp",
+      "titleEn": "Facade and garden lighting",
+      "titleZh": "建筑立面与庭院照明"
+    },
+    {
+      "id": "flood-yard",
+      "categoryId": "flood",
+      "image": "/images/catalogue/scenes/flood-yard.webp",
+      "titleEn": "Loading yards and exterior areas",
+      "titleZh": "装卸区域与户外空间"
+    },
+    {
+      "id": "panel-office",
+      "categoryId": "panel",
+      "image": "/images/catalogue/scenes/panel-office.webp",
+      "titleEn": "General office ceiling lighting",
+      "titleZh": "办公空间基础照明"
+    },
+    {
+      "id": "panel-living",
+      "categoryId": "panel",
+      "image": "/images/catalogue/scenes/panel-living.webp",
+      "titleEn": "Residential ceiling lighting",
+      "titleZh": "住宅天花照明"
+    },
+    {
+      "id": "downlight-kitchen",
+      "categoryId": "downlight",
+      "image": "/images/catalogue/scenes/downlight-kitchen.webp",
+      "titleEn": "Kitchen and residential ceilings",
+      "titleZh": "厨房与住宅天花照明"
+    },
+    {
+      "id": "tube-retail",
+      "categoryId": "tube",
+      "image": "/images/catalogue/scenes/tube-retail.webp",
+      "titleEn": "Retail interior reference",
+      "titleZh": "零售空间参考"
+    },
+    {
+      "id": "tube-colour-walkway",
+      "categoryId": "tube",
+      "image": "/images/catalogue/scenes/tube-colour-walkway.webp",
+      "titleEn": "Decorative walkway reference",
+      "titleZh": "步道装饰照明参考"
+    },
+    {
+      "id": "strip-facade",
+      "categoryId": "strip",
+      "image": "/images/catalogue/scenes/strip-facade.webp",
+      "titleEn": "Architectural lighting reference",
+      "titleZh": "建筑照明参考"
+    },
+    {
+      "id": "strip-media-wall",
+      "categoryId": "strip",
+      "image": "/images/catalogue/scenes/strip-media-wall.webp",
+      "titleEn": "Media-wall lighting reference",
+      "titleZh": "电视墙照明参考"
+    },
+    {
+      "id": "strip-living",
+      "categoryId": "strip",
+      "image": "/images/catalogue/scenes/strip-living.webp",
+      "titleEn": "Cove-lighting reference",
+      "titleZh": "灯槽照明参考"
+    },
+    {
+      "id": "bulb-pendant",
+      "categoryId": "bulb",
+      "image": "/images/catalogue/scenes/bulb-pendant.webp",
+      "titleEn": "Pendant-light interior reference",
+      "titleZh": "吊灯室内场景参考"
+    },
+    {
+      "id": "smart-living",
+      "categoryId": "smart",
+      "image": "/images/catalogue/scenes/smart-living.webp",
+      "titleEn": "App-controlled colour-lighting reference",
+      "titleZh": "应用控制彩光场景参考"
+    },
+    {
+      "id": "tri-proof-transit",
+      "categoryId": "tri-proof",
+      "image": "/images/catalogue/scenes/tri-proof-transit.webp",
+      "titleEn": "Transit-passage reference",
+      "titleZh": "交通通道照明参考"
+    },
+    {
+      "id": "tri-proof-workshop",
+      "categoryId": "tri-proof",
+      "image": "/images/catalogue/scenes/tri-proof-workshop.webp",
+      "titleEn": "Workshop linear-lighting reference",
+      "titleZh": "车间线性照明参考"
+    },
+    {
+      "id": "tri-proof-corridor",
+      "categoryId": "tri-proof",
+      "image": "/images/catalogue/scenes/tri-proof-corridor.webp",
+      "titleEn": "Corridor-lighting reference",
+      "titleZh": "走廊照明参考"
+    },
+    {
+      "id": "highbay-industrial",
+      "categoryId": "highbay",
+      "image": "/images/catalogue/scenes/highbay-industrial.webp",
+      "titleEn": "High-ceiling industrial-space reference",
+      "titleZh": "高顶工业空间参考"
+    },
+    {
+      "id": "street-logistics",
+      "categoryId": "street",
+      "image": "/images/catalogue/scenes/street-logistics.webp",
+      "titleEn": "Logistics-road lighting reference",
+      "titleZh": "物流园道路照明参考"
+    },
+    {
+      "id": "moisture-stair",
+      "categoryId": "moisture",
+      "image": "/images/catalogue/scenes/moisture-stair.webp",
+      "titleEn": "Stair-wall lighting reference",
+      "titleZh": "楼梯墙面照明参考"
+    },
+    {
+      "id": "solar-street-reference",
+      "categoryId": "solar",
+      "image": "/images/catalogue/scenes/solar-street-reference.webp",
+      "titleEn": "Solar road-lighting reference",
+      "titleZh": "太阳能道路照明参考"
+    }
+  ]
+}
