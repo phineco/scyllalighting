@@ -24,11 +24,34 @@ Copy .env.example to .env.local. SITE_URL is the confirmed production origin (no
 The enquiry adapter now reuses machinery's Java contract. The browser posts to this site's `/api/inquiries`; the server posts to `/machiapi/saveInquiry` below the Java API root. Endpoint precedence is:
 
 1. `INQUIRY_API_URL` — optional complete endpoint override.
-2. `API_BASE_URL` — server-only root, e.g. `http://127.0.0.1:8082/api` on the same host as Java.
+2. `API_BASE_URL` — server-only root; the confirmed production root is `https://q.scyllatech.cn/quant`.
 3. `NEXT_PUBLIC_API_BASE_URL` — supported for compatibility with the original deployment.
 4. `http://127.0.0.1:8082/api` — original same-host default.
 
 `INQUIRY_API_TOKEN` is optional and server-only. Configure the Java service's private or HTTPS address if it runs on another host; the new site does not automatically send enquiries through the old public HTTP website.
+
+### Production enquiry configuration
+
+The operator confirmed the Java root on 2026-11-12. In the production project root, set `.env.local` to:
+
+```dotenv
+SITE_URL=http://www.machinery100.com
+INQUIRY_API_URL=
+API_BASE_URL=https://q.scyllatech.cn/quant
+INQUIRY_API_TOKEN=
+```
+
+This resolves to `https://q.scyllatech.cn/quant/machiapi/saveInquiry`. Alternatively, set `INQUIRY_API_URL` to that complete endpoint; a nonempty value overrides `API_BASE_URL`. Do not add `/api` to the confirmed root or escape `:` and `.` in the file. The previous `127.0.0.1:8082/api` example only works when that exact Java service is available on the Next.js server (or inside its container).
+
+Restart the website process after changing server-only enquiry settings; these settings do not require a rebuild. If using PM2, use the actual process name and `--update-env`, and correct any stale values in its ecosystem configuration or exported process environment, which take precedence over `.env.local`. Changes to `SITE_URL` or public contact variables still require rebuilding the generated pages.
+
+On the deployment host, a non-writing connectivity check is:
+
+```sh
+curl -i --max-time 15 -X OPTIONS https://q.scyllatech.cn/quant/machiapi/saveInquiry
+```
+
+The 2026-11-12 check returned HTTP 200 with `Allow: POST,OPTIONS`. This confirms route reachability, not enquiry persistence. No production test enquiry was submitted. The browser should continue posting to the website's `/api/inquiries`; forward that route to Next.js in Nginx so validation and the Java adapter run. A JSON `delivery_failed`/`unconfirmed` 502 comes from the adapter; an Nginx HTML 502 calls for checking Nginx's Next.js upstream and process port.
 
 | Java field | Lighting form mapping |
 | --- | --- |
