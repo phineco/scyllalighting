@@ -182,6 +182,26 @@ try {
     };
     assert.equal((await post(data)).status, 502);
   }
+  reply = {
+    status: 200,
+    type: "application/json",
+    body: JSON.stringify({
+      statusCode: 200,
+      data: { email: "private-response@example.com" },
+      message: "PRIVATE_RESPONSE_MESSAGE",
+      error: "PRIVATE_RESPONSE_ERROR",
+      arbitraryKey: "PRIVATE_RESPONSE_FIELD",
+    }),
+  };
+  const unconfirmed = await post(data);
+  assert.equal(unconfirmed.status, 502);
+  assert.deepEqual(await unconfirmed.json(), { error: "unconfirmed" });
+  for (let i = 0; i < 50 && !log.includes('"statusCode":200'); i++)
+    await new Promise((resolve) => setTimeout(resolve, 10));
+  assert.match(log, /\[inquiries\] unconfirmed/);
+  assert.ok(log.includes('"statusCode":200'));
+  assert.ok(log.includes('"data":"object"'));
+  assert.ok(!/private-response@example|PRIVATE_RESPONSE_/.test(log));
   reply = { status: 200, body: "<html>Login</html>", type: "text/html" };
   assert.equal(
     (await post(data)).status,

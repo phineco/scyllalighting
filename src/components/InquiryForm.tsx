@@ -61,15 +61,20 @@ export default function InquiryForm({
                 "The combined enquiry is too long. Please shorten it or send the full brief by email.",
                 "合并后的询盘过长，请精简内容或通过邮箱发送完整需求。",
               )
-            : data.error === "unconfigured"
+            : data.error === "unconfirmed"
               ? tr(
-                  "Online enquiries are not connected yet. Your message has not been sent. Please retain your details and try again later.",
-                  "在线询盘尚未接通，信息未发送。请保留需求并稍后重试。",
+                  "We could not confirm receipt. Your details have been kept. Please contact us below to check before submitting again.",
+                  "暂未确认收件结果，填写内容已保留。请先通过下方联系方式核实，避免重复提交。",
                 )
-              : tr(
-                  "We could not deliver your enquiry. Your details have been kept. Please try again or contact us directly below.",
-                  "询盘暂时无法送达，填写内容已保留。请稍后重试，或通过下方联系方式直接联系我们。",
-                ),
+              : data.error === "unconfigured"
+                ? tr(
+                    "Online enquiries are not connected yet. Your message has not been sent. Please retain your details and try again later.",
+                    "在线询盘尚未接通，信息未发送。请保留需求并稍后重试。",
+                  )
+                : tr(
+                    "We could not deliver your enquiry. Your details have been kept. Please try again or contact us directly below.",
+                    "询盘暂时无法送达，填写内容已保留。请稍后重试，或通过下方联系方式直接联系我们。",
+                  ),
         );
       }
       setStatus("success");

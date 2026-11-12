@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import validator from "validator";
 import xss from "xss";
 import { categories } from "@/content/site";
+import { inquiryResponseDiagnostic } from "@/lib/inquiry-response-diagnostic";
 import {
   legacyMessage,
   legacyAcknowledged,
@@ -113,8 +114,16 @@ export async function POST(request: NextRequest) {
     if (!response.ok)
       return NextResponse.json({ error: "delivery_failed" }, { status: 502 });
     const result = await response.text();
-    if (!legacyAcknowledged(result, response.status))
+    if (!legacyAcknowledged(result, response.status)) {
+      console.warn(
+        "[inquiries] unconfirmed",
+        JSON.stringify({
+          upstreamStatus: response.status,
+          response: inquiryResponseDiagnostic(result),
+        }),
+      );
       return NextResponse.json({ error: "unconfirmed" }, { status: 502 });
+    }
     return NextResponse.json(
       { success: true, delivery: "submitted" },
       { status: 201 },
