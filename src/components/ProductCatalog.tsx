@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
 import { Locale, ProductCategory, t } from "@/content/site";
-import { catalogueCategories, categoryPath, productSeries, scenesFor, seriesFor } from "@/content/catalogue";
+import { catalogueCategories, categoryImageFor, categoryPath, productSeries, scenesFor, seriesFor } from "@/content/catalogue";
 import { localizeSpec } from "@/content/specification";
 import styles from "./ProductCatalog.module.css";
 
@@ -21,6 +21,7 @@ export function CategoryGrid({
       {items.map((category, index) => {
         const [range, ...specs] = localizeSpec(locale, category.spec).split(" · ");
         const count = seriesFor(category).length;
+        const original = categoryImageFor(category);
         return (
           <article className={styles.card} id={"detail-" + category.id} key={category.id}>
             <Link href={categoryPath(locale, category)} className={styles.cardLink}
@@ -30,9 +31,9 @@ export function CategoryGrid({
                   <span>{String(index + 1).padStart(2, "0")} / {category.id.toUpperCase()}</span>
                   <span className={styles.rangeBadge}>{range}</span>
                 </div>
-                <Image src={"/images/catalogue/" + category.id + ".webp"}
+                <Image src={original?.src || "/images/catalogue/" + category.id + ".webp"}
                   alt={locale === "en" ? category.en : category.zh}
-                  width={800} height={600}
+                  width={original?.width || 800} height={original?.height || 600} unoptimized={!!original}
                   sizes={compact ? "(max-width: 600px) 100vw, (max-width: 950px) 50vw, 25vw" : "(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"} />
               </div>
               <div className={styles.cardBody}>
@@ -85,7 +86,7 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
   const name = locale === "en" ? category.en : category.zh;
   const series = seriesFor(category);
   const scenes = scenesFor(category);
-  const heroScene = scenes[0];
+  const heroScene = series[0].originalImage ? undefined : scenes[0];
   return (
     <>
       <section className={"wrap " + styles.hero}>
@@ -112,7 +113,8 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
           <div className={styles.heroVisual + (heroScene ? " " + styles.sceneHero : "")}>
             <Image src={heroScene?.image || series[0].image}
               alt={heroScene ? tr(heroScene.titleEn, heroScene.titleZh) : name}
-              width={800} height={600} priority sizes="(max-width: 900px) 100vw, 40vw" />
+              width={heroScene ? 800 : series[0].imageWidth} height={heroScene ? 600 : series[0].imageHeight}
+              unoptimized={!heroScene && series[0].originalImage} priority sizes="(max-width: 900px) 100vw, 40vw" />
             <span>{heroScene ? tr("APPLICATION REFERENCE", "场景参考") + " / " : ""}{locale === "en" ? category.useEn : category.useZh}</span>
           </div>
         </div>
@@ -159,7 +161,8 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
                   <a href={item.image} target="_blank" rel="noopener noreferrer"
                     aria-label={tr("Enlarge image: " + item.titleEn, "查看大图：" + item.titleZh)}>
                     <Image src={item.image} alt={tr(item.titleEn, item.titleZh)}
-                      width={800} height={600} sizes="(max-width: 600px) 100vw, (max-width: 900px) 45vw, 30vw" />
+                      width={item.imageWidth} height={item.imageHeight} unoptimized={item.originalImage}
+                      sizes="(max-width: 600px) 100vw, (max-width: 900px) 45vw, 30vw" />
                     <span className={styles.enlarge}><ArrowUpRight size={15} />{tr("View image", "查看大图")}</span>
                   </a>
                 </div>
@@ -175,7 +178,8 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
                     <summary>{tr("More product views", "更多产品图片")} <span>{item.gallery.length}</span></summary>
                     <div>{item.gallery.map((view) => <figure key={view.src}>
                       <a href={view.src} target="_blank" rel="noopener noreferrer" aria-label={tr("Enlarge: " + view.altEn, "查看大图：" + view.altZh)}>
-                        <Image src={view.src} alt={tr(view.altEn, view.altZh)} width={800} height={600} sizes="(max-width: 600px) 45vw, 20vw" />
+                        <Image src={view.src} alt={tr(view.altEn, view.altZh)} width={view.width} height={view.height}
+                          unoptimized={view.originalImage} sizes="(max-width: 600px) 45vw, 20vw" />
                       </a>
                       <figcaption>{tr(view.altEn, view.altZh)}</figcaption>
                     </figure>)}</div>

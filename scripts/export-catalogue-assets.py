@@ -12,6 +12,7 @@ from pathlib import Path
 
 from PIL import Image, ImageChops, ImageOps, ImageDraw
 from pypdf import PdfReader
+from catalogue_originals import apply_originals
 
 logging.getLogger("pypdf").setLevel(logging.ERROR)
 parser = argparse.ArgumentParser()
@@ -19,6 +20,7 @@ parser.add_argument("--source", required=True, type=Path)
 parser.add_argument("--cache", type=Path, default=Path(tempfile.gettempdir()) / "scylla-full-catalogue")
 parser.add_argument("--category")
 parser.add_argument("--review", action="store_true")
+parser.add_argument("--originals-cache", type=Path, default=Path("/tmp/scylla-official-originals"))
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 manifest = json.loads((root / "assets/catalogue-products.json").read_text())
@@ -93,6 +95,7 @@ for category in manifest["categories"]:
             "spec": item["spec"], "variantsEn": item.get("variants", [[], []])[0],
             "variantsZh": item.get("variants", [[], []])[1],
             "image": "/images/catalogue/" + image_path,
+            "imageWidth": 800, "imageHeight": 600, "originalImage": False,
             "applicationImage": item.get("applicationImage", False), "gallery": views,
         })
     for item in category.get("scenes", []):
@@ -122,7 +125,7 @@ for category in manifest["categories"]:
                     draw.text((x + 5, y + 5), Path(name).stem, fill="black")
                 sheet.save(args.cache / f"review-{category['id']}-{start // 12 + 1}.jpg")
 
-public_data = {"products": products, "scenes": scenes}
+public_data = apply_originals(root, {"products": products, "scenes": scenes}, args.originals_cache)
 serialized = json.dumps(public_data, ensure_ascii=False, indent=2) + "\n"
 assert not any(word in serialized.lower() for word in ["shilin", "世林", "http://", "https://"])
 (root / "src/content/catalogue-products.json").write_text(serialized)

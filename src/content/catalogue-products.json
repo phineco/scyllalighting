@@ -16,20 +16,69 @@
         "黑色或白色外壳",
         "支架适配墙面、天花或地面安装"
       ],
-      "image": "/images/catalogue/series/flood-selected.webp",
+      "image": "/images/products/originals/flood-selected.png",
       "applicationImage": false,
       "gallery": [
         {
-          "src": "/images/catalogue/series/flood-selected-view-1.webp",
-          "altEn": "Floodlight rear view and bracket",
-          "altZh": "投光灯背面与支架"
+          "src": "/images/products/originals/flood-selected-view-1.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Black housing, front view",
+          "altZh": "黑色灯体正面",
+          "originalImage": true
         },
         {
-          "src": "/images/catalogue/series/flood-selected-view-2.webp",
-          "altEn": "White floodlight housing",
-          "altZh": "白色投光灯外壳"
+          "src": "/images/products/originals/flood-selected-view-2.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Black housing, rear view",
+          "altZh": "黑色灯体背面",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/flood-selected-view-3.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Black housing, side view",
+          "altZh": "黑色灯体侧面",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/flood-selected-view-4.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "White housing, angled view",
+          "altZh": "白色灯体斜视图",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/flood-selected-view-5.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "White housing, front view",
+          "altZh": "白色灯体正面",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/flood-selected-view-6.png",
+          "width": 1000,
+          "height": 800,
+          "altEn": "White housing, rear view",
+          "altZh": "白色灯体背面",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/flood-selected-view-7.png",
+          "width": 4000,
+          "height": 3006,
+          "altEn": "100W family example",
+          "altZh": "100W 同系列示例",
+          "originalImage": true
         }
-      ]
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "flood-sensor",
@@ -53,9 +102,15 @@
         {
           "src": "/images/catalogue/series/flood-sensor-view-1.webp",
           "altEn": "PIR sensor adjustment controls",
-          "altZh": "PIR 感应器调节结构"
+          "altZh": "PIR 感应器调节结构",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "flood-high-output",
@@ -79,14 +134,23 @@
         {
           "src": "/images/catalogue/series/flood-high-output-view-1.webp",
           "altEn": "Area floodlight side and bracket",
-          "altZh": "区域投光灯侧面与支架"
+          "altZh": "区域投光灯侧面与支架",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         },
         {
           "src": "/images/catalogue/series/flood-high-output-view-2.webp",
           "altEn": "Finned heat-dissipation housing",
-          "altZh": "背部散热鳍片结构"
+          "altZh": "背部散热鳍片结构",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-selected",
@@ -98,9 +162,21 @@
       "spec": "21 W · 595 × 595 × 50 mm",
       "variantsEn": [],
       "variantsZh": [],
-      "image": "/images/catalogue/series/panel-selected.webp",
+      "image": "/images/products/originals/panel-selected.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [
+        {
+          "src": "/images/products/originals/panel-selected-view-1.png",
+          "width": 2776,
+          "height": 1992,
+          "altEn": "Diffuser and frame detail",
+          "altZh": "扩散面罩与边框细节",
+          "originalImage": true
+        }
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "panel-anti-glare",
@@ -112,9 +188,12 @@
       "spec": "36 W · 595 × 595 × 34 mm",
       "variantsEn": [],
       "variantsZh": [],
-      "image": "/images/catalogue/series/panel-anti-glare.webp",
+      "image": "/images/products/originals/panel-anti-glare.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "panel-sealed",
@@ -138,9 +217,15 @@
         {
           "src": "/images/catalogue/series/panel-sealed-view-1.webp",
           "altEn": "Rear driver and cable arrangement",
-          "altZh": "背部驱动与接线结构"
+          "altZh": "背部驱动与接线结构",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-wave",
@@ -154,7 +239,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-wave.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-crystal",
@@ -174,7 +262,10 @@
       ],
       "image": "/images/catalogue/series/panel-crystal.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-dali",
@@ -186,9 +277,12 @@
       "spec": "36 W · 595 × 595 / 295 × 1195 mm",
       "variantsEn": [],
       "variantsZh": [],
-      "image": "/images/catalogue/series/panel-dali.webp",
+      "image": "/images/products/originals/panel-dali.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "panel-sensing",
@@ -200,9 +294,12 @@
       "spec": "30 W · 595 × 595 × 25 mm · BLE / PIR / Daylight",
       "variantsEn": [],
       "variantsZh": [],
-      "image": "/images/catalogue/series/panel-sensing.webp",
+      "image": "/images/products/originals/panel-sensing.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "panel-selectable",
@@ -220,23 +317,29 @@
         "595 × 595 × 34 mm",
         "功率和色温选择"
       ],
-      "image": "/images/catalogue/series/panel-selectable.webp",
+      "image": "/images/products/originals/panel-selectable.jpg",
       "applicationImage": false,
       "gallery": [
         {
-          "src": "/images/catalogue/series/panel-selectable-view-1.webp",
-          "altEn": "Panel rear selection controls",
-          "altZh": "面板灯背部选择开关"
+          "src": "/images/products/originals/panel-selectable-view-1.jpg",
+          "width": 1000,
+          "height": 1000,
+          "altEn": "Textured diffuser option",
+          "altZh": "纹理面罩选项",
+          "originalImage": true
         }
-      ]
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "panel-standard",
       "categoryId": "panel",
       "titleEn": "Recessed panel range",
       "titleZh": "嵌入式面板灯系列",
-      "descEn": "A broad set of square and rectangular panels with black or white frame options.",
-      "descZh": "提供多种方形和长方形尺寸，可按型号选择黑白边框。",
+      "descEn": "A broad set of square and rectangular panels with black or white frame options. Image is a product-family reference.",
+      "descZh": "提供多种方形和长方形尺寸，可按型号选择黑白边框。 图片为同系列示意。",
       "spec": "13 / 20 / 36 / 40 / 62 W · 1CCT / 3CCT",
       "variantsEn": [
         "295×295 / 295×595 / 595×595 mm",
@@ -246,9 +349,12 @@
         "295×295 / 295×595 / 595×595 mm",
         "620×620 / 295×1195 / 595×1195 mm"
       ],
-      "image": "/images/catalogue/series/panel-standard.webp",
+      "image": "/images/products/originals/panel-standard.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "panel-surface",
@@ -268,7 +374,10 @@
       ],
       "image": "/images/catalogue/series/panel-surface.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-square-surface",
@@ -286,9 +395,15 @@
         {
           "src": "/images/catalogue/series/panel-square-surface-view-1.webp",
           "altEn": "Slim surface-panel frame detail",
-          "altZh": "超薄明装面板边框细节"
+          "altZh": "超薄明装面板边框细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-frame-screws",
@@ -302,7 +417,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-frame-screws.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-frame-screwfree",
@@ -316,7 +434,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-frame-screwfree.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-suspension",
@@ -330,7 +451,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-suspension.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-safety-cable",
@@ -344,7 +468,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-safety-cable.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "panel-clips",
@@ -358,7 +485,10 @@
       "variantsZh": [],
       "image": "/images/catalogue/series/panel-clips.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "ceiling-basic",
@@ -376,15 +506,69 @@
         "260 / 330 / 380 mm 尺寸",
         "多种装饰面罩"
       ],
-      "image": "/images/catalogue/series/ceiling-basic.webp",
+      "image": "/images/products/originals/ceiling-basic.jpg",
       "applicationImage": false,
       "gallery": [
         {
-          "src": "/images/catalogue/series/ceiling-basic-view-1.webp",
-          "altEn": "Full selection of ceiling-light diffuser covers",
-          "altZh": "吸顶灯面罩外观选项"
+          "src": "/images/products/originals/ceiling-basic-view-1.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Silver-ring cover",
+          "altZh": "银环灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-2.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Metallic cover",
+          "altZh": "金属边灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-3.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Crystal-pattern cover",
+          "altZh": "晶纹灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-4.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Wave cover",
+          "altZh": "波纹灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-5.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Star-pattern cover",
+          "altZh": "星点灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-6.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Slim-trim cover",
+          "altZh": "窄边灯罩",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/ceiling-basic-view-7.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "High-side cover",
+          "altZh": "高边灯罩",
+          "originalImage": true
         }
-      ]
+      ],
+      "imageWidth": 1200,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "ceiling-selected",
@@ -402,25 +586,12 @@
         "230 / 300 / 400 / 500 mm 直径",
         "白色 / 黑色 / 红木纹 / 原木纹边框"
       ],
-      "image": "/images/catalogue/series/ceiling-selected.webp",
+      "image": "/images/products/originals/ceiling-selected.jpg",
       "applicationImage": false,
-      "gallery": [
-        {
-          "src": "/images/catalogue/series/ceiling-selected-view-1.webp",
-          "altEn": "White ceiling-light frame",
-          "altZh": "白色吸顶灯边框"
-        },
-        {
-          "src": "/images/catalogue/series/ceiling-selected-view-2.webp",
-          "altEn": "Mahogany-look ceiling-light frame",
-          "altZh": "红木纹吸顶灯边框"
-        },
-        {
-          "src": "/images/catalogue/series/ceiling-selected-view-3.webp",
-          "altEn": "Natural-wood-look ceiling-light frame",
-          "altZh": "原木纹吸顶灯边框"
-        }
-      ]
+      "gallery": [],
+      "imageWidth": 1200,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "ceiling-wall-switch",
@@ -440,7 +611,10 @@
       ],
       "image": "/images/catalogue/series/ceiling-wall-switch.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "ceiling-dip",
@@ -464,9 +638,15 @@
         {
           "src": "/images/catalogue/series/ceiling-dip-view-1.webp",
           "altEn": "Power and CCT selection switches",
-          "altZh": "功率与色温拨码开关"
+          "altZh": "功率与色温拨码开关",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "ceiling-ir",
@@ -490,9 +670,15 @@
         {
           "src": "/images/catalogue/series/ceiling-ir-view-1.webp",
           "altEn": "Ceiling-light IR remote control",
-          "altZh": "吸顶灯红外遥控器"
+          "altZh": "吸顶灯红外遥控器",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "ceiling-pir",
@@ -510,9 +696,15 @@
         {
           "src": "/images/catalogue/series/ceiling-pir-view-1.webp",
           "altEn": "External PIR detector detail",
-          "altZh": "外置 PIR 感应头细节"
+          "altZh": "外置 PIR 感应头细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "ceiling-radar",
@@ -530,9 +722,15 @@
         {
           "src": "/images/catalogue/series/ceiling-radar-view-1.webp",
           "altEn": "Concealed microwave sensor inside the ceiling light",
-          "altZh": "吸顶灯内部微波感应结构"
+          "altZh": "吸顶灯内部微波感应结构",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-selected",
@@ -556,9 +754,15 @@
         {
           "src": "/images/catalogue/series/downlight-selected-view-1.webp",
           "altEn": "Recessed downlight optical and spring-clip details",
-          "altZh": "嵌入式筒灯光学面罩与弹簧夹细节"
+          "altZh": "嵌入式筒灯光学面罩与弹簧夹细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-plastic-round",
@@ -576,9 +780,15 @@
         {
           "src": "/images/catalogue/series/downlight-plastic-round-view-1.webp",
           "altEn": "Plastic round downlight rear",
-          "altZh": "塑料圆形筒灯背面"
+          "altZh": "塑料圆形筒灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-plastic-square",
@@ -596,9 +806,15 @@
         {
           "src": "/images/catalogue/series/downlight-plastic-square-view-1.webp",
           "altEn": "Plastic square downlight rear",
-          "altZh": "塑料方形筒灯背面"
+          "altZh": "塑料方形筒灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-surface-round",
@@ -622,9 +838,15 @@
         {
           "src": "/images/catalogue/series/downlight-surface-round-view-1.webp",
           "altEn": "Surface-mounted round downlight rear",
-          "altZh": "圆形明装筒灯背面"
+          "altZh": "圆形明装筒灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-surface-square",
@@ -648,9 +870,15 @@
         {
           "src": "/images/catalogue/series/downlight-surface-square-view-1.webp",
           "altEn": "Surface-mounted square downlight rear",
-          "altZh": "方形明装筒灯背面"
+          "altZh": "方形明装筒灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-steel",
@@ -674,9 +902,15 @@
         {
           "src": "/images/catalogue/series/downlight-steel-view-1.webp",
           "altEn": "External-driver steel downlight arrangement",
-          "altZh": "外置驱动钢结构筒灯方案"
+          "altZh": "外置驱动钢结构筒灯方案",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "downlight-aluminium-driver",
@@ -700,9 +934,15 @@
         {
           "src": "/images/catalogue/series/downlight-aluminium-driver-view-1.webp",
           "altEn": "Aluminium downlight rear and external driver",
-          "altZh": "铝制筒灯背面与外置驱动"
+          "altZh": "铝制筒灯背面与外置驱动",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-selected",
@@ -722,7 +962,10 @@
       ],
       "image": "/images/catalogue/series/batten-selected.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-slim-twin",
@@ -742,7 +985,10 @@
       ],
       "image": "/images/catalogue/series/batten-slim-twin.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-standard-single",
@@ -762,7 +1008,10 @@
       ],
       "image": "/images/catalogue/series/batten-standard-single.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-standard-twin",
@@ -782,7 +1031,10 @@
       ],
       "image": "/images/catalogue/series/batten-standard-twin.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-open-single",
@@ -800,7 +1052,10 @@
       ],
       "image": "/images/catalogue/series/batten-open-single.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-open-twin",
@@ -818,7 +1073,10 @@
       ],
       "image": "/images/catalogue/series/batten-open-twin.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "batten-clear-single",
@@ -836,7 +1094,10 @@
       ],
       "image": "/images/catalogue/series/batten-clear-single.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "tube-selected",
@@ -854,17 +1115,20 @@
         "G13 灯头 · 220–240V",
         "12W / 1200 mm；15W / 1500 mm"
       ],
-      "image": "/images/catalogue/series/tube-selected.webp",
+      "image": "/images/products/originals/tube-selected.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-nano",
       "categoryId": "tube",
       "titleEn": "Nano / PC T8 tube",
       "titleZh": "纳米 / PC T8 灯管",
-      "descEn": "Alternative diffuser materials in three common tube lengths.",
-      "descZh": "提供不同扩散罩材质和三种常用长度。",
+      "descEn": "Alternative diffuser materials in three common tube lengths. Image is a product-family reference.",
+      "descZh": "提供不同扩散罩材质和三种常用长度。 图片为同系列示意。",
       "spec": "9 / 18 / 22W · G13",
       "variantsEn": [
         "600 / 1200 / 1500 mm",
@@ -874,9 +1138,12 @@
         "600 / 1200 / 1500 mm",
         "纳米或 PC 扩散罩；220–240V"
       ],
-      "image": "/images/catalogue/series/tube-nano.webp",
+      "image": "/images/products/originals/tube-nano.png",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "tube-selectable",
@@ -894,9 +1161,12 @@
         "3000 / 4000 / 6500K",
         "600 / 1200 / 1500 mm · G13"
       ],
-      "image": "/images/catalogue/series/tube-selectable.webp",
+      "image": "/images/products/originals/tube-selectable.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-microwave",
@@ -914,17 +1184,20 @@
         "600 / 1200 / 1500 mm",
         "无人移动时降至 10% 待机亮度"
       ],
-      "image": "/images/catalogue/series/tube-microwave.webp",
+      "image": "/images/products/originals/tube-microwave.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-bluetooth",
       "categoryId": "tube",
       "titleEn": "Bluetooth sensing T8 tube",
       "titleZh": "蓝牙感应 T8 灯管",
-      "descEn": "Glass T8 tubes combining a microwave sensor with Bluetooth control options.",
-      "descZh": "玻璃 T8 灯管结合微波感应与蓝牙控制选项。",
+      "descEn": "Glass T8 tubes combining a microwave sensor with Bluetooth control options. Image is a product-family reference.",
+      "descZh": "玻璃 T8 灯管结合微波感应与蓝牙控制选项。 图片为同系列示意。",
       "spec": "6 / 12W · 600 / 1200 mm",
       "variantsEn": [
         "6W / 600 mm; 12W / 1200 mm",
@@ -934,9 +1207,12 @@
         "6W / 600 mm；12W / 1200 mm",
         "提供单端或双端输入方案，下单前确认接线"
       ],
-      "image": "/images/catalogue/series/tube-bluetooth.webp",
+      "image": "/images/products/originals/tube-bluetooth.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-dali",
@@ -954,9 +1230,12 @@
         "600 / 1200 / 1500 mm",
         "询价时确认驱动、调光及色温控制配置"
       ],
-      "image": "/images/catalogue/series/tube-dali.webp",
+      "image": "/images/products/originals/tube-dali.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-waterproof",
@@ -976,7 +1255,10 @@
       ],
       "image": "/images/catalogue/series/tube-waterproof.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "tube-colour",
@@ -994,9 +1276,12 @@
         "红 / 黄 / 绿 / 蓝 / 紫",
         "G13 灯头 · 220–240V"
       ],
-      "image": "/images/catalogue/series/tube-colour.webp",
+      "image": "/images/products/originals/tube-colour.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "tube-regional",
@@ -1004,7 +1289,7 @@
       "titleEn": "Regional electrical T8 ranges",
       "titleZh": "区域电气规格 T8 系列",
       "descEn": "Tube options with different input voltages, lengths and wiring arrangements; image is a family reference.",
-      "descZh": "提供不同输入电压、长度和接线方式；图片为同系列灯管示意。",
+      "descZh": "提供不同输入电压、长度和接线方式；图片为同系列灯管示意。 图片为同系列示意。",
       "spec": "8–24W · G13",
       "variantsEn": [
         "Brazil: 9 / 18W, 600 / 1200 mm, 100–240V",
@@ -1024,9 +1309,12 @@
         "中国台湾：10 / 15 / 20W，580 / 900 / 1200 mm，100–264V",
         "具体订购型号的目标市场合规文件需另行确认"
       ],
-      "image": "/images/catalogue/series/tube-regional.webp",
+      "image": "/images/products/originals/tube-regional.png",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "strip-high-voltage",
@@ -1046,7 +1334,10 @@
       ],
       "image": "/images/catalogue/series/strip-high-voltage.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-driver-free",
@@ -1066,7 +1357,10 @@
       ],
       "image": "/images/catalogue/series/strip-driver-free.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-bare",
@@ -1086,7 +1380,10 @@
       ],
       "image": "/images/catalogue/series/strip-bare.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-drip-glue",
@@ -1106,7 +1403,10 @@
       ],
       "image": "/images/catalogue/series/strip-drip-glue.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-silicone-sleeve",
@@ -1126,7 +1426,10 @@
       ],
       "image": "/images/catalogue/series/strip-silicone-sleeve.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-pvc-coated",
@@ -1146,7 +1449,10 @@
       ],
       "image": "/images/catalogue/series/strip-pvc-coated.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-silicone-extrusion",
@@ -1166,7 +1472,10 @@
       ],
       "image": "/images/catalogue/series/strip-silicone-extrusion.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-neon",
@@ -1186,7 +1495,10 @@
       ],
       "image": "/images/catalogue/series/strip-neon.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-profile",
@@ -1206,7 +1518,10 @@
       ],
       "image": "/images/catalogue/series/strip-profile.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-battery",
@@ -1226,7 +1541,10 @@
       ],
       "image": "/images/catalogue/series/strip-battery.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-rechargeable",
@@ -1246,7 +1564,10 @@
       ],
       "image": "/images/catalogue/series/strip-rechargeable.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "strip-selected",
@@ -1270,9 +1591,15 @@
         {
           "src": "/images/catalogue/series/strip-selected-view-1.webp",
           "altEn": "Strip cutting detail",
-          "altZh": "灯带裁切细节"
+          "altZh": "灯带裁切细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "bulb-selected",
@@ -1296,9 +1623,12 @@
         "E27 / B22；部分小型灯泡可选 E14 / B15D",
         "不可调光；3000 / 4000 / 6500K"
       ],
-      "image": "/images/catalogue/series/bulb-selected.webp",
+      "image": "/images/products/originals/bulb-selected.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "bulb-spot",
@@ -1322,15 +1652,18 @@
       ],
       "image": "/images/catalogue/series/bulb-spot.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "bulb-dimmable",
       "categoryId": "bulb",
       "titleEn": "Dimmable LED bulbs and spots",
       "titleZh": "可调光球泡与射灯泡",
-      "descEn": "Dimmable A60, globe and GU10 formats.",
-      "descZh": "提供可调光 A60、球形和 GU10 规格。",
+      "descEn": "Dimmable A60, globe and GU10 formats. Image is a product-family reference.",
+      "descZh": "提供可调光 A60、球形和 GU10 规格。 图片为同系列示意。",
       "spec": "5–15W · Dimmable",
       "variantsEn": [
         "A60: 10 / 12W; G120: 15W",
@@ -1344,9 +1677,12 @@
         "按灯形提供 E27 / B22 / GU10；3000 / 4000 / 6500K",
         "需确认调光器型号与支持负载"
       ],
-      "image": "/images/catalogue/series/bulb-dimmable.webp",
+      "image": "/images/products/originals/bulb-dimmable.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "bulb-reflector",
@@ -1364,9 +1700,12 @@
         "R50：6W / E14；R63：8W / E27；R80：9W / E27",
         "不可调光 · 3000 / 4000 / 6500K"
       ],
-      "image": "/images/catalogue/series/bulb-reflector.webp",
+      "image": "/images/products/originals/bulb-reflector.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "bulb-glass-gu10",
@@ -1388,9 +1727,12 @@
         "3000 / 4000 / 6500K",
         "下单前确认灯头和调光兼容性"
       ],
-      "image": "/images/catalogue/series/bulb-glass-gu10.webp",
+      "image": "/images/products/originals/bulb-glass-gu10.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "bulb-glass-mr16",
@@ -1414,7 +1756,10 @@
       ],
       "image": "/images/catalogue/series/bulb-glass-mr16.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "bulb-t",
@@ -1434,15 +1779,12 @@
         "100–240V：T70 / T80 / T100 / T120",
         "3000 / 4000 / 6500K"
       ],
-      "image": "/images/catalogue/series/bulb-t.webp",
+      "image": "/images/products/originals/bulb-t.png",
       "applicationImage": false,
-      "gallery": [
-        {
-          "src": "/images/catalogue/series/bulb-t-view-1.webp",
-          "altEn": "Wide-input T-shape bulb",
-          "altZh": "宽电压 T 型灯泡"
-        }
-      ]
+      "gallery": [],
+      "imageWidth": 1200,
+      "imageHeight": 1200,
+      "originalImage": true
     },
     {
       "id": "bulb-stick",
@@ -1460,17 +1802,20 @@
         "T28 / T32 / T36 / T45 / T50 规格",
         "E27 / B22 · 220–240V · 3000 / 4000 / 6500K"
       ],
-      "image": "/images/catalogue/series/bulb-stick.webp",
+      "image": "/images/products/originals/bulb-stick.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1200,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "bulb-wall-switch",
       "categoryId": "bulb",
       "titleEn": "Wall-switch three-colour A60",
       "titleZh": "墙壁开关三色温 A60",
-      "descEn": "Change between three white tones using the wall switch. Image is an A60 family reference.",
-      "descZh": "通过墙壁开关在三种白光色温之间切换。 图片为 A60 同系列示意。",
+      "descEn": "Change between three white tones using the wall switch.",
+      "descZh": "通过墙壁开关在三种白光色温之间切换。",
       "spec": "9 / 12W · E27 · 3CCT",
       "variantsEn": [
         "3000 / 4000 / 6500K",
@@ -1480,9 +1825,12 @@
         "3000 / 4000 / 6500K",
         "色温模式记忆"
       ],
-      "image": "/images/catalogue/series/bulb-wall-switch.webp",
+      "image": "/images/products/originals/bulb-wall-switch.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-five-cct",
@@ -1500,23 +1848,20 @@
         "A60 / A70 规格",
         "2700 / 3000 / 4000 / 5000 / 6500K"
       ],
-      "image": "/images/catalogue/series/bulb-five-cct.webp",
+      "image": "/images/products/originals/bulb-five-cct.jpg",
       "applicationImage": false,
-      "gallery": [
-        {
-          "src": "/images/catalogue/series/bulb-five-cct-view-1.webp",
-          "altEn": "Five-position colour selector",
-          "altZh": "五档色温选择开关"
-        }
-      ]
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-24v",
       "categoryId": "bulb",
       "titleEn": "24V DC A60 bulb",
       "titleZh": "24V 直流 A60 灯泡",
-      "descEn": "A low-voltage lamp for a specified 24V DC lighting supply. Image is an A60 family reference.",
-      "descZh": "适用于指定 24V 直流照明电源的低压灯泡。 图片为 A60 同系列示意。",
+      "descEn": "A low-voltage lamp for a specified 24V DC lighting supply.",
+      "descZh": "适用于指定 24V 直流照明电源的低压灯泡。",
       "spec": "9W · 24V DC · E27",
       "variantsEn": [
         "3000 / 4000 / 6500K",
@@ -1526,17 +1871,20 @@
         "3000 / 4000 / 6500K",
         "下单前确认灯头和调光兼容性"
       ],
-      "image": "/images/catalogue/series/bulb-24v.webp",
+      "image": "/images/products/originals/bulb-24v.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-remote",
       "categoryId": "bulb",
       "titleEn": "Remote-control A60 bulb",
       "titleZh": "遥控 A60 灯泡",
-      "descEn": "Adjust brightness and white tone with a matching remote. Image is an A60 family reference.",
-      "descZh": "搭配适配遥控器调节亮度和白光色温。 图片为 A60 同系列示意。",
+      "descEn": "Adjust brightness and white tone with a matching remote.",
+      "descZh": "搭配适配遥控器调节亮度和白光色温。",
       "spec": "9 / 12W · E27 · 2700–6500K",
       "variantsEn": [
         "220–240V",
@@ -1546,15 +1894,21 @@
         "220–240V",
         "询价时确认遥控器和无线控制配置"
       ],
-      "image": "/images/catalogue/series/bulb-remote.webp",
+      "image": "/images/products/originals/bulb-remote.jpg",
       "applicationImage": false,
       "gallery": [
         {
-          "src": "/images/catalogue/series/bulb-remote-view-1.webp",
-          "altEn": "Matching handheld remote",
-          "altZh": "配套手持遥控器"
+          "src": "/images/products/originals/bulb-remote-view-1.jpg",
+          "width": 1000,
+          "height": 1000,
+          "altEn": "Remote-control configuration reference",
+          "altZh": "遥控配置参考图",
+          "originalImage": true
         }
-      ]
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-pir",
@@ -1572,17 +1926,20 @@
         "3000 / 4000 / 6500K",
         "白天抑制点亮；移动停止后约 30 秒关灯"
       ],
-      "image": "/images/catalogue/series/bulb-pir.webp",
+      "image": "/images/products/originals/bulb-pir.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-microwave",
       "categoryId": "bulb",
       "titleEn": "Microwave-sensing A60 bulb",
       "titleZh": "微波感应 A60",
-      "descEn": "A concealed sensor responds to movement in dark conditions. Image is an A60 family reference.",
-      "descZh": "内置感应器响应暗环境中的移动。 图片为 A60 同系列示意。",
+      "descEn": "A concealed sensor responds to movement in dark conditions.",
+      "descZh": "内置感应器响应暗环境中的移动。",
       "spec": "9W · E27 · Microwave",
       "variantsEn": [
         "3000 / 4000 / 6500K",
@@ -1592,9 +1949,21 @@
         "3000 / 4000 / 6500K",
         "白天抑制点亮；移动停止后约 30 秒关灯"
       ],
-      "image": "/images/catalogue/series/bulb-microwave.webp",
+      "image": "/images/products/originals/bulb-microwave.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [
+        {
+          "src": "/images/products/originals/bulb-microwave-view-1.jpg",
+          "width": 1000,
+          "height": 1000,
+          "altEn": "Concealed sensing configuration",
+          "altZh": "内置感应配置示意",
+          "originalImage": true
+        }
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-daylight",
@@ -1612,9 +1981,12 @@
         "3000 / 4000 / 6500K",
         "220–240V"
       ],
-      "image": "/images/catalogue/series/bulb-daylight.webp",
+      "image": "/images/products/originals/bulb-daylight.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "originalImage": true
     },
     {
       "id": "bulb-efficient-gu10",
@@ -1634,7 +2006,10 @@
       ],
       "image": "/images/catalogue/series/bulb-efficient-gu10.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "filament-selected",
@@ -1656,9 +2031,53 @@
         "G80：6W；G95 / G125：6 / 8W",
         "按型号提供透明或琥珀玻璃"
       ],
-      "image": "/images/catalogue/series/filament-selected.webp",
+      "image": "/images/products/originals/filament-selected.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [
+        {
+          "src": "/images/products/originals/filament-selected-view-1.jpg",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Amber A60",
+          "altZh": "琥珀 A60",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-selected-view-2.jpg",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Candle filament bulb",
+          "altZh": "蜡烛形灯丝泡",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-selected-view-3.jpg",
+          "width": 1000,
+          "height": 800,
+          "altEn": "G45 filament bulb",
+          "altZh": "G45 灯丝泡",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-selected-view-4.jpg",
+          "width": 1000,
+          "height": 800,
+          "altEn": "Amber ST64",
+          "altZh": "琥珀 ST64",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-selected-view-5.jpg",
+          "width": 1000,
+          "height": 800,
+          "altEn": "G95 filament bulb",
+          "altZh": "G95 灯丝泡",
+          "originalImage": true
+        }
+      ],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "filament-spiral",
@@ -1682,9 +2101,15 @@
         {
           "src": "/images/catalogue/series/filament-spiral-view-1.webp",
           "altEn": "Illuminated spiral filament detail",
-          "altZh": "螺旋灯丝点亮细节"
+          "altZh": "螺旋灯丝点亮细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "filament-colour",
@@ -1702,15 +2127,37 @@
         "A60 4.5W：绿 / 蓝 / 橙 / 红；E27 / B22",
         "5W E27：G125 琥珀，A165 粉 / 烟灰，D170 蓝，D140 棕 / 黑"
       ],
-      "image": "/images/catalogue/series/filament-colour.webp",
+      "image": "/images/products/originals/filament-colour.jpg",
       "applicationImage": false,
       "gallery": [
         {
-          "src": "/images/catalogue/series/filament-colour-view-1.webp",
-          "altEn": "Large decorative glass shapes",
-          "altZh": "大尺寸装饰玻璃外观"
+          "src": "/images/products/originals/filament-colour-view-1.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Orange glass",
+          "altZh": "橙色玻璃",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-colour-view-2.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Red glass",
+          "altZh": "红色玻璃",
+          "originalImage": true
+        },
+        {
+          "src": "/images/products/originals/filament-colour-view-3.jpg",
+          "width": 1200,
+          "height": 800,
+          "altEn": "Blue glass",
+          "altZh": "蓝色玻璃",
+          "originalImage": true
         }
-      ]
+      ],
+      "imageWidth": 1200,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "filament-efficient",
@@ -1718,7 +2165,7 @@
       "titleEn": "High-efficacy A60 filament bulb",
       "titleZh": "高光效 A60 灯丝泡",
       "descEn": "A lower-power A60 filament range; photograph is a glass-body family reference.",
-      "descZh": "较低功率 A60 灯丝泡系列；图片为同系列玻璃灯体示意。",
+      "descZh": "较低功率 A60 灯丝泡系列；图片为同系列玻璃灯体示意。 图片为同系列示意。",
       "spec": "2.3 / 4 / 5.2 / 7.3W · E27",
       "variantsEn": [
         "Clear or frosted glass",
@@ -1728,9 +2175,12 @@
         "透明或磨砂玻璃",
         "60 × 105 mm · 220–240V"
       ],
-      "image": "/images/catalogue/series/filament-efficient.webp",
+      "image": "/images/products/originals/filament-efficient.jpg",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 1000,
+      "imageHeight": 800,
+      "originalImage": true
     },
     {
       "id": "filament-half-chrome",
@@ -1752,7 +2202,10 @@
       ],
       "image": "/images/catalogue/series/filament-half-chrome.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "filament-daylight",
@@ -1772,7 +2225,10 @@
       ],
       "image": "/images/catalogue/series/filament-daylight.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-selected",
@@ -1798,9 +2254,15 @@
         {
           "src": "/images/catalogue/series/smart-selected-view-1.webp",
           "altEn": "Smart ceiling internal light engine",
-          "altZh": "智能吸顶灯内部光源组件"
+          "altZh": "智能吸顶灯内部光源组件",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-recessed",
@@ -1828,9 +2290,15 @@
         {
           "src": "/images/catalogue/series/smart-recessed-view-1.webp",
           "altEn": "Recessed smart downlight rear view",
-          "altZh": "智能嵌入式筒灯背面"
+          "altZh": "智能嵌入式筒灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-surface",
@@ -1852,7 +2320,10 @@
       ],
       "image": "/images/catalogue/series/smart-surface.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-bulb",
@@ -1874,7 +2345,10 @@
       ],
       "image": "/images/catalogue/series/smart-bulb.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-gu10",
@@ -1894,7 +2368,10 @@
       ],
       "image": "/images/catalogue/series/smart-gu10.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "smart-filament",
@@ -1916,7 +2393,10 @@
       ],
       "image": "/images/catalogue/series/smart-filament.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "tri-proof-selected",
@@ -1944,24 +2424,39 @@
         {
           "src": "/images/catalogue/series/tri-proof-selected-view-1.webp",
           "altEn": "End-cap and connection detail",
-          "altZh": "端盖与连接细节"
+          "altZh": "端盖与连接细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         },
         {
           "src": "/images/catalogue/series/tri-proof-selected-view-2.webp",
           "altEn": "Cable-entry fitting view",
-          "altZh": "进线接头视图"
+          "altZh": "进线接头视图",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         },
         {
           "src": "/images/catalogue/series/tri-proof-selected-view-3.webp",
           "altEn": "Sealed cable gland detail",
-          "altZh": "密封电缆接头细节"
+          "altZh": "密封电缆接头细节",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         },
         {
           "src": "/images/catalogue/series/tri-proof-selected-view-4.webp",
           "altEn": "Linear fitting rear view",
-          "altZh": "线性灯具背面"
+          "altZh": "线性灯具背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "highbay-selected",
@@ -1989,14 +2484,23 @@
         {
           "src": "/images/catalogue/series/highbay-selected-view-1.webp",
           "altEn": "High-bay rear heat-sink view",
-          "altZh": "工矿灯背部散热器"
+          "altZh": "工矿灯背部散热器",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         },
         {
           "src": "/images/catalogue/series/highbay-selected-view-2.webp",
           "altEn": "High-bay side profile and hanging eye",
-          "altZh": "工矿灯侧面与吊环"
+          "altZh": "工矿灯侧面与吊环",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "street-selected",
@@ -2026,9 +2530,15 @@
         {
           "src": "/images/catalogue/series/street-selected-view-1.webp",
           "altEn": "Compact street-light rear view",
-          "altZh": "紧凑型路灯背面"
+          "altZh": "紧凑型路灯背面",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "street-wide-input",
@@ -2058,9 +2568,15 @@
         {
           "src": "/images/catalogue/series/street-wide-input-view-1.webp",
           "altEn": "Wide-input street-light heat sink",
-          "altZh": "宽电压路灯散热器"
+          "altZh": "宽电压路灯散热器",
+          "width": 800,
+          "height": 600,
+          "originalImage": false
         }
-      ]
+      ],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "moisture-selected",
@@ -2082,7 +2598,10 @@
       ],
       "image": "/images/catalogue/series/moisture-selected.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "moisture-oval",
@@ -2106,7 +2625,10 @@
       ],
       "image": "/images/catalogue/series/moisture-oval.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "solar-selected",
@@ -2128,7 +2650,10 @@
       ],
       "image": "/images/catalogue/series/solar-selected.webp",
       "applicationImage": true,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     },
     {
       "id": "solar-street",
@@ -2150,7 +2675,10 @@
       ],
       "image": "/images/catalogue/series/solar-street.webp",
       "applicationImage": false,
-      "gallery": []
+      "gallery": [],
+      "imageWidth": 800,
+      "imageHeight": 600,
+      "originalImage": false
     }
   ],
   "scenes": [
@@ -2286,6 +2814,44 @@
       "image": "/images/catalogue/scenes/solar-street-reference.webp",
       "titleEn": "Solar road-lighting reference",
       "titleZh": "太阳能道路照明参考"
+    }
+  ],
+  "categoryImages": [
+    {
+      "categoryId": "flood",
+      "src": "/images/products/originals/flood-selected.png",
+      "width": 1000,
+      "height": 800
+    },
+    {
+      "categoryId": "panel",
+      "src": "/images/products/originals/panel-selected.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "categoryId": "ceiling",
+      "src": "/images/products/originals/ceiling-basic.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "categoryId": "bulb",
+      "src": "/images/products/originals/bulb-selected.jpg",
+      "width": 1000,
+      "height": 800
+    },
+    {
+      "categoryId": "tube",
+      "src": "/images/products/originals/tube-selected.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "categoryId": "filament",
+      "src": "/images/products/originals/filament-selected.jpg",
+      "width": 1000,
+      "height": 800
     }
   ]
 }

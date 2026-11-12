@@ -144,6 +144,10 @@ try {
           assert.ok(html.includes('id="' + item.id + '"'), "Missing series " + item.id);
           assert.ok(html.includes(item.image));
           assert.ok(html.includes("context=series-" + item.id));
+          if (item.originalImage) {
+            assert.ok(/\.(png|jpg)$/.test(item.image), "Retain the original format");
+            assert.ok(html.includes('src="' + item.image + '"'), "Serve the original directly without WebP conversion: " + item.id);
+          }
           for (const view of item.gallery) assert.ok(html.includes(view.src));
         }
         if (catalogue.scenes.some((s) => s.categoryId === categoryId))
@@ -200,10 +204,13 @@ try {
   for (const path of media) {
     const response = await fetch(base + path);
     assert.equal(response.status, 200, path);
-    assert.match(response.headers.get("content-type"), /image\/webp/);
+    const expectedType = path.endsWith(".png") ? "image/png" : path.endsWith(".jpg") ? "image/jpeg" : "image/webp";
+    assert.ok(response.headers.get("content-type").startsWith(expectedType), path);
     const image = Buffer.from(await response.arrayBuffer());
-    assert.equal(image.toString("ascii", 8, 12), "WEBP", path);
-    for (const metadata of ["EXIF", "XMP ", "ICCP"]) assert.ok(!image.includes(Buffer.from(metadata)), path + ": " + metadata);
+    if (expectedType === "image/webp") assert.equal(image.toString("ascii", 8, 12), "WEBP", path);
+    if (expectedType === "image/png") assert.equal(image.toString("hex", 0, 8), "89504e470d0a1a0a", path);
+    if (expectedType === "image/jpeg") assert.equal(image.toString("hex", 0, 2), "ffd8", path);
+    for (const metadata of ["EXIF", "Exif", "XMP ", "ICCP", "ICC_PROFILE", "http://ns.adobe.com/xap/"]) assert.ok(!image.includes(Buffer.from(metadata)), path + ": " + metadata);
   }
   for (const locale of ["en", "zh-CN"]) for (const item of catalogue.products) {
     const response = await fetch(base + "/" + locale + "/contact?product=" + item.categoryId + "&context=series-" + item.id);

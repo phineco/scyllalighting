@@ -1,0 +1,793 @@
+{
+  "reviewed": "2026-11-12",
+  "policy": "Original PNG/JPEG pixels and encoding retained. Only privacy metadata removed. Public source URLs remain private. Records without matching source images retain catalogue references.",
+  "series": [
+    {
+      "id": "flood-selected",
+      "primary": {
+        "sourcePage": "/Products_details/113.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/76933f3e-1155-4e44-a8ed-a18f911c5465.png?vf=B7gH3s",
+        "file": "20678f6f778fd2dc0f6e.image",
+        "format": "PNG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "68ba34a1ee594763f1e79c97d8d73fcc3e9a91d3267f58f0a672042108c63bdc"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/544f4268-2feb-448e-a317-f862e2096b48.png?vf=B7gH3s",
+          "file": "9ed07861f04db213ed95.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "d4ff73f2d6d04beda2eec10ebb0c0d99875cd3de0e8116ab48e049504e8f02ea",
+          "alt": [
+            "Black housing, front view",
+            "黑色灯体正面"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2e24d8fa-246e-4b1a-8cb1-74ca4b0a5221.png?vf=B7gH3s",
+          "file": "176baffc08ca17e70df7.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "d57a8a10c2a8ed28c1a96ffc260abb0dff1a7934d481c8c242c0b7691e7eea5d",
+          "alt": [
+            "Black housing, rear view",
+            "黑色灯体背面"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/3b43fe7a-f164-489f-9716-90851e1200a3.png?vf=B7gH3s",
+          "file": "d203146f267a1fa1c92a.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "c481c42ffc3e88b17c432814d5344943f97b33e766e64307b96642d9dc1951d7",
+          "alt": [
+            "Black housing, side view",
+            "黑色灯体侧面"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/b1133d9c-9004-408d-b55d-e17a299b4b6f.png?vf=B7gH3s",
+          "file": "34c0fa31ca432654afcd.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "b7d8bfa0deea905ed2772010f7d0098b5d4c6d0a41004312f23662bb3bb7dfe2",
+          "alt": [
+            "White housing, angled view",
+            "白色灯体斜视图"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/e7319166-f496-49fd-8471-4f05f45e6bc8.png?vf=B7gH3s",
+          "file": "76718a79668ea5c2e7b9.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "be882abd21effcb8e20c5c2a805166bfc97f8136d5306d8bb35fe6a5228ce245",
+          "alt": [
+            "White housing, front view",
+            "白色灯体正面"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/113.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/57b627c0-e35b-412c-8f18-9964cd584364.png?vf=B7gH3s",
+          "file": "35196809e565a4449efc.image",
+          "format": "PNG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "5dda9571cd6df5774b80751c77a300aea41b898d2f5252cb3ad0ba5c4da87b7a",
+          "alt": [
+            "White housing, rear view",
+            "白色灯体背面"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/116.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/93a8f1ee-0707-4e88-b804-fbfaee3ca8e8.png?vf=B7gH3s",
+          "file": "41d7327d1dfbd7794581.image",
+          "format": "PNG",
+          "width": 4000,
+          "height": 3006,
+          "sha256": "4f7a911e45862cb2a9812f48e544b89063231d4721e2b8740ffd37ea03b2c912",
+          "alt": [
+            "100W family example",
+            "100W 同系列示例"
+          ]
+        }
+      ],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "panel-selected",
+      "primary": {
+        "sourcePage": "/Products_details/132.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2a812c1c-fb94-4621-b194-bfaf819b687e.jpg?vf=B7gH3s",
+        "file": "5faf2b05e6f3869cbcf3.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c40ed0b13b2ba987c619f1e41202b360ae6d073dcd004aba25130e9bca1ad27b"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/132.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/8a5b0456-7cda-4764-8ae4-2aacf7cb2ae9.png?vf=B7gH3s",
+          "file": "fa457bb967f9abbc35ac.image",
+          "format": "PNG",
+          "width": 2776,
+          "height": 1992,
+          "sha256": "fb329d23a4109687ea3357f6ec36d9b29a7c9f9b4b1fdb90a1e77260ad6f07c3",
+          "alt": [
+            "Diffuser and frame detail",
+            "扩散面罩与边框细节"
+          ]
+        }
+      ],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "panel-anti-glare",
+      "primary": {
+        "sourcePage": "/Products_details/133.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/64454530-034f-496f-ab16-479324861a8d.jpg?vf=B7gH3s",
+        "file": "1e6a0aa490fe332d8999.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "d35520cd5c057e7f869fa50ca1e43259644af5884a1f78d1aab97cf11022a8d3"
+      },
+      "gallery": []
+    },
+    {
+      "id": "panel-dali",
+      "primary": {
+        "sourcePage": "/Products_details/136.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2a812c1c-fb94-4621-b194-bfaf819b687e.jpg?vf=B7gH3s",
+        "file": "5faf2b05e6f3869cbcf3.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c40ed0b13b2ba987c619f1e41202b360ae6d073dcd004aba25130e9bca1ad27b"
+      },
+      "gallery": []
+    },
+    {
+      "id": "panel-sensing",
+      "primary": {
+        "sourcePage": "/Products_details/134.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/30d0ca5a-a02f-47de-b149-f79f41b8b646.jpg?vf=B7gH3s",
+        "file": "42af0e98534cb09c34ed.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "139f8744b4601945f49af1d05d02906913c72d6bd376f158e0512092177b391b"
+      },
+      "gallery": []
+    },
+    {
+      "id": "panel-selectable",
+      "primary": {
+        "sourcePage": "/Products_details/135.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2a812c1c-fb94-4621-b194-bfaf819b687e.jpg?vf=B7gH3s",
+        "file": "5faf2b05e6f3869cbcf3.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c40ed0b13b2ba987c619f1e41202b360ae6d073dcd004aba25130e9bca1ad27b"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/135.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/64454530-034f-496f-ab16-479324861a8d.jpg?vf=B7gH3s",
+          "file": "1e6a0aa490fe332d8999.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d35520cd5c057e7f869fa50ca1e43259644af5884a1f78d1aab97cf11022a8d3",
+          "alt": [
+            "Textured diffuser option",
+            "纹理面罩选项"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panel-standard",
+      "primary": {
+        "sourcePage": "/Products_details/92.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/204c7505-02b8-44b8-bf49-cf15a981233d.jpg?vf=B7gH3s",
+        "file": "a442fa58b201b97ccc8c.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "acd8610c4ea6df61830e9c0e4933b7f9c9cb35612763f574987dcbd2e4a62022"
+      },
+      "gallery": [],
+      "familyReference": true
+    },
+    {
+      "id": "ceiling-basic",
+      "primary": {
+        "sourcePage": "/Products_details/1091802991909273600.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/69dd90c7-d035-40d1-96a5-51171d8eec1e.jpg?vf=B7gH3s",
+        "file": "70c80e8673d09e1c93e8.image",
+        "format": "JPEG",
+        "width": 1200,
+        "height": 800,
+        "sha256": "7123961b53a314fd7d76af14072dca761454bec927038469b69aa03eded379f5"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/103.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/93d28e1b-3a15-4a8b-bf30-16f38a160baf.jpg?vf=B7gH3s",
+          "file": "9f2c72ae7aafcb96906a.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "55842132c866fa8f8e2195d1e99bb62025dd1930521a30cf857708e766b73e54",
+          "alt": [
+            "Silver-ring cover",
+            "银环灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/104.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/ea6283e8-26ec-4a0e-83f7-f3132c4b2d30.jpg?vf=B7gH3s",
+          "file": "8a0470c02464b3516e94.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "0ccef19a5a173124d34d761ebd86ef46ff878678a1268437edc30fe703694c9e",
+          "alt": [
+            "Metallic cover",
+            "金属边灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/105.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/55dcff7b-3cb7-4d80-a2ce-a4dcc60dd028.jpg?vf=B7gH3s",
+          "file": "1c146bb6b817ecf37280.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "83932f7230bb1b1033ecfb4ba068b0524feedb9177d8e380614e74da5752a515",
+          "alt": [
+            "Crystal-pattern cover",
+            "晶纹灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/106.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/18b7dfba-88c5-4ba7-bb1c-6a091d41d5fc.jpg?vf=B7gH3s",
+          "file": "5293d968f5f973543488.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "12bb88ea4f4c5c578520fb19e74b1d5c0350ff268c36590be7b281ab20ee39f1",
+          "alt": [
+            "Wave cover",
+            "波纹灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/107.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/93fba966-29c8-4b29-845b-407b23016c96.jpg?vf=B7gH3s",
+          "file": "42d6532513f20f7be8b6.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "75b88b157f971d3e719ac0166d988d938cb777f9b51aa306a29fac0fed4f787b",
+          "alt": [
+            "Star-pattern cover",
+            "星点灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/108.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/ddbee0e8-e7ba-4ab6-882b-37862d998788.jpg?vf=B7gH3s",
+          "file": "aeef4a71e863a80c0517.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "4701392d4ff13d750a5d44ea4d0619237d5739d7b0820292605914c5fbf279b8",
+          "alt": [
+            "Slim-trim cover",
+            "窄边灯罩"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/109.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/ca98ed34-e528-4d3b-8b30-054b6a6c755a.jpg?vf=B7gH3s",
+          "file": "24d48508a75b78fd0d0a.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "fc103082179339a9d7f4966885759e8bb55b969b0298cbc626438a86b6ffc868",
+          "alt": [
+            "High-side cover",
+            "高边灯罩"
+          ]
+        }
+      ],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "ceiling-selected",
+      "primary": {
+        "sourcePage": "/Products_details/1091801078206001152.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/67eb586d-b21d-4490-9a66-99e2ef02dd62.jpg?vf=B7gH3s",
+        "file": "00dab96738ac8b3337e2.image",
+        "format": "JPEG",
+        "width": 1200,
+        "height": 800,
+        "sha256": "d65e452165ba85555e7479833c35eaad8979d8bb16b8d074452eef530923743e"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-selected",
+      "primary": {
+        "sourcePage": "/Products_details/1069665901483339776.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/5d6c3efe-1447-4892-be73-b548ba41268f.jpg?vf=B7gH3s",
+        "file": "a0d845526ede1d65e78d.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "8f81123bc1122830cc32c1807e26f1305e6c7fb1dd5bdad7fd2567253a9b2f2d"
+      },
+      "gallery": [],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "bulb-dimmable",
+      "primary": {
+        "sourcePage": "/Products_details/1069665901483339776.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/5d6c3efe-1447-4892-be73-b548ba41268f.jpg?vf=B7gH3s",
+        "file": "a0d845526ede1d65e78d.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "8f81123bc1122830cc32c1807e26f1305e6c7fb1dd5bdad7fd2567253a9b2f2d"
+      },
+      "gallery": [],
+      "familyReference": true
+    },
+    {
+      "id": "bulb-reflector",
+      "primary": {
+        "sourcePage": "/Products_details/1069665909460905984.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/d33efc46-5e0b-47a8-b4c7-cb7aa4e6d76f.jpg?vf=B7gH3s",
+        "file": "ee99be2bd6fb995d4de4.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "4d24aeaf824ce709fca8af010c5da85eddd6abdbb6cb64b4cc8555a15436b1f9"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-glass-gu10",
+      "primary": {
+        "sourcePage": "/Products_details/1069665909028892672.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2d77731f-a312-45a2-8221-ce99ee91e67b.jpg?vf=B7gH3s",
+        "file": "7ab1dfffd1fac9ce530e.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "3cd8f38f3afe56a4af4d97c4cf79768d60765e183b476d2ec30bf9a425ea38f5"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-t",
+      "primary": {
+        "sourcePage": "/Products_details/86.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/5b0c860a-4d13-45bb-b220-9ae2da380981.png?vf=B7gH3s",
+        "file": "cf168228e3ab4f37ab64.image",
+        "format": "PNG",
+        "width": 1200,
+        "height": 1200,
+        "sha256": "259c08dc211d25bd09963ac368f81bbdac0b7492916e9e90fd075d6ed71f48df"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-stick",
+      "primary": {
+        "sourcePage": "/Products_details/110.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/639cbbd7-b788-4e04-a663-22ee36c552fb.jpg?vf=B7gH3s",
+        "file": "28045c793d70b29ff239.image",
+        "format": "JPEG",
+        "width": 1200,
+        "height": 800,
+        "sha256": "581d309ea91b76431562f85394d7bfe3800ef3f194c568c298e8749b2681d62f"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-wall-switch",
+      "primary": {
+        "sourcePage": "/Products_details/124.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/e687055c-8dce-4961-a883-985d03badfb6.jpg?vf=B7gH3s",
+        "file": "5637c7bba122b1600fc0.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c9ab7f061fef9a67fb3a2d9cbb0073090f2fb79b9ef678218135976115df731f"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-five-cct",
+      "primary": {
+        "sourcePage": "/Products_details/125.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/e1a6cdbd-00fc-40a5-bbf5-96e1a3422353.jpg?vf=B7gH3s",
+        "file": "d71774f82e6f1bca3455.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f91ac3250cc4620c814b309c7a94c27a595a39d301454c9f47757f38ac392cb9"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-24v",
+      "primary": {
+        "sourcePage": "/Products_details/122.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/c70d4db0-2738-4c5e-b399-2f1693d6206e.jpg?vf=B7gH3s",
+        "file": "9a0d42d9aebc17bbddb5.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c9ab7f061fef9a67fb3a2d9cbb0073090f2fb79b9ef678218135976115df731f"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-remote",
+      "primary": {
+        "sourcePage": "/Products_details/123.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/f9c96e86-9fa8-4a6b-81ca-2d252751c5bf.jpg?vf=B7gH3s",
+        "file": "db3269b5282823a0c64a.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c9ab7f061fef9a67fb3a2d9cbb0073090f2fb79b9ef678218135976115df731f"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/123.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/4f176c04-63a8-4812-bc10-2cf267d426b4.jpg?vf=B7gH3s",
+          "file": "670bfc2ef446c79c152a.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "045510b06a341ab4ebd96f0ab94260812c4b517e8eb75007bb4a94ad6e7a0a5f",
+          "alt": [
+            "Remote-control configuration reference",
+            "遥控配置参考图"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bulb-pir",
+      "primary": {
+        "sourcePage": "/Products_details/120.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/6b08ee9d-e275-4579-967a-3ee9a4790d0c.jpg?vf=B7gH3s",
+        "file": "825fe2e4fa84bba18f6e.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "0a6fae211cae1c05dab26a2f51229fac1227f9640e352be6662762ffde60ce88"
+      },
+      "gallery": []
+    },
+    {
+      "id": "bulb-microwave",
+      "primary": {
+        "sourcePage": "/Products_details/119.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/6d0fa61c-1789-423e-9582-cff28f551ee2.jpg?vf=B7gH3s",
+        "file": "7b14c9ef996cba423b97.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "c9ab7f061fef9a67fb3a2d9cbb0073090f2fb79b9ef678218135976115df731f"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/119.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/67e45536-cd65-4251-b7f7-fa6565b10a3d.jpg?vf=B7gH3s",
+          "file": "8bf963db73628958e637.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bde3a5361426ed252187c12f6dd51815a041fab7c2f7de9c37260f0073b2bf2c",
+          "alt": [
+            "Concealed sensing configuration",
+            "内置感应配置示意"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bulb-daylight",
+      "primary": {
+        "sourcePage": "/Products_details/121.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/a85fe7c3-b8b2-443a-9a87-80c7be9e3820.jpg?vf=B7gH3s",
+        "file": "7c883899117be92e3b64.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "7d8044daac570be793401f2ff2af03497e21ffb54ea9bac18b578ec06643c921"
+      },
+      "gallery": []
+    },
+    {
+      "id": "tube-selected",
+      "primary": {
+        "sourcePage": "/Products_details/126.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/49847205-53b0-4890-ad1a-20f5b724a29f.jpg?vf=B7gH3s",
+        "file": "29a354619dfa742d2ec6.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f8460bf7c2045ae53a6b62270c5727bcb01444ff6509fc986184833cb8c048a0"
+      },
+      "gallery": [],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "tube-nano",
+      "primary": {
+        "sourcePage": "/Products_details/62.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/98aede59-9ded-406d-82bd-e882a64042ab.png?vf=B7gH3s",
+        "file": "b6d8ab79daf22144a73c.image",
+        "format": "PNG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "316d841944dacd914a3da37dcc2130d25c4d48a1c619620f23cf15913fafd611"
+      },
+      "gallery": [],
+      "familyReference": true
+    },
+    {
+      "id": "tube-selectable",
+      "primary": {
+        "sourcePage": "/Products_details/127.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/3684a1d4-3897-488c-8c60-3f3f6968884c.jpg?vf=B7gH3s",
+        "file": "037b9a1f4248e5f3921f.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "27709e2fbef7fa94648780f2b298a23d190d52d784eacdb91ac989fae0819644"
+      },
+      "gallery": []
+    },
+    {
+      "id": "tube-microwave",
+      "primary": {
+        "sourcePage": "/Products_details/128.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/f79b98ac-0880-47cd-9e09-47bc1bec3c85.jpg?vf=B7gH3s",
+        "file": "a4f183a718c89f649fdd.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f452220d8f0319f0da80976b6f9661ed4afdb85db6e36734c9885acb0fe527f8"
+      },
+      "gallery": []
+    },
+    {
+      "id": "tube-bluetooth",
+      "primary": {
+        "sourcePage": "/Products_details/126.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/49847205-53b0-4890-ad1a-20f5b724a29f.jpg?vf=B7gH3s",
+        "file": "29a354619dfa742d2ec6.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "f8460bf7c2045ae53a6b62270c5727bcb01444ff6509fc986184833cb8c048a0"
+      },
+      "gallery": [],
+      "familyReference": true
+    },
+    {
+      "id": "tube-dali",
+      "primary": {
+        "sourcePage": "/Products_details/130.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/80a92be1-de83-4a85-9fa6-b76a059f3bef.jpg?vf=B7gH3s",
+        "file": "42abcf8fd62621df64b2.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "28e0f0fab8de6702dee1f6609d70983a7926e9b0bbcb66177d6312a43c08dbf6"
+      },
+      "gallery": []
+    },
+    {
+      "id": "tube-colour",
+      "primary": {
+        "sourcePage": "/Products_details/131.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/6a9eff50-f967-43b3-81fc-a8ef7ba66e47.jpg?vf=B7gH3s",
+        "file": "9705dfa05d26e856b6c8.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "62791e72f06935058cee88f7d63b80acd348b909e278783aa47e4b5f963ee7cd"
+      },
+      "gallery": []
+    },
+    {
+      "id": "tube-regional",
+      "primary": {
+        "sourcePage": "/Products_details/74.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/98aede59-9ded-406d-82bd-e882a64042ab.png?vf=B7gH3s",
+        "file": "b6d8ab79daf22144a73c.image",
+        "format": "PNG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "316d841944dacd914a3da37dcc2130d25c4d48a1c619620f23cf15913fafd611"
+      },
+      "gallery": [],
+      "familyReference": true
+    },
+    {
+      "id": "filament-selected",
+      "primary": {
+        "sourcePage": "/Products_details/18.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/de534524-717e-43c0-9e1c-3af026cc2fa4.jpg?vf=B7gH3s",
+        "file": "386d1892180afd12c8c8.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "1aa2ea6135f886fff4c653666f340a5a71a15cff9510ae6f1fb82f08438b88df"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/26.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/fe264533-e008-4b40-9d18-f2d4bfce84fb.jpg?vf=B7gH3s",
+          "file": "9dd369fc761f52b31ecf.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "9ef94d3c0c3ab7016f2bcfb889e073db35ca43c1481a06ac0ff6e55208be410a",
+          "alt": [
+            "Amber A60",
+            "琥珀 A60"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/28.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/2fd58be4-5ca0-49d1-9d31-0db2a10965a7.jpg?vf=B7gH3s",
+          "file": "d834841b774831cdd63c.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "fcbb4e797efd2c4e06d8dd15021f5741703f43b7e17588afc376939411a1281b",
+          "alt": [
+            "Candle filament bulb",
+            "蜡烛形灯丝泡"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/40.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/941d5066-bd22-4fce-93df-9b1f66e6773b.jpg?vf=B7gH3s",
+          "file": "89b9783515d4601016d1.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "54ed8941341ca7fbad3933fe6028fbce7c01ab75051e80a9c19f230c19420c8c",
+          "alt": [
+            "G45 filament bulb",
+            "G45 灯丝泡"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/48.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/a286825b-8e30-4749-b566-82feaca16270.jpg?vf=B7gH3s",
+          "file": "639a762d774b00acfecc.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "96d33d91406a44fab332f0208c839cbc98e95c42ef2dfbac0bbf833de54c8c1f",
+          "alt": [
+            "Amber ST64",
+            "琥珀 ST64"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/51.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/e2d947cb-85ea-421a-a9d8-92e703a2b1d4.jpg?vf=B7gH3s",
+          "file": "015acc38b4004361a24c.image",
+          "format": "JPEG",
+          "width": 1000,
+          "height": 800,
+          "sha256": "1ec999f00acb5f50197cff3c654643e980a5d648f8039da3f8e56b9edd94f954",
+          "alt": [
+            "G95 filament bulb",
+            "G95 灯丝泡"
+          ]
+        }
+      ],
+      "categoryRepresentative": true
+    },
+    {
+      "id": "filament-colour",
+      "primary": {
+        "sourcePage": "/Products_details/99.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/79fbc2f9-b4d9-4adb-9636-97ada1c15ac4.jpg?vf=B7gH3s",
+        "file": "103856c3966d4706a52b.image",
+        "format": "JPEG",
+        "width": 1200,
+        "height": 800,
+        "sha256": "434f4cb380f853cfc975d8a58271689ccc4b9b40b225913be7a31c66b64e5810"
+      },
+      "gallery": [
+        {
+          "sourcePage": "/Products_details/100.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/5bf1510d-3c3d-4b13-bedf-325802452ac2.jpg?vf=B7gH3s",
+          "file": "57525c8092ba28da75fc.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "d2f084f72822828f5ab0cf09de201a7836554f5f5e9e7a3beaa176087cd60b27",
+          "alt": [
+            "Orange glass",
+            "橙色玻璃"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/101.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/b7d2669d-d5f4-4d88-91f6-985922d51487.jpg?vf=B7gH3s",
+          "file": "3ff68bb76c81f15b88e5.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "aaf0234150ab2855e369fab6f89c8fea3b5b75977f59c4d836ffbf874ef170ec",
+          "alt": [
+            "Red glass",
+            "红色玻璃"
+          ]
+        },
+        {
+          "sourcePage": "/Products_details/102.html",
+          "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/4313c3d6-2dfc-4edb-8e92-54b62bd802c2.jpg?vf=B7gH3s",
+          "file": "a44ec28c440e6f7ee9b4.image",
+          "format": "JPEG",
+          "width": 1200,
+          "height": 800,
+          "sha256": "6baae05d735bf541096369c5c6125d65d66566e446352e303182be6c37aabe81",
+          "alt": [
+            "Blue glass",
+            "蓝色玻璃"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filament-efficient",
+      "primary": {
+        "sourcePage": "/Products_details/18.html",
+        "sourceUrl": "https://omo-oss-image1.thefastimg.com/portal-saas/new2022092614270946710/cms/image/de534524-717e-43c0-9e1c-3af026cc2fa4.jpg?vf=B7gH3s",
+        "file": "386d1892180afd12c8c8.image",
+        "format": "JPEG",
+        "width": 1000,
+        "height": 800,
+        "sha256": "1aa2ea6135f886fff4c653666f340a5a71a15cff9510ae6f1fb82f08438b88df"
+      },
+      "gallery": [],
+      "familyReference": true
+    }
+  ]
+}

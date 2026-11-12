@@ -18,3 +18,5 @@ export const seriesFor = (category: ProductCategory) =>
   productSeries.filter((series) => series.categoryId === category.id);
 export const scenesFor = (category: ProductCategory) =>
   catalogueData.scenes.filter((scene) => scene.categoryId === category.id);
+export const categoryImageFor = (category: ProductCategory) =>
+  catalogueData.categoryImages.find((image) => image.categoryId === category.id);

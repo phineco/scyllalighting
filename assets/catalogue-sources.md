@@ -2,9 +2,19 @@
 
 Reviewed 2026-11-12. Internal reference only; this file and source documents are not public downloads.
 
+## Original-image upgrade (2026-11-12)
+
+The user requested website originals instead of low-resolution PDF crops. Read-only listing traversal found 152 public product records. Reviewed detail pages expose a public Open Graph image URL on omo-oss-image1.thefastimg.com with the page-provided vf query. These URLs work; bare thumbnail-host URLs had returned 403/567. This supersedes the earlier statement that official images could not be retrieved.
+
+33 series across panels, ceilings, tubes, bulbs, filaments and general floodlights now use 59 original PNG/JPEG files (33 primaries and 26 extra views). Six category representatives use the same originals. Public originals retain their original dimensions, alpha, image pixels and compressed image data; only PNG metadata chunks or JPEG metadata segments are removed. Export verifies decoded RGBA pixels are identical to the downloaded file. Images generally range from 1000×800 to 1200×1200; the 100W floodlight extra view is 4000×3006. The 59 published files total about 7.34 MiB.
+
+All originals are local under public/images/products/originals with neutral filenames, and next/image unoptimized is enabled only for these files so the browser receives PNG/JPEG without conversion or resizing. Source URLs, hashes, page references and image mappings stay in assets/product-originals.json. scripts/fetch-product-originals.py retrieves actual listing/detail URLs and stores review material privately; scripts/catalogue_originals.py publishes reviewed files without crop, interpolation or lossy re-encoding. The PDF exporter reapplies reviewed originals so regeneration cannot silently replace them with crops.
+
+64 series still lack a confidently matching original in the reviewed public listings. Existing references remain rather than assigning another product's photo or upscaling PDF pixels. Shared material, regional or efficiency-family references remain explicitly labelled. Control settings and performance are not inferred from a look-alike product image. Original rich-text technical sheets with conflicting/branding content are not published indiscriminately.
+
 - Supplied PDF: /Users/louisw/Documents/世林照明/SHILIN Catalogue 2026.pdf, 44 physical PDF pages. References below use physical page numbers; printed folios are inconsistent.
 - The official category page http://www.shilinlighting.com/Products.html was retrieved read-only. Its broader navigation was translated into the catalogue's more specific families.
-- The supplied detail page http://www.shilinlighting.com/Products_details/113.html describes a 10W floodlight and multi-angle black/white photos. Its CDN rejected retrieval (403/567), so usable public assets come from the supplied PDF. Its lumen figure differs from the PDF; no combined lumen claim is made.
+- The supplied detail page http://www.shilinlighting.com/Products_details/113.html describes a 10W floodlight and multi-angle black/white photos. Initial bare image URLs failed (403/567); the original-image upgrade above resolves this through page-provided Open Graph URLs. Its lumen figure differs from the PDF; no combined lumen claim is made.
 - The user expanded category-page scope from 1–3 representatives to every identifiable series. Power, size, finish and control variants remain grouped; no SKU codes, stock or availability are invented.
 - Contents lists 16 categories but includes product pages for only 15. Table lamps remain unpublished pending source pages.
 
@@ -45,3 +55,5 @@ assets/catalogue-products.json is the private crop/provenance manifest. scripts/
 Product photograph crops are centred on white; application crops keep photographic framing. A few unrelated heading fragments outside product silhouettes are cropped away with white background trims; the solar street crop excludes a partial panel. Product geometry is not generated or altered. Files carry no EXIF, XMP or ICC metadata. Existing category representatives remain for overview cards and original application illustrations.
 
 scripts/catalogue-ocr.swift uses local macOS Vision. OCR output and contact sheets stay in temporary folders, never public/. Source footers, upstream names/logos/URLs, contacts and certification marks must not appear in public imagery, alt, metadata, downloads or responses. Application scenes are references, never described as Scylla-delivered projects.
+
+Original-image audit: manually reviewed the source contact sheets and additional flood/remote/frame views, and verified browser rendering plus source/published pixel equality. macOS Vision failed to decode most originals and then all normalized private audit copies in this session; its incomplete output is not an OCR pass. No original-image OCR success is claimed. Outstanding series are listed in assets/original-image-coverage.md.
