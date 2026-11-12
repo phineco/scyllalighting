@@ -171,7 +171,7 @@ try {
   for (const body of [
     { success: false },
     { code: 500 },
-    { code: 200, success: false },
+    { code: 200, success: false, message: "保存留言信息成功" },
     { error: "Failed" },
     {},
   ]) {
@@ -210,6 +210,30 @@ try {
   );
   reply = { status: 401, body: "Unauthorized", type: "text/plain" };
   assert.equal((await post(data)).status, 502);
+  for (const [status, body, type] of [
+    [200, "保存留言信息失败", "text/plain"],
+    [200, JSON.stringify("保存留言信息失败"), "application/json"],
+    [200, "未保存留言信息成功", "text/plain"],
+    [200, "<html>保存留言信息成功</html>", "text/html"],
+    [500, "保存留言信息成功", "text/plain"],
+  ]) {
+    reply = { status, body, type };
+    assert.equal((await post(data)).status, 502);
+  }
+  for (const [body, type] of [
+    ["保存留言信息成功", "text/plain"],
+    [" \n保存留言信息成功\n", "text/plain"],
+    [JSON.stringify("保存留言信息成功"), "application/json"],
+    ['"\\u4fdd\\u5b58\\u7559\\u8a00\\u4fe1\\u606f\\u6210\\u529f"', "application/json"],
+  ]) {
+    reply = { status: 200, body, type };
+    const response = await post(data);
+    assert.equal(response.status, 201);
+    assert.deepEqual(await response.json(), {
+      success: true,
+      delivery: "submitted",
+    });
+  }
   for (const body of [
     { code: 0 },
     { code: 200 },

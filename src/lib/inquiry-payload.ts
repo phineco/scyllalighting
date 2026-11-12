@@ -20,7 +20,10 @@ export function legacyMessage(data: Record<string, string>): string {
   return header + "\n\nEnquiry:\n" + (data.message || "").trim();
 }
 
-// Matches the legacy client: HTTP success acknowledges submission, not database verification.
+// Confirmed by the operator as the Java saveInquiry success response.
+const legacySuccessMessage = "保存留言信息成功";
+
+// Recognise submission acknowledgements, not database verification.
 export function legacyAcknowledged(body: string, status: number): boolean {
   if (status < 200 || status >= 300) return false;
   if (!body.trim()) return true;
@@ -28,9 +31,17 @@ export function legacyAcknowledged(body: string, status: number): boolean {
   try {
     value = JSON.parse(body);
   } catch {
-    return /^(ok|success)$/i.test(body.trim());
+    return (
+      body.trim() === legacySuccessMessage || /^(ok|success)$/i.test(body.trim())
+    );
   }
-  if (value === true || value === "success" || value === "OK") return true;
+  if (
+    value === true ||
+    value === "success" ||
+    value === "OK" ||
+    value === legacySuccessMessage
+  )
+    return true;
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const result = value as Record<string, unknown>;
   if (
