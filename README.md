@@ -21,7 +21,7 @@ Application and OEM links pass only known context keys to the contact page; the 
 
 ## Configuration
 
-Copy .env.example to .env.local. SITE_URL is the confirmed production origin (no trailing slash). Without it, indexing is disabled. Do not deploy with localhost canonical URLs.
+Copy .env.example to .env.local. SITE_URL is the confirmed production origin (no trailing slash). Without it, indexing is disabled. Public SEO URLs use the confirmed brand origin https://www.scyllalight.cn. Set SITE_URL to that origin in the production process and rebuild after changes.
 
 The enquiry adapter now reuses machinery's Java contract. The browser posts to this site's `/api/inquiries`; the server posts to `/machiapi/saveInquiry` below the Java API root. Endpoint precedence is:
 
@@ -86,3 +86,12 @@ Website originals take priority for reviewed matches: 33 series and six category
 DESIGN.md records visual direction. MEMORY.md records decisions. Do not publish supplier references, original source media, private contact data or unverified factory ownership/metrics.
 
 Validation: npm run typecheck; npm run lint; npm run build; npm run test:runtime. Runtime checks start a local production server and mock backend, verify bilingual routes, real 404s, public content and enquiry failure/success contracts. No external service is contacted. GitHub Actions repeats these checks on push and pull requests.
+
+
+## Product search data and SEO
+
+Run `npm run export:catalogue` after editing the product or category content. The internal export `data/scylla-catalogue.json` contains 15 bilingual categories and 97 series with stable IDs, reference facets, configuration notes, images and prefilled enquiry links. Source values remain in `src/content/catalogue-products.json` and `src/content/site.ts`. Series ranges and option lists need SKU confirmation before quoting. Authorized prices are maintained separately.
+
+The initial selection guides are `/en/products/series/bulb-24v` and `/en/products/series/flood-sensor`, with equivalent Chinese routes. Category anchors continue to work. Category pages and guides include breadcrumb structured data.
+
+On production, set `SITE_URL=https://www.scyllalight.cn` in the process environment as well as the environment file, rebuild, restart and refresh cached responses. Verify robots.txt, sitemap.xml and the canonical/hreflang links, then submit the sitemap in Search Console. The sitemap contains 52 bilingual URLs including the four guide pages.

@@ -49,6 +49,7 @@ const server = spawn(
   {
     env: {
       ...process.env,
+      SITE_URL: "http://www.machinery100.com",
       INQUIRY_API_URL: "",
       API_BASE_URL: "http://127.0.0.1:" + backendPort + "/api/",
       INQUIRY_API_TOKEN: "",
@@ -128,6 +129,7 @@ try {
       assert.ok(html.includes("mailto:info@machinery100.com"));
       assert.ok(html.includes("https://wa.me/8618949813729"));
       assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1, "One page title: " + path);
+      assert.ok(html.includes('rel="canonical" href="https://www.scyllalight.cn/' + locale + (path ? "/" + path : "") + '"'));
       if (path === "products") {
         for (const slug of categorySlugs)
           assert.ok(html.includes('href="/' + locale + '/products/' + slug + '"'));
@@ -162,6 +164,27 @@ try {
         assert.match(html, /<textarea\b[^>]*maxLength="1024"/i);
       }
     }
+  const origin = "https://www.scyllalight.cn";
+  const sitemap = await (await fetch(base + "/sitemap.xml")).text();
+  assert.equal((sitemap.match(/<loc>/g) || []).length, 52);
+  assert.ok(!sitemap.includes("machinery100.com"));
+  for (const locale of ["en", "zh-CN"]) {
+    for (const id of ["bulb-24v", "flood-sensor"]) {
+      const path = "/" + locale + "/products/series/" + id;
+      const response = await fetch(base + path);
+      assert.equal(response.status, 200);
+      const html = await response.text();
+      assert.ok(html.includes('rel="canonical" href="' + origin + path + '"'));
+      assert.equal((html.match(/<h1(?:\s|>)/g) || []).length, 1);
+      assert.ok(html.includes("context=series-" + id));
+      assert.ok(html.includes('href="/' + (locale === "en" ? "zh-CN" : "en") + '/products/series/' + id + '"'));
+      const json = html.match(/<script type="application\/ld\+json">([^<]+)<\/script>/)?.[1];
+      assert.ok(json, "Breadcrumb structured data");
+      assert.equal(JSON.parse(json)["@type"], "BreadcrumbList");
+      assert.ok(sitemap.includes(origin + path));
+    }
+  }
+  assert.equal((await fetch(base + "/en/products/series/unknown")).status, 404);
   for (const path of [
     "/en/unknown",
     "/fr",
@@ -270,6 +293,7 @@ try {
     201,
   );
   assert.equal(received.message.length, 1024);
+  assert.equal((await post(data, { origin: "https://www.scyllalight.cn" })).status, 201);
   const boundaryWrites = writes;
   const overBudget = await post({ ...data, message: "x".repeat(1025 - overhead) });
   assert.equal(overBudget.status, 400);
@@ -384,7 +408,7 @@ try {
   assert.ok(received.message.endsWith(data.message));
   assert.ok(received.message.length <= 1024);
   console.log(
-    "PASS: 48 bilingual production pages, category links and series, real contact links, downloads, strict validation, legacy saveInquiry fields/path, message limit and success/failure acknowledgement handling. No production writes.",
+    "PASS: 52 bilingual production pages, canonical URLs, sitemap, breadcrumb JSON-LD and pilot selection guides, category links and series, real contact links, downloads, strict validation, legacy saveInquiry fields/path, message limit and success/failure acknowledgement handling. No production writes.",
   );
 } catch (error) {
   console.error(log);

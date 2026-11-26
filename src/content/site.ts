@@ -179,8 +179,8 @@ export const nav = (l: Locale) => [
 export const pageNames: Record<string, [string, string]> = {
   "": ["LED lighting for your market", "为您的市场，提供合适的光"],
   products: [
-    "A considered range. A clearer choice.",
-    "精选产品，让选择更清晰。",
+    "LED Lighting Catalogue for Importers and Distributors",
+    "面向进口商与分销商的 LED 照明产品目录",
   ],
   manufacturing: [
     "The capability behind the light.",
@@ -215,8 +215,8 @@ export const pageDescriptions: Record<string, [string, string]> = {
     "锡拉照明为进口商、分销商与品牌客户提供精选 LED 灯具、制造配套与 OEM/ODM 服务。",
   ],
   products: [
-    "Browse selected LED lighting categories, open each series list and discuss specifications for your market.",
-    "按分类浏览精选 LED 灯具，查看系列列表与参考规格，为目标市场建立产品组合。",
+    "Compare 15 LED lighting categories and 97 product series for wholesale and private label. Review configurations and request specifications for your market.",
+    "比较 15 类 LED 照明产品与 97 个系列，查看批发及贴牌配置，按目标市场索取规格与报价。",
   ],
   applications: [
     "Connect office, residential, warehouse and outdoor lighting requirements with selected Scylla Lighting product families.",
@@ -246,4 +246,15 @@ export const pageDescriptions: Record<string, [string, string]> = {
     "How Scylla Lighting uses the information supplied with your business enquiry.",
     "了解锡拉照明如何使用业务询盘中提交的信息。",
   ],
+};
+
+export const categorySeo = {
+  bulb: {
+    title: ["LED Bulbs for Wholesale and Private Label", "批发与贴牌 LED 灯泡"],
+    description: ["Compare replacement bulbs, spots, sensor bulbs and 24V DC options. Confirm the lamp base, supply voltage, dimming requirements and packaging for your market.", "比较替换灯泡、射灯、感应灯泡及 24V DC 系列，按目标市场确认灯头、供电电压、调光要求和包装。"],
+  },
+  flood: {
+    title: ["LED Floodlights for Yards and Facades", "庭院与立面 LED 投光灯"],
+    description: ["Compare general-purpose, PIR sensor and die-cast area floodlights. Send site photos, mounting height, coverage area and quantity to discuss your lighting requirements.", "比较通用款、PIR 感应款及压铸区域投光灯。请提供现场照片、安装高度、照明范围和数量，以便评审选型需求。"],
+  },
 };

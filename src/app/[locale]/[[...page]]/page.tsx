@@ -6,6 +6,8 @@ import {
   pageDescriptions,
   categories,
 } from "@/content/site";
+import { SeriesPage } from "@/components/SeriesPage";
+import { categorySeo, pilotForPath, pilotGuides } from "@/content/product-seo";
 import { Home, Privacy } from "@/components/SiteContent";
 import { CategoryPage } from "@/components/ProductCatalog";
 import { categoryForPath } from "@/content/catalogue";
@@ -29,12 +31,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
   const category = categoryForPath(slug);
-  if (!isLocale(locale) || (!category && !Object.hasOwn(pageNames, slug))) return {};
-  const title = (category ? (locale === "en" ? category.en : category.zh) : pageNames[slug][locale === "en" ? 0 : 1]) + " | Scylla Lighting";
+  const series = pilotForPath(slug);
+  if (!isLocale(locale) || (!series && !category && !Object.hasOwn(pageNames, slug))) return {};
+  const language = locale === "en" ? 0 : 1;
+  const seo = categorySeo[category?.id as keyof typeof categorySeo];
+  const title = (series ? pilotGuides[series.id as keyof typeof pilotGuides].title[language]
+    : category ? (seo?.title[language] || (locale === "en" ? category.en : category.zh))
+    : pageNames[slug][language]) + " | Scylla Lighting";
+  const description = series ? (locale === "en" ? series.descEn : series.descZh)
+    : category ? (seo?.description[language] || (locale === "en" ? category.descEn : category.descZh))
+    : pageDescriptions[slug]?.[language];
   const path = slug ? "/" + slug : "";
   return {
     title,
-    description: category ? (locale === "en" ? category.descEn : category.descZh) : pageDescriptions[slug]?.[locale === "en" ? 0 : 1],
+    description,
     alternates: {
       canonical: "/" + locale + path,
       languages: {
@@ -46,9 +56,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       siteName: "Scylla Lighting",
+      description,
+      url: "/" + locale + path,
       locale: locale === "en" ? "en_US" : "zh_CN",
       images: [
-        category
+        series ? { url: series.image, width: series.imageWidth, height: series.imageHeight } : category
           ? { url: "/images/catalogue/" + category.id + ".webp", width: 800, height: 600 }
           : { url: "/images/manufacturing-campus.webp", width: 2200, height: 1352 },
       ],
@@ -62,7 +74,9 @@ export default async function Page({ params, searchParams }: Props) {
   const { locale, page = [] } = await params;
   const slug = page.join("/");
   const category = categoryForPath(slug);
-  if (!isLocale(locale) || (!category && !Object.hasOwn(pageNames, slug))) notFound();
+  const series = pilotForPath(slug);
+  if (!isLocale(locale) || (!series && !category && !Object.hasOwn(pageNames, slug))) notFound();
+  if (series) return <SeriesPage locale={locale} item={series} />;
   if (category) return <CategoryPage locale={locale} category={category} />;
   if (slug === "") return <Home locale={locale} />;
   if (slug === "about") return <AboutPage locale={locale} />;

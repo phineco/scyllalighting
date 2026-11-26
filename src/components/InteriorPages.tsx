@@ -89,6 +89,7 @@ function PageHero({
               {tr("Discuss your requirements", "洽谈您的需求")}
               <ArrowUpRight size={17} />
             </Link>
+            {page === "oem-odm" && <Link className="text-link" href={"/" + locale + "/products"}>{tr("Browse lighting for private label", "浏览贴牌照明产品")} <ArrowRight size={16} /></Link>}
             <a className="text-link" href="#page-content">
               {tr("Explore this page", "继续了解")}
               <ArrowRight size={16} />

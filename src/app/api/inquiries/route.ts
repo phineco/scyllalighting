@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import validator from "validator";
 import xss from "xss";
+import { siteOrigin } from "@/content/origin";
 import { categories } from "@/content/site";
 import { inquiryResponseDiagnostic } from "@/lib/inquiry-response-diagnostic";
 import {
@@ -14,7 +15,7 @@ import {
 export async function POST(request: NextRequest) {
   const origin = request.headers.get("origin");
   const expectedOrigin =
-    process.env.SITE_URL ||
+    (/^https?:\/\/(www\.)?machinery100\.com\/?$/.test(process.env.SITE_URL || "") ? siteOrigin : process.env.SITE_URL) ||
     request.nextUrl.protocol + "//" + request.headers.get("host");
   if (origin && origin !== expectedOrigin)
     return NextResponse.json({ error: "origin" }, { status: 403 });

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import { siteOrigin } from "@/content/origin";
 import "./globals.css";
 import "./interior.css";
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(siteOrigin),
   title: "Scylla Lighting",
   description: "LED lighting and OEM/ODM manufacturing support.",
   icons: {

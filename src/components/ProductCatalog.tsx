@@ -1,3 +1,5 @@
+import { BreadcrumbData } from "./BreadcrumbData";
+import { categorySeo, pilotSeries } from "@/content/product-seo";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
@@ -60,6 +62,10 @@ export function ProductOverview({ locale }: { locale: Locale }) {
   const tr = (en: string, zh: string) => t(locale, en, zh);
   return (
     <>
+      <BreadcrumbData items={[
+        { name: tr("Home", "首页"), path: "/" + locale },
+        { name: tr("Products", "产品"), path: "/" + locale + "/products" },
+      ]} />
       <section className={"wrap " + styles.overview}>
         <nav className="breadcrumbs" aria-label={tr("Breadcrumb", "面包屑")}>
           <Link href={"/" + locale}>{tr("Home", "首页")}</Link><span>/</span>
@@ -67,10 +73,10 @@ export function ProductOverview({ locale }: { locale: Locale }) {
         </nav>
         <p className="eyebrow">{tr("THE SCYLLA COLLECTION", "锡拉照明产品系列")}</p>
         <div className={styles.overviewHeading}>
-          <h1>{tr("A considered range. A clearer choice.", "精选产品，让选择更清晰。")}</h1>
+          <h1>{tr("LED Lighting Product Catalogue", "LED 照明产品目录")}</h1>
           <div>
             <span>{catalogueCategories.length} {tr("categories", "个分类")} / {productSeries.length} {tr("series", "个系列")}</span>
-            <p>{tr("Choose a category to explore product images, power and size options, and application references for your next project.", "选择产品分类，查看产品图片、功率尺寸选项与场景参考，为下一个项目找到合适的灯具。")}</p>
+            <p>{tr("Compare 15 categories by application, power and configuration. Explore a series, then request specifications and a quote for your wholesale or private-label range.", "按应用、功率和配置比较 15 个分类，查看系列后，为批发或贴牌采购索取规格与报价。")}</p>
           </div>
         </div>
       </section>
@@ -84,11 +90,18 @@ export function ProductOverview({ locale }: { locale: Locale }) {
 export function CategoryPage({ locale, category }: { locale: Locale; category: ProductCategory }) {
   const tr = (en: string, zh: string) => t(locale, en, zh);
   const name = locale === "en" ? category.en : category.zh;
+  const seo = categorySeo[category.id as keyof typeof categorySeo];
+  const language = locale === "en" ? 0 : 1;
   const series = seriesFor(category);
   const scenes = scenesFor(category);
   const heroScene = series[0].originalImage ? undefined : scenes[0];
   return (
     <>
+      <BreadcrumbData items={[
+        { name: tr("Home", "首页"), path: "/" + locale },
+        { name: tr("Products", "产品"), path: "/" + locale + "/products" },
+        { name, path: categoryPath(locale, category) },
+      ]} />
       <section className={"wrap " + styles.hero}>
         <nav className="breadcrumbs" aria-label={tr("Breadcrumb", "面包屑")}>
           <Link href={"/" + locale}>{tr("Home", "首页")}</Link><span>/</span>
@@ -98,8 +111,8 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
         <div className={styles.heroGrid}>
           <div>
             <p className="eyebrow">SCYLLA LIGHTING / {tr("PRODUCT SERIES", "产品系列")}</p>
-            <h1>{name}</h1>
-            <p className={styles.heroDescription}>{locale === "en" ? category.descEn : category.descZh}</p>
+            <h1>{seo?.title[language] || name}</h1>
+            <p className={styles.heroDescription}>{seo?.description[language] || (locale === "en" ? category.descEn : category.descZh)}</p>
             <div className={styles.heroSpecs}>
               {localizeSpec(locale, category.spec).split(" · ").map((spec) => <span key={spec}>{spec}</span>)}
             </div>
@@ -145,6 +158,16 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
             "Browse every series in this category. Power, size and control variants are grouped together; expand a card for more options and product views.",
             "本分类的产品系列全部列于下方。同系列的功率、尺寸与控制选项集中展示，展开卡片可查看配置和补充图片。",
           )}</p>
+          {seo && <div className={styles.comparison}>
+            <h2>{tr("Compare series and configurations", "比较系列与配置")}</h2>
+            <div className={styles.tableScroll}><table>
+              <thead><tr><th>{tr("Series", "系列")}</th><th>{tr("Reference specifications", "参考规格")}</th></tr></thead>
+              <tbody>{series.map(item => <tr key={item.id}>
+                <td><a href={"#" + item.id}>{tr(item.titleEn, item.titleZh)}</a></td>
+                <td>{localizeSpec(locale, item.spec)}</td>
+              </tr>)}</tbody>
+            </table></div>
+          </div>}
           {series.length > 3 && <details className={styles.seriesIndex}>
             <summary>{tr("Jump to a series", "快速跳转到产品系列")} <span>{series.length}</span></summary>
             <nav aria-label={tr("Series index", "系列索引")}>
@@ -168,6 +191,7 @@ export function CategoryPage({ locale, category }: { locale: Locale; category: P
                 </div>
                 <div className={styles.seriesBody}>
                   <h3>{locale === "en" ? item.titleEn : item.titleZh}</h3>
+                  {pilotSeries.some(p => p.id === item.id) && <Link className="text-link" href={"/" + locale + "/products/series/" + item.id}>{tr("Selection guide", "查看选型指南")} <ArrowUpRight size={16} /></Link>}
                   <p>{locale === "en" ? item.descEn : item.descZh}</p>
                   <dl><dt>{tr("Reference specifications", "参考规格")}</dt><dd>{localizeSpec(locale, item.spec)}</dd></dl>
                   <details className={styles.options}>

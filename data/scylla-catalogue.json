@@ -1,0 +1,5931 @@
+{
+  "schema_version": "1.0",
+  "brand": "Scylla Lighting",
+  "record_level": "product_series",
+  "quote_policy": {
+    "status": "requires_supplier_confirmation",
+    "authorized_prices": [],
+    "confirm_with_buyer": [
+      "selected_configuration",
+      "quantity",
+      "destination",
+      "packaging",
+      "required_documents",
+      "delivery_target"
+    ],
+    "confirm_with_sales": [
+      "sku",
+      "unit_price",
+      "currency",
+      "quantity_breaks",
+      "MOQ",
+      "availability",
+      "lead_time",
+      "warranty",
+      "Incoterm_and_named_place",
+      "quotation_validity"
+    ]
+  },
+  "categories": [
+    {
+      "category_id": "panel",
+      "name": {
+        "en": "LED Panel Lights",
+        "zh-CN": "LED 面板灯"
+      },
+      "description": {
+        "en": "Panel lighting in recessed, surface-mounted and controlled formats, with matching mounting accessories.",
+        "zh-CN": "提供嵌入式、明装与控制型面板照明，并配套安装附件。"
+      },
+      "applications": {
+        "en": "Offices · Education · Retail",
+        "zh-CN": "办公 · 教育 · 商业空间"
+      },
+      "reference_spec": {
+        "en": "13–62 W · Recessed / Surface / Accessories",
+        "zh-CN": "13–62 W · 嵌入式 / 明装 / 配件"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/panel-office.webp",
+          "caption": {
+            "en": "General office ceiling lighting",
+            "zh-CN": "办公空间基础照明"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/panel-living.webp",
+          "caption": {
+            "en": "Residential ceiling lighting",
+            "zh-CN": "住宅天花照明"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "flood",
+      "name": {
+        "en": "LED Floodlights",
+        "zh-CN": "LED 投光灯"
+      },
+      "description": {
+        "en": "Compare general-purpose, PIR sensor and die-cast area floodlights. Send site photos, mounting height, coverage area and quantity to discuss your lighting requirements.",
+        "zh-CN": "比较通用款、PIR 感应款及压铸区域投光灯。请提供现场照片、安装高度、照明范围和数量，以便评审选型需求。"
+      },
+      "applications": {
+        "en": "Facades · Yards · Outdoor areas",
+        "zh-CN": "建筑立面 · 庭院 · 户外空间"
+      },
+      "reference_spec": {
+        "en": "10–300 W · General / PIR / High-output",
+        "zh-CN": "10–300 W · 通用款 / PIR / 高输出"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/flood-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/flood-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/flood-facade.webp",
+          "caption": {
+            "en": "Facade and garden lighting",
+            "zh-CN": "建筑立面与庭院照明"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/flood-yard.webp",
+          "caption": {
+            "en": "Loading yards and exterior areas",
+            "zh-CN": "装卸区域与户外空间"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "highbay",
+      "name": {
+        "en": "LED High Bay Lights",
+        "zh-CN": "LED 工矿灯"
+      },
+      "description": {
+        "en": "UFO-style luminaires with die-cast aluminium housings for industrial projects.",
+        "zh-CN": "UFO 圆形工矿灯，采用压铸铝外壳，适用于工业照明项目。"
+      },
+      "applications": {
+        "en": "Warehouses · Workshops · Logistics",
+        "zh-CN": "仓储 · 车间 · 物流中心"
+      },
+      "reference_spec": {
+        "en": "50 / 100 / 150 W · 4000 / 6500 K",
+        "zh-CN": "50 / 100 / 150 W · 4000 / 6500 K"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/high-bay-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/high-bay-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/highbay-industrial.webp",
+          "caption": {
+            "en": "High-ceiling industrial-space reference",
+            "zh-CN": "高顶工业空间参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "bulb",
+      "name": {
+        "en": "LED Bulbs & Light Sources",
+        "zh-CN": "LED 灯泡与光源"
+      },
+      "description": {
+        "en": "Compare replacement bulbs, spots, sensor bulbs and 24V DC options. Confirm the lamp base, supply voltage, dimming requirements and packaging for your market.",
+        "zh-CN": "比较替换灯泡、射灯、感应灯泡及 24V DC 系列，按目标市场确认灯头、供电电压、调光要求和包装。"
+      },
+      "applications": {
+        "en": "Residential · Hospitality · Distribution",
+        "zh-CN": "住宅 · 酒店 · 渠道分销"
+      },
+      "reference_spec": {
+        "en": "2.9–50 W · General / Spot / Sensor",
+        "zh-CN": "2.9–50 W · 通用款 / 射灯 / 感应"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/bulb-pendant.webp",
+          "caption": {
+            "en": "Pendant-light interior reference",
+            "zh-CN": "吊灯室内场景参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "ceiling",
+      "name": {
+        "en": "LED Ceiling Lights",
+        "zh-CN": "LED 吸顶灯"
+      },
+      "description": {
+        "en": "Low-profile ceiling lighting with decorative frame and colour temperature options.",
+        "zh-CN": "简洁吸顶照明，提供装饰边框与多种色温选择。"
+      },
+      "applications": {
+        "en": "Homes · Corridors · Hospitality",
+        "zh-CN": "家居 · 走廊 · 酒店"
+      },
+      "reference_spec": {
+        "en": "12–36 W · Decorative / Sensor / Remote",
+        "zh-CN": "12–36 W · 装饰款 / 感应 / 遥控"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights"
+      },
+      "scenes": []
+    },
+    {
+      "category_id": "downlight",
+      "name": {
+        "en": "LED Downlights",
+        "zh-CN": "LED 筒灯"
+      },
+      "description": {
+        "en": "Round and square downlights in recessed and surface-mounted formats, with different body and driver options.",
+        "zh-CN": "圆形与方形筒灯，提供嵌入式、明装及多种灯体与驱动方案。"
+      },
+      "applications": {
+        "en": "Retail · Offices · Residential",
+        "zh-CN": "零售 · 办公 · 住宅"
+      },
+      "reference_spec": {
+        "en": "3–26 W · Recessed / Surface",
+        "zh-CN": "3–26 W · 嵌入式 / 明装"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/downlight-kitchen.webp",
+          "caption": {
+            "en": "Kitchen and residential ceilings",
+            "zh-CN": "厨房与住宅天花照明"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "strip",
+      "name": {
+        "en": "LED Strip Lights",
+        "zh-CN": "LED 灯带"
+      },
+      "description": {
+        "en": "Flexible lighting for continuous lines, architectural accents and display details.",
+        "zh-CN": "柔性线性照明，用于建筑灯槽、空间轮廓与展示细节。"
+      },
+      "applications": {
+        "en": "Coves · Displays · Accent lighting",
+        "zh-CN": "灯槽 · 展示 · 氛围照明"
+      },
+      "reference_spec": {
+        "en": "5–220 V options · White / RGB / RGBW",
+        "zh-CN": "5–220 V options · 白光 / RGB / RGBW"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/strip-facade.webp",
+          "caption": {
+            "en": "Architectural lighting reference",
+            "zh-CN": "建筑照明参考"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/strip-media-wall.webp",
+          "caption": {
+            "en": "Media-wall lighting reference",
+            "zh-CN": "电视墙照明参考"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/strip-living.webp",
+          "caption": {
+            "en": "Cove-lighting reference",
+            "zh-CN": "灯槽照明参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "tri-proof",
+      "name": {
+        "en": "LED Tri-proof Lights",
+        "zh-CN": "LED 三防灯"
+      },
+      "description": {
+        "en": "Linear enclosed luminaires for practical lighting in service and working areas.",
+        "zh-CN": "封闭式线性灯具，为配套与作业空间提供实用照明。"
+      },
+      "applications": {
+        "en": "Parking · Utility areas · Workshops",
+        "zh-CN": "停车场 · 配套空间 · 车间"
+      },
+      "reference_spec": {
+        "en": "18 / 36 / 48 W · 600 / 1200 / 1500 mm",
+        "zh-CN": "18 / 36 / 48 W · 600 / 1200 / 1500 mm"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/tri-proof-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/tri-proof-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/tri-proof-transit.webp",
+          "caption": {
+            "en": "Transit-passage reference",
+            "zh-CN": "交通通道照明参考"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/tri-proof-workshop.webp",
+          "caption": {
+            "en": "Workshop linear-lighting reference",
+            "zh-CN": "车间线性照明参考"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/tri-proof-corridor.webp",
+          "caption": {
+            "en": "Corridor-lighting reference",
+            "zh-CN": "走廊照明参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "batten",
+      "name": {
+        "en": "LED Battens",
+        "zh-CN": "LED 支架灯具"
+      },
+      "description": {
+        "en": "Single- and twin-tube batten housings for T8 installations. Match the tube length and wiring arrangement before ordering.",
+        "zh-CN": "适用于 T8 灯管安装的单管、双管支架灯具，订货前确认灯管长度与接线方式。"
+      },
+      "applications": {
+        "en": "Utility rooms · Workshops · Tube installations",
+        "zh-CN": "配套用房 · 车间 · 灯管安装"
+      },
+      "reference_spec": {
+        "en": "600 / 1200 / 1500 mm · Single / Twin tube",
+        "zh-CN": "600 / 1200 / 1500 mm · 单管 / 双管"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens"
+      },
+      "scenes": []
+    },
+    {
+      "category_id": "tube",
+      "name": {
+        "en": "LED Tubes",
+        "zh-CN": "LED 灯管"
+      },
+      "description": {
+        "en": "T8 LED tubes in standard lengths. Confirm the base, supply voltage and existing fixture compatibility for the selected model.",
+        "zh-CN": "提供常用长度的 T8 LED 灯管，按具体型号确认灯头、供电电压及现有灯具兼容性。"
+      },
+      "applications": {
+        "en": "Offices · Retail · Replacement lighting",
+        "zh-CN": "办公 · 零售 · 替换照明"
+      },
+      "reference_spec": {
+        "en": "6–24 W · G13 / Sensor / DALI",
+        "zh-CN": "6–24 W · G13 / 感应 / DALI"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/tube-retail.webp",
+          "caption": {
+            "en": "Retail interior reference",
+            "zh-CN": "零售空间参考"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/tube-colour-walkway.webp",
+          "caption": {
+            "en": "Decorative walkway reference",
+            "zh-CN": "步道装饰照明参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "filament",
+      "name": {
+        "en": "LED Filament Bulbs",
+        "zh-CN": "LED 灯丝灯"
+      },
+      "description": {
+        "en": "Glass filament light sources in candle, standard and globe shapes, with clear or amber finishes depending on the selected model.",
+        "zh-CN": "提供烛形、标准球形与大球泡等玻璃灯丝光源，可按型号选择透明或琥珀外观。"
+      },
+      "applications": {
+        "en": "Hospitality · Decorative fixtures · Retail",
+        "zh-CN": "酒店餐饮 · 装饰灯具 · 零售"
+      },
+      "reference_spec": {
+        "en": "2.3–12 W · E14 / E27",
+        "zh-CN": "2.3–12 W · E14 / E27"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs"
+      },
+      "scenes": []
+    },
+    {
+      "category_id": "smart",
+      "name": {
+        "en": "Smart Lighting",
+        "zh-CN": "智能照明"
+      },
+      "description": {
+        "en": "Smart ceiling lights, downlights and bulbs with colour and white-light options. Confirm the control platform, network requirements and target-market compatibility with your brief.",
+        "zh-CN": "智能吸顶灯、筒灯与灯泡，提供彩光和白光方案，需结合需求确认控制平台、网络条件和目标市场兼容性。"
+      },
+      "applications": {
+        "en": "Homes · Hospitality · Ambient lighting",
+        "zh-CN": "住宅 · 酒店 · 氛围照明"
+      },
+      "reference_spec": {
+        "en": "4–24 W · Ceiling / Downlight / Bulb",
+        "zh-CN": "4–24 W · 吸顶灯 / 筒灯 / 灯泡"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/smart-living.webp",
+          "caption": {
+            "en": "App-controlled colour-lighting reference",
+            "zh-CN": "应用控制彩光场景参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "street",
+      "name": {
+        "en": "LED Street Lights",
+        "zh-CN": "LED 路灯"
+      },
+      "description": {
+        "en": "Roadway luminaires with aluminium housings. Share pole dimensions, mounting height and distribution requirements for model selection.",
+        "zh-CN": "铝制外壳道路灯具，可根据灯杆尺寸、安装高度和配光要求选择具体型号。"
+      },
+      "applications": {
+        "en": "Roadways · Industrial parks · Access roads",
+        "zh-CN": "道路 · 工业园区 · 厂区通道"
+      },
+      "reference_spec": {
+        "en": "40–200 W · 4000 / 6500 K",
+        "zh-CN": "40–200 W · 4000 / 6500 K"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/street-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/street-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/street-logistics.webp",
+          "caption": {
+            "en": "Logistics-road lighting reference",
+            "zh-CN": "物流园道路照明参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "moisture",
+      "name": {
+        "en": "LED Moisture-proof Lights",
+        "zh-CN": "LED 防潮灯"
+      },
+      "description": {
+        "en": "Sealed round and oval luminaires with black or white frames for wall or ceiling installation.",
+        "zh-CN": "圆形与椭圆形封闭式灯具，提供黑白边框，可用于墙面或天花安装。"
+      },
+      "applications": {
+        "en": "Stairwells · Corridors · Utility areas",
+        "zh-CN": "楼梯间 · 走廊 · 配套区域"
+      },
+      "reference_spec": {
+        "en": "8 / 12 / 18 / 24 W · Round / Oval",
+        "zh-CN": "8 / 12 / 18 / 24 W · 圆形 / 椭圆形"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/moisture-proof-lights",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/moisture-proof-lights"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/moisture-stair.webp",
+          "caption": {
+            "en": "Stair-wall lighting reference",
+            "zh-CN": "楼梯墙面照明参考"
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "solar",
+      "name": {
+        "en": "Solar Lighting",
+        "zh-CN": "太阳能照明"
+      },
+      "description": {
+        "en": "Solar flood and street lighting with separate panels. Site sunlight, battery configuration and operating schedule must be reviewed for each project.",
+        "zh-CN": "配独立太阳能板的投光和道路照明，需按项目评审现场日照、电池配置与运行时段。"
+      },
+      "applications": {
+        "en": "Access roads · Outdoor areas · Off-grid sites",
+        "zh-CN": "通道 · 户外区域 · 离网场所"
+      },
+      "reference_spec": {
+        "en": "3.7–40 W · Floodlight / Street light",
+        "zh-CN": "3.7–40 W · 投光灯 / 路灯"
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/solar-lighting",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/solar-lighting"
+      },
+      "scenes": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/scenes/solar-street-reference.webp",
+          "caption": {
+            "en": "Solar road-lighting reference",
+            "zh-CN": "太阳能道路照明参考"
+          }
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "series_id": "flood-selected",
+      "category_id": "flood",
+      "name": {
+        "en": "General-purpose floodlights",
+        "zh-CN": "通用投光灯系列"
+      },
+      "description": {
+        "en": "Slim floodlights with an adjustable bracket and black or white housing options.",
+        "zh-CN": "轻薄型投光灯，配可调安装支架，提供黑色与白色外壳选择。"
+      },
+      "reference_spec": {
+        "en": "10 / 20 / 30 / 50 / 70 / 100 / 150 / 200 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "10 / 20 / 30 / 50 / 70 / 100 / 150 / 200 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            10,
+            20,
+            30,
+            50,
+            70,
+            100,
+            150,
+            200
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Black or white housing",
+          "Wall, ceiling or ground bracket mounting"
+        ],
+        "zh-CN": [
+          "黑色或白色外壳",
+          "支架适配墙面、天花或地面安装"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/flood-lights#flood-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/flood-lights#flood-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=flood&context=series-flood-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=flood&context=series-flood-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/flood-selected.png",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-1.png",
+          "caption": {
+            "en": "Black housing, front view",
+            "zh-CN": "黑色灯体正面"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-2.png",
+          "caption": {
+            "en": "Black housing, rear view",
+            "zh-CN": "黑色灯体背面"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-3.png",
+          "caption": {
+            "en": "Black housing, side view",
+            "zh-CN": "黑色灯体侧面"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-4.png",
+          "caption": {
+            "en": "White housing, angled view",
+            "zh-CN": "白色灯体斜视图"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-5.png",
+          "caption": {
+            "en": "White housing, front view",
+            "zh-CN": "白色灯体正面"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-6.png",
+          "caption": {
+            "en": "White housing, rear view",
+            "zh-CN": "白色灯体背面"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/flood-selected-view-7.png",
+          "caption": {
+            "en": "100W family example",
+            "zh-CN": "100W 同系列示例"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "flood-sensor",
+      "category_id": "flood",
+      "name": {
+        "en": "PIR sensor floodlights",
+        "zh-CN": "PIR 感应投光灯系列"
+      },
+      "description": {
+        "en": "An adjustable motion sensor adds light-level, time and sensitivity settings for entrance and yard lighting.",
+        "zh-CN": "配可调人体感应器，可设置光感、延时与感应灵敏度，用于入口和庭院照明。"
+      },
+      "reference_spec": {
+        "en": "10 / 20 / 30 / 50 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "10 / 20 / 30 / 50 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            10,
+            20,
+            30,
+            50
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Black or white housing",
+          "PIR motion detection"
+        ],
+        "zh-CN": [
+          "黑色或白色外壳",
+          "PIR 人体感应"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/flood-lights#flood-sensor",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/flood-lights#flood-sensor"
+      },
+      "selection_guide": {
+        "en": "https://www.scyllalight.cn/en/products/series/flood-sensor",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/series/flood-sensor"
+      },
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=flood&context=series-flood-sensor",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=flood&context=series-flood-sensor"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/flood-sensor.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/flood-sensor-view-1.webp",
+          "caption": {
+            "en": "PIR sensor adjustment controls",
+            "zh-CN": "PIR 感应器调节结构"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "flood-high-output",
+      "category_id": "flood",
+      "name": {
+        "en": "Die-cast area floodlights",
+        "zh-CN": "压铸铝区域投光灯"
+      },
+      "description": {
+        "en": "A deeper die-cast body and finned rear housing for area-lighting applications, with an adjustable mounting bracket.",
+        "zh-CN": "较深的压铸灯体搭配背部散热结构和可调支架，适用于区域照明选型。"
+      },
+      "reference_spec": {
+        "en": "50 / 100 / 200 / 300 W · 4000 / 6500 K",
+        "zh-CN": "50 / 100 / 200 / 300 W · 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            50,
+            100,
+            200,
+            300
+          ]
+        },
+        "cct_k": {
+          "values": [
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "50W, 100W, 200W and 300W configurations",
+          "Die-cast aluminium and glass construction"
+        ],
+        "zh-CN": [
+          "50W、100W、200W、300W 配置",
+          "压铸铝与玻璃结构"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/flood-lights#flood-high-output",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/flood-lights#flood-high-output"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=flood&context=series-flood-high-output",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=flood&context=series-flood-high-output"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/flood-high-output.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/flood-high-output-view-1.webp",
+          "caption": {
+            "en": "Area floodlight side and bracket",
+            "zh-CN": "区域投光灯侧面与支架"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/flood-high-output-view-2.webp",
+          "caption": {
+            "en": "Finned heat-dissipation housing",
+            "zh-CN": "背部散热鳍片结构"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "panel-selected",
+      "category_id": "panel",
+      "name": {
+        "en": "High-efficiency back-lit panel",
+        "zh-CN": "高光效背光面板灯"
+      },
+      "description": {
+        "en": "A recessed square panel with an external driver for general ceiling lighting.",
+        "zh-CN": "采用外置驱动的方形嵌入式面板灯，用于基础天花照明。"
+      },
+      "reference_spec": {
+        "en": "21 W · 595 × 595 × 50 mm",
+        "zh-CN": "21 W · 595 × 595 × 50 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            21
+          ]
+        },
+        "dimensions_mm": [
+          [
+            595,
+            595,
+            50
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-selected.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/panel-selected-view-1.png",
+          "caption": {
+            "en": "Diffuser and frame detail",
+            "zh-CN": "扩散面罩与边框细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "panel-anti-glare",
+      "category_id": "panel",
+      "name": {
+        "en": "Anti-glare back-lit panel",
+        "zh-CN": "防眩背光面板灯"
+      },
+      "description": {
+        "en": "A textured optical face for office and education lighting briefs.",
+        "zh-CN": "采用纹理光学面罩，适用于办公与教育空间的选型需求。"
+      },
+      "reference_spec": {
+        "en": "36 W · 595 × 595 × 34 mm",
+        "zh-CN": "36 W · 595 × 595 × 34 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            36
+          ]
+        },
+        "dimensions_mm": [
+          [
+            595,
+            595,
+            34
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-anti-glare",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-anti-glare"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-anti-glare",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-anti-glare"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-anti-glare.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-sealed",
+      "category_id": "panel",
+      "name": {
+        "en": "Sealed back-lit panels",
+        "zh-CN": "密封式背光面板灯"
+      },
+      "description": {
+        "en": "Sealed panel and driver construction, with square and rectangular formats.",
+        "zh-CN": "灯体与驱动采用密封结构，提供方形与长方形规格。"
+      },
+      "reference_spec": {
+        "en": "36 W · 295 × 595 / 595 × 595 / 295 × 1195 mm",
+        "zh-CN": "36 W · 295 × 595 / 595 × 595 / 295 × 1195 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            36
+          ]
+        },
+        "dimensions_mm": [
+          [
+            295,
+            595
+          ],
+          [
+            595,
+            595
+          ],
+          [
+            295,
+            1195
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "Three panel formats",
+          "Sealed driver arrangement"
+        ],
+        "zh-CN": [
+          "三种面板尺寸",
+          "密封驱动结构"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-sealed",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-sealed"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-sealed",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-sealed"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-sealed.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/panel-sealed-view-1.webp",
+          "caption": {
+            "en": "Rear driver and cable arrangement",
+            "zh-CN": "背部驱动与接线结构"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "panel-wave",
+      "category_id": "panel",
+      "name": {
+        "en": "Wave optical panel",
+        "zh-CN": "波形光学面板灯"
+      },
+      "description": {
+        "en": "A shaped diffuser creates a different ceiling appearance from a flat panel.",
+        "zh-CN": "立体波形扩散面罩，为天花提供区别于平板的外观。"
+      },
+      "reference_spec": {
+        "en": "36 W · 595 × 595 × 80 mm · 3000 / 4000 / 6000 K",
+        "zh-CN": "36 W · 595 × 595 × 80 mm · 3000 / 4000 / 6000 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            36
+          ]
+        },
+        "dimensions_mm": [
+          [
+            595,
+            595,
+            80
+          ]
+        ],
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6000
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-wave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-wave"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-wave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-wave"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-wave.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-crystal",
+      "category_id": "panel",
+      "name": {
+        "en": "Sparkling diffuser panels",
+        "zh-CN": "星点扩散面板灯"
+      },
+      "description": {
+        "en": "A sparkling-effect diffuser in multiple square and rectangular sizes.",
+        "zh-CN": "采用星点效果扩散面罩，提供多种方形和长方形尺寸。"
+      },
+      "reference_spec": {
+        "en": "4000 K · 300 × 300 / 600 × 600 / 300 × 1200 / 600 × 1200 mm",
+        "zh-CN": "4000 K · 300 × 300 / 600 × 600 / 300 × 1200 / 600 × 1200 mm"
+      },
+      "reference_facets": {
+        "cct_k": {
+          "values": [
+            4000
+          ]
+        },
+        "dimensions_mm": [
+          [
+            300,
+            300
+          ],
+          [
+            600,
+            600
+          ],
+          [
+            300,
+            1200
+          ],
+          [
+            600,
+            1200
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "PVC sparkling-effect diffuser",
+          "Power confirmed for the selected size"
+        ],
+        "zh-CN": [
+          "PVC 星点效果面罩",
+          "功率按所选尺寸核实"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-crystal",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-crystal"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-crystal",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-crystal"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-crystal.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-dali",
+      "category_id": "panel",
+      "name": {
+        "en": "DALI control panels",
+        "zh-CN": "DALI 控制面板灯"
+      },
+      "description": {
+        "en": "Panels for projects specifying a DALI control arrangement.",
+        "zh-CN": "适用于采用 DALI 控制方案的项目照明。"
+      },
+      "reference_spec": {
+        "en": "36 W · 595 × 595 / 295 × 1195 mm",
+        "zh-CN": "36 W · 595 × 595 / 295 × 1195 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            36
+          ]
+        },
+        "dimensions_mm": [
+          [
+            595,
+            595
+          ],
+          [
+            295,
+            1195
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-dali",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-dali"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-dali",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-dali"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-dali.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-sensing",
+      "category_id": "panel",
+      "name": {
+        "en": "Smart sensing panel",
+        "zh-CN": "智能感应面板灯"
+      },
+      "description": {
+        "en": "Panel lighting with PIR and daylight sensing for a defined control brief.",
+        "zh-CN": "集成人体与日光感应，适合需要明确控制策略的照明项目。"
+      },
+      "reference_spec": {
+        "en": "30 W · 595 × 595 × 25 mm · BLE / PIR / Daylight",
+        "zh-CN": "30 W · 595 × 595 × 25 mm · BLE / PIR / 日光感应"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            30
+          ]
+        },
+        "dimensions_mm": [
+          [
+            595,
+            595,
+            25
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-sensing",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-sensing"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-sensing",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-sensing"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-sensing.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-selectable",
+      "category_id": "panel",
+      "name": {
+        "en": "Selectable-power and CCT panel",
+        "zh-CN": "可调功率与色温面板灯"
+      },
+      "description": {
+        "en": "Rear selection switches allow the power and white-light configuration to be set for the order.",
+        "zh-CN": "背部设置开关用于选择功率和白光配置。"
+      },
+      "reference_spec": {
+        "en": "24 / 36 / 40 / 48 W · 3000 / 4000 / 5000 / 6500 K",
+        "zh-CN": "24 / 36 / 40 / 48 W · 3000 / 4000 / 5000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            24,
+            36,
+            40,
+            48
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            5000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "595 × 595 × 34 mm",
+          "Power and CCT selection"
+        ],
+        "zh-CN": [
+          "595 × 595 × 34 mm",
+          "功率和色温选择"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-selectable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-selectable"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-selectable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-selectable"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-selectable.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/panel-selectable-view-1.jpg",
+          "caption": {
+            "en": "Textured diffuser option",
+            "zh-CN": "纹理面罩选项"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "panel-standard",
+      "category_id": "panel",
+      "name": {
+        "en": "Recessed panel range",
+        "zh-CN": "嵌入式面板灯系列"
+      },
+      "description": {
+        "en": "A broad set of square and rectangular panels with black or white frame options. Image is a product-family reference.",
+        "zh-CN": "提供多种方形和长方形尺寸，可按型号选择黑白边框。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "13 / 20 / 36 / 40 / 62 W · 1CCT / 3CCT",
+        "zh-CN": "13 / 20 / 36 / 40 / 62 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            13,
+            20,
+            36,
+            40,
+            62
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "295×295 / 295×595 / 595×595 mm",
+          "620×620 / 295×1195 / 595×1195 mm"
+        ],
+        "zh-CN": [
+          "295×295 / 295×595 / 595×595 mm",
+          "620×620 / 295×1195 / 595×1195 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-standard",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-standard"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-standard",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-standard"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/panel-standard.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-surface",
+      "category_id": "panel",
+      "name": {
+        "en": "Surface-mounted panels",
+        "zh-CN": "明装面板灯系列"
+      },
+      "description": {
+        "en": "Low-profile ceiling panels for direct surface installation.",
+        "zh-CN": "适用于直接明装的薄型天花面板灯。"
+      },
+      "reference_spec": {
+        "en": "32 / 40 W · Square / Rectangular",
+        "zh-CN": "32 / 40 W · 方形 / 长方形"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            32,
+            40
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "400×400 / 300×600 / 600×600 mm",
+          "620×620 / 320×1220 mm"
+        ],
+        "zh-CN": [
+          "400×400 / 300×600 / 600×600 mm",
+          "620×620 / 320×1220 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-surface"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-surface"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-surface.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-square-surface",
+      "category_id": "panel",
+      "name": {
+        "en": "Slim surface-mounted square panel",
+        "zh-CN": "超薄明装方形面板灯"
+      },
+      "description": {
+        "en": "A square surface-mounted panel with a side CCT selector.",
+        "zh-CN": "侧边配色温选择开关的方形明装面板灯。"
+      },
+      "reference_spec": {
+        "en": "32 W · 600 × 600 × 16 mm · 3CCT",
+        "zh-CN": "32 W · 600 × 600 × 16 mm · 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            32
+          ]
+        },
+        "dimensions_mm": [
+          [
+            600,
+            600,
+            16
+          ]
+        ]
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-square-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-square-surface"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-square-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-square-surface"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-square-surface.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/panel-square-surface-view-1.webp",
+          "caption": {
+            "en": "Slim surface-panel frame detail",
+            "zh-CN": "超薄明装面板边框细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "panel-frame-screws",
+      "category_id": "panel",
+      "name": {
+        "en": "Screw-assembled mounting frames",
+        "zh-CN": "螺丝组装明装框"
+      },
+      "description": {
+        "en": "Frame components convert a compatible panel to a surface-mounted installation.",
+        "zh-CN": "通过框架组件将匹配的面板灯用于明装。"
+      },
+      "reference_spec": {
+        "en": "Panel mounting accessory · Frame fit confirmed per panel",
+        "zh-CN": "面板安装配件 · 按面板确认框架适配"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-frame-screws",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-frame-screws"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-frame-screws",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-frame-screws"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-frame-screws.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-frame-screwfree",
+      "category_id": "panel",
+      "name": {
+        "en": "Screw-free mounting frames",
+        "zh-CN": "免螺丝明装框"
+      },
+      "description": {
+        "en": "A clip-together frame system for compatible panel dimensions.",
+        "zh-CN": "采用拼接卡扣结构，适配相应面板灯尺寸。"
+      },
+      "reference_spec": {
+        "en": "Screw-free assembly · Multiple frame formats",
+        "zh-CN": "免螺丝组装 · 多种框架规格"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-frame-screwfree",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-frame-screwfree"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-frame-screwfree",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-frame-screwfree"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-frame-screwfree.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-suspension",
+      "category_id": "panel",
+      "name": {
+        "en": "Panel suspension kits",
+        "zh-CN": "面板灯吊装配件"
+      },
+      "description": {
+        "en": "Cable and ceiling-fixing parts for a suspended panel installation.",
+        "zh-CN": "由吊线和天花固定件组成，用于面板灯吊装。"
+      },
+      "reference_spec": {
+        "en": "Suspension accessory · Compatibility checked per panel",
+        "zh-CN": "吊装配件 · 按面板确认兼容性"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-suspension",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-suspension"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-suspension",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-suspension"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-suspension.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-safety-cable",
+      "category_id": "panel",
+      "name": {
+        "en": "Panel safety cables",
+        "zh-CN": "面板灯安全绳"
+      },
+      "description": {
+        "en": "Supplementary wire retainers for a compatible panel installation.",
+        "zh-CN": "适用于匹配面板安装方式的辅助钢丝防坠配件。"
+      },
+      "reference_spec": {
+        "en": "Safety-wire accessory · Fixing method confirmed with order",
+        "zh-CN": "安全绳配件 · 随订单确认固定方式"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-safety-cable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-safety-cable"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-safety-cable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-safety-cable"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-safety-cable.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "panel-clips",
+      "category_id": "panel",
+      "name": {
+        "en": "Recessed panel mounting clips",
+        "zh-CN": "面板灯嵌入式安装夹"
+      },
+      "description": {
+        "en": "Spring clips for compatible recessed panel frames.",
+        "zh-CN": "用于相应嵌入式面板边框的弹簧安装夹。"
+      },
+      "reference_spec": {
+        "en": "Spring-clip accessory · Match frame and ceiling",
+        "zh-CN": "弹簧夹配件 · 匹配边框与天花"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/panel-lights#panel-clips",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/panel-lights#panel-clips"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=panel&context=series-panel-clips",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=panel&context=series-panel-clips"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/panel-clips.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "ceiling-basic",
+      "category_id": "ceiling",
+      "name": {
+        "en": "Classic ceiling lights",
+        "zh-CN": "基础款吸顶灯"
+      },
+      "description": {
+        "en": "Round ceiling lighting with a choice of diffuser patterns and covers.",
+        "zh-CN": "圆形基础吸顶照明，提供多种扩散罩纹理和面罩选择。"
+      },
+      "reference_spec": {
+        "en": "12 / 18 / 24 W · 1CCT / 3CCT",
+        "zh-CN": "12 / 18 / 24 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "260 / 330 / 380 mm sizes",
+          "Multiple decorative cover options"
+        ],
+        "zh-CN": [
+          "260 / 330 / 380 mm 尺寸",
+          "多种装饰面罩"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-basic",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-basic"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-basic",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-basic"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-1.jpg",
+          "caption": {
+            "en": "Silver-ring cover",
+            "zh-CN": "银环灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-2.jpg",
+          "caption": {
+            "en": "Metallic cover",
+            "zh-CN": "金属边灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-3.jpg",
+          "caption": {
+            "en": "Crystal-pattern cover",
+            "zh-CN": "晶纹灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-4.jpg",
+          "caption": {
+            "en": "Wave cover",
+            "zh-CN": "波纹灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-5.jpg",
+          "caption": {
+            "en": "Star-pattern cover",
+            "zh-CN": "星点灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-6.jpg",
+          "caption": {
+            "en": "Slim-trim cover",
+            "zh-CN": "窄边灯罩"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/ceiling-basic-view-7.jpg",
+          "caption": {
+            "en": "High-side cover",
+            "zh-CN": "高边灯罩"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "ceiling-selected",
+      "category_id": "ceiling",
+      "name": {
+        "en": "Decorative-frame ceiling lights",
+        "zh-CN": "装饰边框吸顶灯"
+      },
+      "description": {
+        "en": "A slim round body with white, black or wood-look frame choices.",
+        "zh-CN": "薄型圆形灯体，可选择白色、黑色或木纹装饰边框。"
+      },
+      "reference_spec": {
+        "en": "12 / 18 / 30 / 36 W · 1CCT / 3CCT",
+        "zh-CN": "12 / 18 / 30 / 36 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            18,
+            30,
+            36
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "230 / 300 / 400 / 500 mm diameters",
+          "White / Black / Mahogany-look / Natural-wood-look frame"
+        ],
+        "zh-CN": [
+          "230 / 300 / 400 / 500 mm 直径",
+          "白色 / 黑色 / 红木纹 / 原木纹边框"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/ceiling-selected.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "ceiling-wall-switch",
+      "category_id": "ceiling",
+      "name": {
+        "en": "Wall-switch colour-changing ceiling lights",
+        "zh-CN": "墙壁开关调色吸顶灯"
+      },
+      "description": {
+        "en": "Change between three white-light settings using a normal wall switch.",
+        "zh-CN": "通过普通墙壁开关切换三档白光色温。"
+      },
+      "reference_spec": {
+        "en": "12 / 18 / 24 / 36 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "12 / 18 / 24 / 36 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            18,
+            24,
+            36
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "290 / 330 / 380 / 480 mm diameters",
+          "Wall-switch CCT selection"
+        ],
+        "zh-CN": [
+          "290 / 330 / 380 / 480 mm 直径",
+          "墙壁开关选择色温"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-wall-switch",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-wall-switch"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-wall-switch",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-wall-switch"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-wall-switch.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "ceiling-dip",
+      "category_id": "ceiling",
+      "name": {
+        "en": "DIP-selectable ceiling lights",
+        "zh-CN": "拨码选择吸顶灯"
+      },
+      "description": {
+        "en": "Set the power and colour temperature using the internal selector.",
+        "zh-CN": "通过灯内拨码开关设置功率与色温。"
+      },
+      "reference_spec": {
+        "en": "16 / 20 / 24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "16 / 20 / 24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            16,
+            20,
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "310 mm body",
+          "Power and CCT selection"
+        ],
+        "zh-CN": [
+          "310 mm 灯体",
+          "功率与色温选择"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-dip",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-dip"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-dip",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-dip"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-dip.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-dip-view-1.webp",
+          "caption": {
+            "en": "Power and CCT selection switches",
+            "zh-CN": "功率与色温拨码开关"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "ceiling-ir",
+      "category_id": "ceiling",
+      "name": {
+        "en": "IR-remote ceiling light",
+        "zh-CN": "红外遥控吸顶灯"
+      },
+      "description": {
+        "en": "Control brightness and white-light colour with the supplied remote arrangement.",
+        "zh-CN": "通过配套红外遥控方案调节亮度与白光色温。"
+      },
+      "reference_spec": {
+        "en": "24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Use a regular on/off wall switch",
+          "Not compatible with wall dimmers"
+        ],
+        "zh-CN": [
+          "配普通通断墙壁开关使用",
+          "不兼容墙壁调光开关"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-ir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-ir"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-ir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-ir"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-ir.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-ir-view-1.webp",
+          "caption": {
+            "en": "Ceiling-light IR remote control",
+            "zh-CN": "吸顶灯红外遥控器"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "ceiling-pir",
+      "category_id": "ceiling",
+      "name": {
+        "en": "PIR sensor ceiling lights",
+        "zh-CN": "PIR 感应吸顶灯"
+      },
+      "description": {
+        "en": "An exposed motion detector adds automatic switching to round ceiling lights.",
+        "zh-CN": "外置人体感应头为圆形吸顶灯提供自动开关功能。"
+      },
+      "reference_spec": {
+        "en": "12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "12 / 18 / 24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            18,
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-pir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-pir"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-pir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-pir"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-pir.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-pir-view-1.webp",
+          "caption": {
+            "en": "External PIR detector detail",
+            "zh-CN": "外置 PIR 感应头细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "ceiling-radar",
+      "category_id": "ceiling",
+      "name": {
+        "en": "Microwave sensor ceiling lights",
+        "zh-CN": "微波感应吸顶灯"
+      },
+      "description": {
+        "en": "A detector concealed inside the housing provides movement-triggered switching.",
+        "zh-CN": "感应器隐藏于灯体内部，以微波探测触发开关。"
+      },
+      "reference_spec": {
+        "en": "12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "12 / 18 / 24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            18,
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/ceiling-lights#ceiling-radar",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/ceiling-lights#ceiling-radar"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=ceiling&context=series-ceiling-radar",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=ceiling&context=series-ceiling-radar"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-radar.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/ceiling-radar-view-1.webp",
+          "caption": {
+            "en": "Concealed microwave sensor inside the ceiling light",
+            "zh-CN": "吸顶灯内部微波感应结构"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-selected",
+      "category_id": "downlight",
+      "name": {
+        "en": "Aluminium-and-iron recessed downlights",
+        "zh-CN": "铝铁结构嵌入式筒灯"
+      },
+      "description": {
+        "en": "Slim recessed luminaires in round and square versions with spring-clip installation.",
+        "zh-CN": "薄型嵌入式灯具，提供圆形与方形，采用弹簧夹安装。"
+      },
+      "reference_spec": {
+        "en": "9 / 12 / 15 / 18 / 24 W · Round / Square",
+        "zh-CN": "9 / 12 / 15 / 18 / 24 W · 圆形 / 方形"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12,
+            15,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500 K",
+          "Round and square cut-outs matched per size"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500 K",
+          "圆形和方形开孔按尺寸匹配"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-selected-view-1.webp",
+          "caption": {
+            "en": "Recessed downlight optical and spring-clip details",
+            "zh-CN": "嵌入式筒灯光学面罩与弹簧夹细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-plastic-round",
+      "category_id": "downlight",
+      "name": {
+        "en": "Plastic recessed round downlights",
+        "zh-CN": "塑料嵌入式圆形筒灯"
+      },
+      "description": {
+        "en": "A light round body with rear spring clips and selectable-CCT options.",
+        "zh-CN": "轻型圆形灯体，配背部弹簧夹，可按型号选择色温配置。"
+      },
+      "reference_spec": {
+        "en": "3 / 6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT",
+        "zh-CN": "3 / 6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            3,
+            6,
+            9,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-plastic-round",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-plastic-round"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-plastic-round",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-plastic-round"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-plastic-round.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-plastic-round-view-1.webp",
+          "caption": {
+            "en": "Plastic round downlight rear",
+            "zh-CN": "塑料圆形筒灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-plastic-square",
+      "category_id": "downlight",
+      "name": {
+        "en": "Plastic recessed square downlights",
+        "zh-CN": "塑料嵌入式方形筒灯"
+      },
+      "description": {
+        "en": "Square recessed lighting with a plastic frame and spring clips.",
+        "zh-CN": "塑料方形边框搭配弹簧夹，适用于嵌入式安装。"
+      },
+      "reference_spec": {
+        "en": "6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT",
+        "zh-CN": "6 / 9 / 12 / 18 / 24 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            6,
+            9,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [],
+        "zh-CN": []
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-plastic-square",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-plastic-square"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-plastic-square",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-plastic-square"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-plastic-square.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-plastic-square-view-1.webp",
+          "caption": {
+            "en": "Plastic square downlight rear",
+            "zh-CN": "塑料方形筒灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-surface-round",
+      "category_id": "downlight",
+      "name": {
+        "en": "Surface-mounted round downlights",
+        "zh-CN": "圆形明装筒灯"
+      },
+      "description": {
+        "en": "A shallow round plastic housing for ceilings without a recessed opening.",
+        "zh-CN": "浅型圆形塑料灯体，可用于无需嵌入开孔的天花安装。"
+      },
+      "reference_spec": {
+        "en": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12,
+            18,
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "151 / 176 / 226 / 296 mm diameter",
+          "1CCT / 3CCT options"
+        ],
+        "zh-CN": [
+          "151 / 176 / 226 / 296 mm 直径",
+          "1CCT / 3CCT 选择"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-surface-round",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-surface-round"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-surface-round",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-surface-round"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-surface-round.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-surface-round-view-1.webp",
+          "caption": {
+            "en": "Surface-mounted round downlight rear",
+            "zh-CN": "圆形明装筒灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-surface-square",
+      "category_id": "downlight",
+      "name": {
+        "en": "Surface-mounted square downlights",
+        "zh-CN": "方形明装筒灯"
+      },
+      "description": {
+        "en": "A square plastic body with a shallow surface-mounting profile.",
+        "zh-CN": "采用浅型方形塑料灯体，适用于直接明装。"
+      },
+      "reference_spec": {
+        "en": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "9 / 12 / 18 / 24 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12,
+            18,
+            24
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "151 / 176 / 226 / 296 mm square",
+          "1CCT / 3CCT options"
+        ],
+        "zh-CN": [
+          "151 / 176 / 226 / 296 mm 方形",
+          "1CCT / 3CCT 选择"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-surface-square",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-surface-square"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-surface-square",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-surface-square"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-surface-square.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-surface-square-view-1.webp",
+          "caption": {
+            "en": "Surface-mounted square downlight rear",
+            "zh-CN": "方形明装筒灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-steel",
+      "category_id": "downlight",
+      "name": {
+        "en": "One-piece steel recessed downlights",
+        "zh-CN": "一体式钢结构嵌入筒灯"
+      },
+      "description": {
+        "en": "A round steel body with built-in or external driver arrangements.",
+        "zh-CN": "圆形一体式钢结构灯体，可按型号选择内置或外置驱动方案。"
+      },
+      "reference_spec": {
+        "en": "7 / 10 / 15 / 20 / 26 W · 3000 / 4000 / 6500 K",
+        "zh-CN": "7 / 10 / 15 / 20 / 26 W · 3000 / 4000 / 6500 K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            7,
+            10,
+            15,
+            20,
+            26
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Built-in / External driver",
+          "75 / 90 / 115 / 150 / 185 mm cut-outs"
+        ],
+        "zh-CN": [
+          "内置 / 外置驱动",
+          "75 / 90 / 115 / 150 / 185 mm 开孔"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-steel",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-steel"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-steel",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-steel"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-steel.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-steel-view-1.webp",
+          "caption": {
+            "en": "External-driver steel downlight arrangement",
+            "zh-CN": "外置驱动钢结构筒灯方案"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "downlight-aluminium-driver",
+      "category_id": "downlight",
+      "name": {
+        "en": "Aluminium downlights with external driver",
+        "zh-CN": "铝制外置驱动筒灯"
+      },
+      "description": {
+        "en": "A deeper aluminium body with separate driver and spring clips.",
+        "zh-CN": "较深的铝制灯体搭配独立驱动和弹簧安装夹。"
+      },
+      "reference_spec": {
+        "en": "15 / 18 / 24 W · 1CCT / 3CCT",
+        "zh-CN": "15 / 18 / 24 W · 1CCT / 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            15,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "122 / 175 / 220 mm cut-outs",
+          "4000 K or 3000 / 4000 / 6500 K"
+        ],
+        "zh-CN": [
+          "122 / 175 / 220 mm 开孔",
+          "4000 K 或 3000 / 4000 / 6500 K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/downlights#downlight-aluminium-driver",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/downlights#downlight-aluminium-driver"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=downlight&context=series-downlight-aluminium-driver",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=downlight&context=series-downlight-aluminium-driver"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-aluminium-driver.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/downlight-aluminium-driver-view-1.webp",
+          "caption": {
+            "en": "Aluminium downlight rear and external driver",
+            "zh-CN": "铝制筒灯背面与外置驱动"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "batten-selected",
+      "category_id": "batten",
+      "name": {
+        "en": "Slim single-tube weatherproof batten",
+        "zh-CN": "纤薄单管防水支架"
+      },
+      "description": {
+        "en": "A covered T8 housing with one replaceable tube position.",
+        "zh-CN": "带防护罩的单灯管 T8 支架。"
+      },
+      "reference_spec": {
+        "en": "1 × T8 · 600–1500 mm",
+        "zh-CN": "1 × T8 · 600–1500 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "min": 600,
+          "max": 1500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm T8 tubes",
+          "Single-ended tube input; confirm tube compatibility with your enquiry"
+        ],
+        "zh-CN": [
+          "适配 600 / 1200 / 1500 mm T8 灯管",
+          "单端输入，询价时确认灯管兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-slim-twin",
+      "category_id": "batten",
+      "name": {
+        "en": "Slim twin-tube weatherproof batten",
+        "zh-CN": "纤薄双管防水支架"
+      },
+      "description": {
+        "en": "A covered twin-tube format for linear lighting layouts.",
+        "zh-CN": "带防护罩的双灯管线性照明支架。"
+      },
+      "reference_spec": {
+        "en": "2 × T8 · 600–1500 mm",
+        "zh-CN": "2 × T8 · 600–1500 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "min": 600,
+          "max": 1500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm T8 tubes",
+          "Single-ended tube input; confirm tube compatibility with your enquiry"
+        ],
+        "zh-CN": [
+          "适配 600 / 1200 / 1500 mm T8 灯管",
+          "单端输入，询价时确认灯管兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-slim-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-slim-twin"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-slim-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-slim-twin"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-slim-twin.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-standard-single",
+      "category_id": "batten",
+      "name": {
+        "en": "Standard single-tube weatherproof batten",
+        "zh-CN": "标准单管防水支架"
+      },
+      "description": {
+        "en": "Standard-depth ABS base with a PC cover; housing image is a family reference.",
+        "zh-CN": "ABS 底座搭配 PC 灯罩；图片为同系列灯体示意。"
+      },
+      "reference_spec": {
+        "en": "1 × T8 · 600–1500 mm",
+        "zh-CN": "1 × T8 · 600–1500 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "min": 600,
+          "max": 1500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm T8 tubes",
+          "Single-ended tube input; confirm tube compatibility with your enquiry"
+        ],
+        "zh-CN": [
+          "适配 600 / 1200 / 1500 mm T8 灯管",
+          "单端输入，询价时确认灯管兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-standard-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-standard-single"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-standard-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-standard-single"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-standard-single.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-standard-twin",
+      "category_id": "batten",
+      "name": {
+        "en": "Standard twin-tube weatherproof batten",
+        "zh-CN": "标准双管防水支架"
+      },
+      "description": {
+        "en": "Standard-depth twin-tube housing; housing image is a family reference.",
+        "zh-CN": "标准双管灯体；图片为同系列灯体示意。"
+      },
+      "reference_spec": {
+        "en": "2 × T8 · 600–1500 mm",
+        "zh-CN": "2 × T8 · 600–1500 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "min": 600,
+          "max": 1500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm T8 tubes",
+          "Single-ended tube input; confirm tube compatibility with your enquiry"
+        ],
+        "zh-CN": [
+          "适配 600 / 1200 / 1500 mm T8 灯管",
+          "单端输入，询价时确认灯管兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-standard-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-standard-twin"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-standard-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-standard-twin"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-standard-twin.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-open-single",
+      "category_id": "batten",
+      "name": {
+        "en": "Open single-tube T8 batten",
+        "zh-CN": "开放式单管 T8 支架"
+      },
+      "description": {
+        "en": "White end-cap fittings for one T8 tube.",
+        "zh-CN": "白色端座的单管 T8 支架。"
+      },
+      "reference_spec": {
+        "en": "1 × T8 · 610 / 1220 mm",
+        "zh-CN": "1 × T8 · 610 / 1220 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "values": [
+            610,
+            1220
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "610 × 33.8 × 45 / 1220 × 33.8 × 45 mm"
+        ],
+        "zh-CN": [
+          "610 × 33.8 × 45 / 1220 × 33.8 × 45 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-open-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-open-single"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-open-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-open-single"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-open-single.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-open-twin",
+      "category_id": "batten",
+      "name": {
+        "en": "Open twin-tube T8 batten",
+        "zh-CN": "开放式双管 T8 支架"
+      },
+      "description": {
+        "en": "Parallel T8 positions with white end caps.",
+        "zh-CN": "并列双 T8 灯管位置，搭配白色端座。"
+      },
+      "reference_spec": {
+        "en": "2 × T8 · 610 / 1220 mm",
+        "zh-CN": "2 × T8 · 610 / 1220 mm"
+      },
+      "reference_facets": {
+        "length_mm": {
+          "values": [
+            610,
+            1220
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "610 × 72 × 40 / 1220 × 72 × 40 mm"
+        ],
+        "zh-CN": [
+          "610 × 72 × 40 / 1220 × 72 × 40 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-open-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-open-twin"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-open-twin",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-open-twin"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-open-twin.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "batten-clear-single",
+      "category_id": "batten",
+      "name": {
+        "en": "Clear-cap single-tube T8 batten",
+        "zh-CN": "透明端座单管 T8 支架"
+      },
+      "description": {
+        "en": "Single-tube fittings with clear PC end caps.",
+        "zh-CN": "采用透明 PC 端座的单管支架。"
+      },
+      "reference_spec": {
+        "en": "1 × T8 · Clear PC caps",
+        "zh-CN": "1 × T8 · 透明 PC 端座"
+      },
+      "reference_facets": {},
+      "configuration_notes": {
+        "en": [
+          "610 / 1200 mm housing lengths"
+        ],
+        "zh-CN": [
+          "灯体长度 610 / 1200 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/battens#batten-clear-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/battens#batten-clear-single"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=batten&context=series-batten-clear-single",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=batten&context=series-batten-clear-single"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/batten-clear-single.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-selected",
+      "category_id": "tube",
+      "name": {
+        "en": "High-efficacy glass T8 tube",
+        "zh-CN": "高光效玻璃 T8 灯管"
+      },
+      "description": {
+        "en": "Glass tubes for longer linear runs with G13 end caps.",
+        "zh-CN": "玻璃灯管搭配 G13 灯头，适合长条照明布局。"
+      },
+      "reference_spec": {
+        "en": "12 / 15W · 1200 / 1500 mm",
+        "zh-CN": "12 / 15W · 1200 / 1500 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12,
+            15
+          ]
+        },
+        "length_mm": {
+          "values": [
+            1200,
+            1500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "G13 base · 220–240V",
+          "12W / 1200 mm; 15W / 1500 mm"
+        ],
+        "zh-CN": [
+          "G13 灯头 · 220–240V",
+          "12W / 1200 mm；15W / 1500 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-selected.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-nano",
+      "category_id": "tube",
+      "name": {
+        "en": "Nano / PC T8 tube",
+        "zh-CN": "纳米 / PC T8 灯管"
+      },
+      "description": {
+        "en": "Alternative diffuser materials in three common tube lengths. Image is a product-family reference.",
+        "zh-CN": "提供不同扩散罩材质和三种常用长度。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "9 / 18 / 22W · G13",
+        "zh-CN": "9 / 18 / 22W · G13"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            18,
+            22
+          ]
+        },
+        "base_options": [
+          "G13"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm",
+          "Nano or PC diffuser; 220–240V"
+        ],
+        "zh-CN": [
+          "600 / 1200 / 1500 mm",
+          "纳米或 PC 扩散罩；220–240V"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-nano",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-nano"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-nano",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-nano"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-nano.png",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-selectable",
+      "category_id": "tube",
+      "name": {
+        "en": "Three-colour T8 tube",
+        "zh-CN": "三色温 T8 灯管"
+      },
+      "description": {
+        "en": "An end-cap switch selects the required colour temperature.",
+        "zh-CN": "通过端部开关选择色温。"
+      },
+      "reference_spec": {
+        "en": "9 / 18 / 22 / 24W · 3CCT",
+        "zh-CN": "9 / 18 / 22 / 24W · 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            18,
+            22,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "600 / 1200 / 1500 mm · G13"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "600 / 1200 / 1500 mm · G13"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-selectable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-selectable"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-selectable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-selectable"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-selectable.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-microwave",
+      "category_id": "tube",
+      "name": {
+        "en": "Microwave-sensing T8 tube",
+        "zh-CN": "微波感应 T8 灯管"
+      },
+      "description": {
+        "en": "An internal movement sensor supports full light and a reduced standby level.",
+        "zh-CN": "内置移动感应器，支持全亮和低亮待机。"
+      },
+      "reference_spec": {
+        "en": "9 / 18 / 22W · G13",
+        "zh-CN": "9 / 18 / 22W · G13"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            18,
+            22
+          ]
+        },
+        "base_options": [
+          "G13"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm",
+          "10% standby output when no movement is detected"
+        ],
+        "zh-CN": [
+          "600 / 1200 / 1500 mm",
+          "无人移动时降至 10% 待机亮度"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-microwave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-microwave"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-microwave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-microwave"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-microwave.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-bluetooth",
+      "category_id": "tube",
+      "name": {
+        "en": "Bluetooth sensing T8 tube",
+        "zh-CN": "蓝牙感应 T8 灯管"
+      },
+      "description": {
+        "en": "Glass T8 tubes combining a microwave sensor with Bluetooth control options. Image is a product-family reference.",
+        "zh-CN": "玻璃 T8 灯管结合微波感应与蓝牙控制选项。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "6 / 12W · 600 / 1200 mm",
+        "zh-CN": "6 / 12W · 600 / 1200 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            6,
+            12
+          ]
+        },
+        "length_mm": {
+          "values": [
+            600,
+            1200
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "6W / 600 mm; 12W / 1200 mm",
+          "Single-ended or double-ended input options; confirm wiring before ordering"
+        ],
+        "zh-CN": [
+          "6W / 600 mm；12W / 1200 mm",
+          "提供单端或双端输入方案，下单前确认接线"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-bluetooth",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-bluetooth"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-bluetooth",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-bluetooth"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-bluetooth.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-dali",
+      "category_id": "tube",
+      "name": {
+        "en": "DALI-control T8 tube",
+        "zh-CN": "DALI 控制 T8 灯管"
+      },
+      "description": {
+        "en": "Tube lighting for a specified DALI driver and control system.",
+        "zh-CN": "适用于指定 DALI 驱动和控制系统的灯管方案。"
+      },
+      "reference_spec": {
+        "en": "9 / 18 / 22W · DALI",
+        "zh-CN": "9 / 18 / 22W · DALI"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            18,
+            22
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "600 / 1200 / 1500 mm",
+          "Confirm driver, dimming and colour-control configuration with your enquiry"
+        ],
+        "zh-CN": [
+          "600 / 1200 / 1500 mm",
+          "询价时确认驱动、调光及色温控制配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-dali",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-dali"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-dali",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-dali"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-dali.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-waterproof",
+      "category_id": "tube",
+      "name": {
+        "en": "Sealed-end waterproof T8 tube",
+        "zh-CN": "密封端防水 T8 灯管"
+      },
+      "description": {
+        "en": "A cable-entry tube format with sealed end fittings.",
+        "zh-CN": "带密封端座和引出线的灯管结构。"
+      },
+      "reference_spec": {
+        "en": "18W · 1200 mm",
+        "zh-CN": "18W · 1200 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            18
+          ]
+        },
+        "length_mm": {
+          "values": [
+            1200
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "G13 format · 220–240V",
+          "180° beam"
+        ],
+        "zh-CN": [
+          "G13 规格 · 220–240V",
+          "180° 光束角"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-waterproof",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-waterproof"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-waterproof",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-waterproof"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/tube-waterproof.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-colour",
+      "category_id": "tube",
+      "name": {
+        "en": "Coloured PC T8 tube",
+        "zh-CN": "彩色 PC T8 灯管"
+      },
+      "description": {
+        "en": "Coloured tubes for decorative linear lighting.",
+        "zh-CN": "适合装饰性线性照明的彩色灯管。"
+      },
+      "reference_spec": {
+        "en": "12W · 1200 mm",
+        "zh-CN": "12W · 1200 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            12
+          ]
+        },
+        "length_mm": {
+          "values": [
+            1200
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Red / yellow / green / blue / purple",
+          "G13 base · 220–240V"
+        ],
+        "zh-CN": [
+          "红 / 黄 / 绿 / 蓝 / 紫",
+          "G13 灯头 · 220–240V"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-colour",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-colour"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-colour",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-colour"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-colour.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tube-regional",
+      "category_id": "tube",
+      "name": {
+        "en": "Regional electrical T8 ranges",
+        "zh-CN": "区域电气规格 T8 系列"
+      },
+      "description": {
+        "en": "Tube options with different input voltages, lengths and wiring arrangements; image is a family reference.",
+        "zh-CN": "提供不同输入电压、长度和接线方式；图片为同系列灯管示意。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "8–24W · G13",
+        "zh-CN": "8–24W · G13"
+      },
+      "reference_facets": {
+        "power_w": {
+          "min": 8,
+          "max": 24
+        },
+        "base_options": [
+          "G13"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "Brazil: 9 / 18W, 600 / 1200 mm, 100–240V",
+          "Mexico: 9 / 18 / 24W, 600 / 1200 / 1500 mm, 100–264V",
+          "Russia: 8 / 16 / 22W, 600 / 1200 / 1500 mm, 176–264V",
+          "Asia-Pacific: 9 / 18 / 24W, 600 / 1200 / 1500 mm, 176–264V",
+          "Thailand: 9 / 18W, 600 / 1200 mm, 176–264V",
+          "Taiwan: 10 / 15 / 20W, 580 / 900 / 1200 mm, 100–264V",
+          "Market-specific compliance documents must be confirmed for the ordered model"
+        ],
+        "zh-CN": [
+          "巴西：9 / 18W，600 / 1200 mm，100–240V",
+          "墨西哥：9 / 18 / 24W，600 / 1200 / 1500 mm，100–264V",
+          "俄罗斯：8 / 16 / 22W，600 / 1200 / 1500 mm，176–264V",
+          "亚太：9 / 18 / 24W，600 / 1200 / 1500 mm，176–264V",
+          "泰国：9 / 18W，600 / 1200 mm，176–264V",
+          "中国台湾：10 / 15 / 20W，580 / 900 / 1200 mm，100–264V",
+          "具体订购型号的目标市场合规文件需另行确认"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-tubes#tube-regional",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-tubes#tube-regional"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tube&context=series-tube-regional",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tube&context=series-tube-regional"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/tube-regional.png",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-high-voltage",
+      "category_id": "strip",
+      "name": {
+        "en": "High-voltage PVC strip",
+        "zh-CN": "高压 PVC 灯带"
+      },
+      "description": {
+        "en": "Reel-format PVC lighting for continuous linear layouts.",
+        "zh-CN": "卷装 PVC 灯带，适合连续线性布光。"
+      },
+      "reference_spec": {
+        "en": "220V · 3000 / 4000 / 6500K",
+        "zh-CN": "220V · 3000 / 4000 / 6500K"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            220
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60 / 120 / 180 LED density options",
+          "50 / 100 m reel options"
+        ],
+        "zh-CN": [
+          "60 / 120 / 180 灯珠密度选项",
+          "50 / 100 m 卷装选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-high-voltage",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-high-voltage"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-high-voltage",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-high-voltage"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-high-voltage.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-driver-free",
+      "category_id": "strip",
+      "name": {
+        "en": "Driver-free high-voltage strip",
+        "zh-CN": "免驱高压灯带"
+      },
+      "description": {
+        "en": "A separate high-voltage strip family with driver-free construction.",
+        "zh-CN": "采用免驱结构的独立高压灯带系列。"
+      },
+      "reference_spec": {
+        "en": "220V · 3000 / 4000 / 6500K",
+        "zh-CN": "220V · 3000 / 4000 / 6500K"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            220
+          ]
+        },
+        "cct_k": {
+          "values": [
+            3000,
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60 / 120 LED density options",
+          "50 / 100 m reel options"
+        ],
+        "zh-CN": [
+          "60 / 120 灯珠密度选项",
+          "50 / 100 m 卷装选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-driver-free",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-driver-free"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-driver-free",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-driver-free"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-driver-free.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-bare",
+      "category_id": "strip",
+      "name": {
+        "en": "Bare low-voltage strip",
+        "zh-CN": "低压裸板灯带"
+      },
+      "description": {
+        "en": "Flexible exposed LED tape for integration into suitable indoor fittings.",
+        "zh-CN": "可集成于合适室内灯具的柔性裸板 LED 灯带。"
+      },
+      "reference_spec": {
+        "en": "5 / 12 / 24V · White / RGB / RGBW",
+        "zh-CN": "5 / 12 / 24V · 白光 / RGB / RGBW"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            5,
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60 / 120 / 180 / 240 LED density options",
+          "Select driver and channel for the required installation"
+        ],
+        "zh-CN": [
+          "60 / 120 / 180 / 240 灯珠密度选项",
+          "根据安装要求选择驱动与型材"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-bare",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-bare"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-bare",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-bare"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-bare.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-drip-glue",
+      "category_id": "strip",
+      "name": {
+        "en": "PU-coated strip",
+        "zh-CN": "PU 滴胶灯带"
+      },
+      "description": {
+        "en": "A coated flexible strip in white colour-temperature options.",
+        "zh-CN": "提供多种白光色温的涂胶柔性灯带。"
+      },
+      "reference_spec": {
+        "en": "5 / 12 / 24V · 3 white options",
+        "zh-CN": "5 / 12 / 24V · 三种白光选项"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            5,
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "60 / 120 / 180 / 240 LED density options"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "60 / 120 / 180 / 240 灯珠密度选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-drip-glue",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-drip-glue"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-drip-glue",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-drip-glue"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-drip-glue.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-silicone-sleeve",
+      "category_id": "strip",
+      "name": {
+        "en": "Silicone-sleeved strip",
+        "zh-CN": "硅胶套管灯带"
+      },
+      "description": {
+        "en": "Flexible LED tape with a silicone casing option.",
+        "zh-CN": "带硅胶套管的柔性 LED 灯带。"
+      },
+      "reference_spec": {
+        "en": "5 / 12 / 24V · White / RGB / RGBW",
+        "zh-CN": "5 / 12 / 24V · 白光 / RGB / RGBW"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            5,
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60 / 120 / 180 / 240 LED density options",
+          "Sealing configuration selected for the installation"
+        ],
+        "zh-CN": [
+          "60 / 120 / 180 / 240 灯珠密度选项",
+          "按安装环境选定密封配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-silicone-sleeve",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-silicone-sleeve"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-silicone-sleeve",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-silicone-sleeve"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-silicone-sleeve.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-pvc-coated",
+      "category_id": "strip",
+      "name": {
+        "en": "PVC-coated high-voltage strip",
+        "zh-CN": "PVC 包覆高压灯带"
+      },
+      "description": {
+        "en": "An enclosed flexible strip family for higher-voltage input.",
+        "zh-CN": "适用于较高输入电压的包覆柔性灯带系列。"
+      },
+      "reference_spec": {
+        "en": "110 / 220V · White / RGB",
+        "zh-CN": "110 / 220V · 白光 / RGB"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            110,
+            220
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60 / 120 / 180 / 240 LED density options",
+          "Single-colour or two-colour material options"
+        ],
+        "zh-CN": [
+          "60 / 120 / 180 / 240 灯珠密度选项",
+          "单色或双色材料选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-pvc-coated",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-pvc-coated"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-pvc-coated",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-pvc-coated"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-pvc-coated.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-silicone-extrusion",
+      "category_id": "strip",
+      "name": {
+        "en": "Silicone-encapsulated strip",
+        "zh-CN": "硅胶封装灯带"
+      },
+      "description": {
+        "en": "An enclosed low-voltage strip with configurable colour and dimensions.",
+        "zh-CN": "颜色与尺寸可选的低压封装灯带。"
+      },
+      "reference_spec": {
+        "en": "12 / 24V · White / RGB / RGBW",
+        "zh-CN": "12 / 24V · 白光 / RGB / RGBW"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Custom dimensions",
+          "50 m reel option"
+        ],
+        "zh-CN": [
+          "尺寸可定制",
+          "50 m 卷装选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-silicone-extrusion",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-silicone-extrusion"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-silicone-extrusion",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-silicone-extrusion"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-silicone-extrusion.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-neon",
+      "category_id": "strip",
+      "name": {
+        "en": "Flexible neon strip",
+        "zh-CN": "柔性霓虹灯带"
+      },
+      "description": {
+        "en": "A diffused linear profile in white and coloured lighting options.",
+        "zh-CN": "提供白光与彩色光的扩散式线性灯带。"
+      },
+      "reference_spec": {
+        "en": "12 / 24 / 110 / 220V",
+        "zh-CN": "12 / 24 / 110 / 220V"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            12,
+            24,
+            110,
+            220
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "6 × 12 / 8 × 16 mm profiles",
+          "White / RGB / RGBW; 5 / 50 / 100 m packing options"
+        ],
+        "zh-CN": [
+          "6 × 12 / 8 × 16 mm 截面",
+          "白光 / RGB / RGBW；5 / 50 / 100 m 包装选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-neon",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-neon"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-neon",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-neon"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-neon.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-profile",
+      "category_id": "strip",
+      "name": {
+        "en": "Aluminium-profile linear light",
+        "zh-CN": "铝型材线条灯"
+      },
+      "description": {
+        "en": "An aluminium channel and diffuser system for linear lighting.",
+        "zh-CN": "由铝型材和扩散罩组成的线性照明方案。"
+      },
+      "reference_spec": {
+        "en": "12 / 24V · Black / white / silver",
+        "zh-CN": "12 / 24V · 黑 / 白 / 银"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Custom dimensions",
+          "White / RGB / RGBW configuration options"
+        ],
+        "zh-CN": [
+          "尺寸可定制",
+          "白光 / RGB / RGBW 配置选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-profile",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-profile"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-profile",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-profile"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-profile.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-battery",
+      "category_id": "strip",
+      "name": {
+        "en": "Dry-cell strip kit",
+        "zh-CN": "干电池灯带套装"
+      },
+      "description": {
+        "en": "A compact battery-powered strip set for decorative layouts.",
+        "zh-CN": "适合装饰布光的小型电池供电灯带套装。"
+      },
+      "reference_spec": {
+        "en": "5V · 1 / 3 m",
+        "zh-CN": "5V · 1 / 3 m"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            5
+          ]
+        },
+        "length_m": {
+          "values": [
+            1,
+            3
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Clear or matte material options",
+          "White or RGB options"
+        ],
+        "zh-CN": [
+          "透明或磨砂材质选项",
+          "白光或 RGB 选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-battery",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-battery"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-battery",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-battery"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-battery.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-rechargeable",
+      "category_id": "strip",
+      "name": {
+        "en": "Rechargeable sensor strip kit",
+        "zh-CN": "充电感应灯带套装"
+      },
+      "description": {
+        "en": "A short strip with a rechargeable control unit and Type-C port.",
+        "zh-CN": "搭配充电控制器和 Type-C 接口的短灯带套装。"
+      },
+      "reference_spec": {
+        "en": "5V · 1 m · Type-C",
+        "zh-CN": "5V · 1 m · Type-C"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            5
+          ]
+        },
+        "length_m": {
+          "values": [
+            1
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Lithium-battery charging",
+          "White or RGB options"
+        ],
+        "zh-CN": [
+          "锂电池充电",
+          "白光或 RGB 选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-rechargeable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-rechargeable"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-rechargeable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-rechargeable"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-rechargeable.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "strip-selected",
+      "category_id": "strip",
+      "name": {
+        "en": "COB strip lighting",
+        "zh-CN": "COB 灯带"
+      },
+      "description": {
+        "en": "A continuous-looking light line for coves, profiles and furniture details.",
+        "zh-CN": "适合灯槽、型材和家具细部的连续光线效果。"
+      },
+      "reference_spec": {
+        "en": "12 / 24V · COB",
+        "zh-CN": "12 / 24V · COB"
+      },
+      "reference_facets": {
+        "voltage_v": {
+          "values": [
+            12,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "320 / 480 LED density options",
+          "White / RGB / RGBW options"
+        ],
+        "zh-CN": [
+          "320 / 480 灯珠密度选项",
+          "白光 / RGB / RGBW 选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/strip-lights#strip-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/strip-lights#strip-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=strip&context=series-strip-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=strip&context=series-strip-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/strip-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/strip-selected-view-1.webp",
+          "caption": {
+            "en": "Strip cutting detail",
+            "zh-CN": "灯带裁切细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "bulb-selected",
+      "category_id": "bulb",
+      "name": {
+        "en": "General-purpose LED bulbs",
+        "zh-CN": "通用 LED 球泡"
+      },
+      "description": {
+        "en": "A-shape, candle and globe options for replacement lighting.",
+        "zh-CN": "适合替换照明的 A 型、蜡烛型和球形灯泡。"
+      },
+      "reference_spec": {
+        "en": "4.2–15W · A60 / C37 / G45 / G95 / G120",
+        "zh-CN": "4.2–15W · A60 / C37 / G45 / G95 / G120"
+      },
+      "reference_facets": {
+        "power_w": {
+          "min": 4.2,
+          "max": 15
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "A60: 4.9 / 6.5 / 7 / 9 / 9.5 / 10 / 11 / 11.5 / 12 / 15W",
+          "C37: 4.2 / 4.9 / 7W; G45: 4.2 / 6 / 7W",
+          "G95: 15W; G120: 10W",
+          "E27 / B22; selected small shapes offer E14 / B15D",
+          "Non-dimmable; 3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "A60：4.9 / 6.5 / 7 / 9 / 9.5 / 10 / 11 / 11.5 / 12 / 15W",
+          "C37：4.2 / 4.9 / 7W；G45：4.2 / 6 / 7W",
+          "G95：15W；G120：10W",
+          "E27 / B22；部分小型灯泡可选 E14 / B15D",
+          "不可调光；3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-selected.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-spot",
+      "category_id": "bulb",
+      "name": {
+        "en": "Non-dimmable GU10 / MR16 spots",
+        "zh-CN": "不可调光 GU10 / MR16 射灯泡"
+      },
+      "description": {
+        "en": "Compact spot lamps with material and beam options.",
+        "zh-CN": "提供不同材质和光束角选项的小型射灯泡。"
+      },
+      "reference_spec": {
+        "en": "2.9–8W · GU10 / GU5.3",
+        "zh-CN": "2.9–8W · GU10 / GU5.3"
+      },
+      "reference_facets": {
+        "power_w": {
+          "min": 2.9,
+          "max": 8
+        },
+        "base_options": [
+          "GU10",
+          "GU5.3"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "GU10: 2.9 / 4.9 / 6 / 7 / 8W",
+          "MR16: 6W · GU5.3 · 220–240V",
+          "38° / 100° beam options by model",
+          "3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "GU10：2.9 / 4.9 / 6 / 7 / 8W",
+          "MR16：6W · GU5.3 · 220–240V",
+          "按型号提供 38° / 100° 光束角",
+          "3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-spot",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-spot"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-spot",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-spot"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/bulb-spot.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-dimmable",
+      "category_id": "bulb",
+      "name": {
+        "en": "Dimmable LED bulbs and spots",
+        "zh-CN": "可调光球泡与射灯泡"
+      },
+      "description": {
+        "en": "Dimmable A60, globe and GU10 formats. Image is a product-family reference.",
+        "zh-CN": "提供可调光 A60、球形和 GU10 规格。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "5–15W · Dimmable",
+        "zh-CN": "5–15W · 可调光"
+      },
+      "reference_facets": {
+        "power_w": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "A60: 10 / 12W; G120: 15W",
+          "GU10: 5 / 6 / 7W",
+          "E27 / B22 / GU10 by shape; 3000 / 4000 / 6500K",
+          "Confirm the dimmer model and supported load"
+        ],
+        "zh-CN": [
+          "A60：10 / 12W；G120：15W",
+          "GU10：5 / 6 / 7W",
+          "按灯形提供 E27 / B22 / GU10；3000 / 4000 / 6500K",
+          "需确认调光器型号与支持负载"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-dimmable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-dimmable"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-dimmable",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-dimmable"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-dimmable.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-reflector",
+      "category_id": "bulb",
+      "name": {
+        "en": "LED reflector bulbs",
+        "zh-CN": "LED 反射灯泡"
+      },
+      "description": {
+        "en": "Three reflector sizes for directional replacement lighting.",
+        "zh-CN": "用于定向替换照明的三种反射灯规格。"
+      },
+      "reference_spec": {
+        "en": "6 / 8 / 9W · R50 / R63 / R80",
+        "zh-CN": "6 / 8 / 9W · R50 / R63 / R80"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            6,
+            8,
+            9
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "R50: 6W / E14; R63: 8W / E27; R80: 9W / E27",
+          "Non-dimmable · 3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "R50：6W / E14；R63：8W / E27；R80：9W / E27",
+          "不可调光 · 3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-reflector",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-reflector"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-reflector",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-reflector"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-reflector.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-glass-gu10",
+      "category_id": "bulb",
+      "name": {
+        "en": "Glass GU10 spot",
+        "zh-CN": "玻璃 GU10 射灯泡"
+      },
+      "description": {
+        "en": "Glass-bodied spots with different optics and dimming options.",
+        "zh-CN": "提供不同光学和调光选项的玻璃灯体射灯泡。"
+      },
+      "reference_spec": {
+        "en": "5 / 7 / 10W · GU10",
+        "zh-CN": "5 / 7 / 10W · GU10"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            5,
+            7,
+            10
+          ]
+        },
+        "base_options": [
+          "GU10"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "38° / 60° / 100° beam options",
+          "Dimmable or non-dimmable variants · 220–240V",
+          "3000 / 4000 / 6500K",
+          "Confirm base and dimmer compatibility before ordering"
+        ],
+        "zh-CN": [
+          "38° / 60° / 100° 光束角选项",
+          "可调光或不可调光版本 · 220–240V",
+          "3000 / 4000 / 6500K",
+          "下单前确认灯头和调光兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-glass-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-glass-gu10"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-glass-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-glass-gu10"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-glass-gu10.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-glass-mr16",
+      "category_id": "bulb",
+      "name": {
+        "en": "Glass MR16 spot",
+        "zh-CN": "玻璃 MR16 射灯泡"
+      },
+      "description": {
+        "en": "A glass-bodied MR16-format lamp with a GU5.3 base.",
+        "zh-CN": "采用 GU5.3 灯头的玻璃 MR16 规格灯泡。"
+      },
+      "reference_spec": {
+        "en": "8W · GU5.3 · 220–240V",
+        "zh-CN": "8W · GU5.3 · 220–240V"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            8
+          ]
+        },
+        "base_options": [
+          "GU5.3"
+        ],
+        "voltage_v": {
+          "min": 220,
+          "max": 240
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "60° beam",
+          "Dimmable or non-dimmable variants",
+          "3000 / 4000 / 6500K",
+          "Confirm base and dimmer compatibility before ordering"
+        ],
+        "zh-CN": [
+          "60° 光束角",
+          "可调光或不可调光版本",
+          "3000 / 4000 / 6500K",
+          "下单前确认灯头和调光兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-glass-mr16",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-glass-mr16"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-glass-mr16",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-glass-mr16"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/bulb-glass-mr16.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-t",
+      "category_id": "bulb",
+      "name": {
+        "en": "T-shape LED bulb",
+        "zh-CN": "T 型 LED 灯泡"
+      },
+      "description": {
+        "en": "Higher-power cylindrical bulbs in two input-voltage families.",
+        "zh-CN": "提供两种输入电压系列的较高功率柱形灯泡。"
+      },
+      "reference_spec": {
+        "en": "20 / 30 / 40 / 50W · E27 / B22",
+        "zh-CN": "20 / 30 / 40 / 50W · E27 / B22"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            20,
+            30,
+            40,
+            50
+          ]
+        },
+        "base_options": [
+          "E27",
+          "B22"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "220–240V: T80 / T100 / T120 / T140",
+          "100–240V: T70 / T80 / T100 / T120",
+          "3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "220–240V：T80 / T100 / T120 / T140",
+          "100–240V：T70 / T80 / T100 / T120",
+          "3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-t",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-t"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-t",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-t"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-t.png",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-stick",
+      "category_id": "bulb",
+      "name": {
+        "en": "Stick LED bulb",
+        "zh-CN": "柱形 LED 灯泡"
+      },
+      "description": {
+        "en": "Narrow tubular replacement bulbs in five power options.",
+        "zh-CN": "提供五种功率的细长柱形替换灯泡。"
+      },
+      "reference_spec": {
+        "en": "5 / 7 / 9 / 12 / 15W",
+        "zh-CN": "5 / 7 / 9 / 12 / 15W"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            5,
+            7,
+            9,
+            12,
+            15
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "T28 / T32 / T36 / T45 / T50 formats",
+          "E27 / B22 · 220–240V · 3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "T28 / T32 / T36 / T45 / T50 规格",
+          "E27 / B22 · 220–240V · 3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-stick",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-stick"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-stick",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-stick"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-stick.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-wall-switch",
+      "category_id": "bulb",
+      "name": {
+        "en": "Wall-switch three-colour A60",
+        "zh-CN": "墙壁开关三色温 A60"
+      },
+      "description": {
+        "en": "Change between three white tones using the wall switch.",
+        "zh-CN": "通过墙壁开关在三种白光色温之间切换。"
+      },
+      "reference_spec": {
+        "en": "9 / 12W · E27 · 3CCT",
+        "zh-CN": "9 / 12W · E27 · 3CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "Colour-mode memory"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "色温模式记忆"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-wall-switch",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-wall-switch"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-wall-switch",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-wall-switch"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-wall-switch.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-five-cct",
+      "category_id": "bulb",
+      "name": {
+        "en": "Body-switch five-colour bulb",
+        "zh-CN": "灯体开关五色温球泡"
+      },
+      "description": {
+        "en": "A selector on the lamp body offers five white tones.",
+        "zh-CN": "通过灯体上的选择开关提供五种白光色温。"
+      },
+      "reference_spec": {
+        "en": "9 / 12 / 15W · E27 · 5CCT",
+        "zh-CN": "9 / 12 / 15W · E27 · 5CCT"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12,
+            15
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 / A70 formats",
+          "2700 / 3000 / 4000 / 5000 / 6500K"
+        ],
+        "zh-CN": [
+          "A60 / A70 规格",
+          "2700 / 3000 / 4000 / 5000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-five-cct",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-five-cct"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-five-cct",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-five-cct"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-five-cct.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-24v",
+      "category_id": "bulb",
+      "name": {
+        "en": "24V DC A60 bulb",
+        "zh-CN": "24V 直流 A60 灯泡"
+      },
+      "description": {
+        "en": "A low-voltage lamp for a specified 24V DC lighting supply.",
+        "zh-CN": "适用于指定 24V 直流照明电源的低压灯泡。"
+      },
+      "reference_spec": {
+        "en": "9W · 24V DC · E27",
+        "zh-CN": "9W · 24V DC · E27"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9
+          ]
+        },
+        "voltage_v": {
+          "values": [
+            24
+          ]
+        },
+        "current_type": "DC",
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "Confirm base and dimmer compatibility before ordering"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "下单前确认灯头和调光兼容性"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-24v",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-24v"
+      },
+      "selection_guide": {
+        "en": "https://www.scyllalight.cn/en/products/series/bulb-24v",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/series/bulb-24v"
+      },
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-24v",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-24v"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-24v.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-remote",
+      "category_id": "bulb",
+      "name": {
+        "en": "Remote-control A60 bulb",
+        "zh-CN": "遥控 A60 灯泡"
+      },
+      "description": {
+        "en": "Adjust brightness and white tone with a matching remote.",
+        "zh-CN": "搭配适配遥控器调节亮度和白光色温。"
+      },
+      "reference_spec": {
+        "en": "9 / 12W · E27 · 2700–6500K",
+        "zh-CN": "9 / 12W · E27 · 2700–6500K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12
+          ]
+        },
+        "base_options": [
+          "E27"
+        ],
+        "cct_k": {
+          "min": 2700,
+          "max": 6500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "220–240V",
+          "Confirm remote and wireless-control configuration with your enquiry"
+        ],
+        "zh-CN": [
+          "220–240V",
+          "询价时确认遥控器和无线控制配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-remote",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-remote"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-remote",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-remote"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-remote.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/bulb-remote-view-1.jpg",
+          "caption": {
+            "en": "Remote-control configuration reference",
+            "zh-CN": "遥控配置参考图"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "bulb-pir",
+      "category_id": "bulb",
+      "name": {
+        "en": "PIR-sensing A60 bulb",
+        "zh-CN": "PIR 人体感应 A60"
+      },
+      "description": {
+        "en": "A visible PIR sensor provides movement-triggered lighting in dark conditions.",
+        "zh-CN": "外置 PIR 探头支持暗环境下的移动触发照明。"
+      },
+      "reference_spec": {
+        "en": "9W · E27 · PIR",
+        "zh-CN": "9W · E27 · PIR"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "Daylight inhibit; approximately 30-second switch-off after movement stops"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "白天抑制点亮；移动停止后约 30 秒关灯"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-pir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-pir"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-pir",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-pir"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-pir.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-microwave",
+      "category_id": "bulb",
+      "name": {
+        "en": "Microwave-sensing A60 bulb",
+        "zh-CN": "微波感应 A60"
+      },
+      "description": {
+        "en": "A concealed sensor responds to movement in dark conditions.",
+        "zh-CN": "内置感应器响应暗环境中的移动。"
+      },
+      "reference_spec": {
+        "en": "9W · E27 · Microwave",
+        "zh-CN": "9W · E27 · 微波感应"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "Daylight inhibit; approximately 30-second switch-off after movement stops"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "白天抑制点亮；移动停止后约 30 秒关灯"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-microwave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-microwave"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-microwave",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-microwave"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-microwave.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/bulb-microwave-view-1.jpg",
+          "caption": {
+            "en": "Concealed sensing configuration",
+            "zh-CN": "内置感应配置示意"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "bulb-daylight",
+      "category_id": "bulb",
+      "name": {
+        "en": "Daylight-sensing A60 bulb",
+        "zh-CN": "光感 A60 灯泡"
+      },
+      "description": {
+        "en": "Automatic dusk-to-dawn switching using ambient light.",
+        "zh-CN": "根据环境光实现天黑开启、天亮关闭。"
+      },
+      "reference_spec": {
+        "en": "9W · E27 · Daylight sensor",
+        "zh-CN": "9W · E27 · 光感"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K",
+          "220–240V"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K",
+          "220–240V"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-daylight",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-daylight"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-daylight",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-daylight"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/bulb-daylight.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "bulb-efficient-gu10",
+      "category_id": "bulb",
+      "name": {
+        "en": "High-efficacy glass GU10",
+        "zh-CN": "高光效玻璃 GU10"
+      },
+      "description": {
+        "en": "A narrow-beam glass spot in dimmable and non-dimmable variants.",
+        "zh-CN": "提供可调光与不可调光版本的窄光束玻璃射灯泡。"
+      },
+      "reference_spec": {
+        "en": "8W · GU10 · 30°",
+        "zh-CN": "8W · GU10 · 30°"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            8
+          ]
+        },
+        "base_options": [
+          "GU10"
+        ],
+        "beam_angle_deg": {
+          "values": [
+            30
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Dimmable or non-dimmable",
+          "Use only the dimmable variant with a compatible wall dimmer; not a three-way touch-lamp replacement"
+        ],
+        "zh-CN": [
+          "可调光或不可调光",
+          "仅可调光版本可搭配兼容墙壁调光器；不适用于三档触摸台灯"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/led-bulbs#bulb-efficient-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/led-bulbs#bulb-efficient-gu10"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=bulb&context=series-bulb-efficient-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=bulb&context=series-bulb-efficient-gu10"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/bulb-efficient-gu10.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "filament-selected",
+      "category_id": "filament",
+      "name": {
+        "en": "Classic filament bulbs",
+        "zh-CN": "经典灯丝泡"
+      },
+      "description": {
+        "en": "Clear and amber glass in candle, pear and globe shapes.",
+        "zh-CN": "提供透明和琥珀玻璃，以及蜡烛、梨形和球形外观。"
+      },
+      "reference_spec": {
+        "en": "2.5–12W · E14 / E27",
+        "zh-CN": "2.5–12W · E14 / E27"
+      },
+      "reference_facets": {
+        "power_w": {
+          "min": 2.5,
+          "max": 12
+        },
+        "base_options": [
+          "E14",
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "C37: 2.5W; C35: 4W; G45: 4 / 6W",
+          "A60: 4 / 6 / 8 / 12W; ST64: 6 / 8 / 12W",
+          "G80: 6W; G95 / G125: 6 / 8W",
+          "Clear or amber by model"
+        ],
+        "zh-CN": [
+          "C37：2.5W；C35：4W；G45：4 / 6W",
+          "A60：4 / 6 / 8 / 12W；ST64：6 / 8 / 12W",
+          "G80：6W；G95 / G125：6 / 8W",
+          "按型号提供透明或琥珀玻璃"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/filament-selected.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-selected-view-1.jpg",
+          "caption": {
+            "en": "Amber A60",
+            "zh-CN": "琥珀 A60"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-selected-view-2.jpg",
+          "caption": {
+            "en": "Candle filament bulb",
+            "zh-CN": "蜡烛形灯丝泡"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-selected-view-3.jpg",
+          "caption": {
+            "en": "G45 filament bulb",
+            "zh-CN": "G45 灯丝泡"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-selected-view-4.jpg",
+          "caption": {
+            "en": "Amber ST64",
+            "zh-CN": "琥珀 ST64"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-selected-view-5.jpg",
+          "caption": {
+            "en": "G95 filament bulb",
+            "zh-CN": "G95 灯丝泡"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "filament-spiral",
+      "category_id": "filament",
+      "name": {
+        "en": "Spiral filament bulbs",
+        "zh-CN": "螺旋灯丝泡"
+      },
+      "description": {
+        "en": "Decorative spiral filaments in several glass shapes.",
+        "zh-CN": "多种玻璃外观搭配装饰性螺旋灯丝。"
+      },
+      "reference_spec": {
+        "en": "4W · E27 / E14",
+        "zh-CN": "4W · E27 / E14"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            4
+          ]
+        },
+        "base_options": [
+          "E27",
+          "E14"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 / ST64 / G45 / G80 / G95 / G125",
+          "Clear / amber / smoky glass options"
+        ],
+        "zh-CN": [
+          "A60 / ST64 / G45 / G80 / G95 / G125",
+          "透明 / 琥珀 / 烟灰玻璃选项"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-spiral",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-spiral"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-spiral",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-spiral"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/filament-spiral.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/filament-spiral-view-1.webp",
+          "caption": {
+            "en": "Illuminated spiral filament detail",
+            "zh-CN": "螺旋灯丝点亮细节"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "filament-colour",
+      "category_id": "filament",
+      "name": {
+        "en": "Coloured decorative filament bulbs",
+        "zh-CN": "彩色装饰灯丝泡"
+      },
+      "description": {
+        "en": "Tinted and graduated glass finishes for decorative lighting.",
+        "zh-CN": "适合装饰照明的染色和渐变玻璃外观。"
+      },
+      "reference_spec": {
+        "en": "4.5 / 5W · Decorative glass",
+        "zh-CN": "4.5 / 5W · 装饰玻璃"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            4.5,
+            5
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 4.5W: green / blue / orange / red; E27 / B22",
+          "5W E27: G125 amber, A165 pink / smoke, D170 blue, D140 brown / black"
+        ],
+        "zh-CN": [
+          "A60 4.5W：绿 / 蓝 / 橙 / 红；E27 / B22",
+          "5W E27：G125 琥珀，A165 粉 / 烟灰，D170 蓝，D140 棕 / 黑"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-colour",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-colour"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-colour",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-colour"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/filament-colour.jpg",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-colour-view-1.jpg",
+          "caption": {
+            "en": "Orange glass",
+            "zh-CN": "橙色玻璃"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-colour-view-2.jpg",
+          "caption": {
+            "en": "Red glass",
+            "zh-CN": "红色玻璃"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/products/originals/filament-colour-view-3.jpg",
+          "caption": {
+            "en": "Blue glass",
+            "zh-CN": "蓝色玻璃"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "filament-efficient",
+      "category_id": "filament",
+      "name": {
+        "en": "High-efficacy A60 filament bulb",
+        "zh-CN": "高光效 A60 灯丝泡"
+      },
+      "description": {
+        "en": "A lower-power A60 filament range; photograph is a glass-body family reference.",
+        "zh-CN": "较低功率 A60 灯丝泡系列；图片为同系列玻璃灯体示意。 图片为同系列示意。"
+      },
+      "reference_spec": {
+        "en": "2.3 / 4 / 5.2 / 7.3W · E27",
+        "zh-CN": "2.3 / 4 / 5.2 / 7.3W · E27"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            2.3,
+            4,
+            5.2,
+            7.3
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "Clear or frosted glass",
+          "60 × 105 mm · 220–240V"
+        ],
+        "zh-CN": [
+          "透明或磨砂玻璃",
+          "60 × 105 mm · 220–240V"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-efficient",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-efficient"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-efficient",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-efficient"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/products/originals/filament-efficient.jpg",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "filament-half-chrome",
+      "category_id": "filament",
+      "name": {
+        "en": "Smart half-mirror filament bulb",
+        "zh-CN": "智能半镜面灯丝泡"
+      },
+      "description": {
+        "en": "A reflective bowl tip with app-controlled white tone.",
+        "zh-CN": "反射式镜面灯顶，支持应用控制白光色温。"
+      },
+      "reference_spec": {
+        "en": "4.9 / 7W · E27 · 2700–6500K",
+        "zh-CN": "4.9 / 7W · E27 · 2700–6500K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            4.9,
+            7
+          ]
+        },
+        "base_options": [
+          "E27"
+        ],
+        "cct_k": {
+          "min": 2700,
+          "max": 6500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 4.9W / G95 7W",
+          "Gold- or silver-plated bowl tip",
+          "Confirm app and control configuration"
+        ],
+        "zh-CN": [
+          "A60 4.9W / G95 7W",
+          "金色或银色镀层灯顶",
+          "需确认应用和控制配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-half-chrome",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-half-chrome"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-half-chrome",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-half-chrome"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/filament-half-chrome.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "filament-daylight",
+      "category_id": "filament",
+      "name": {
+        "en": "Daylight-sensing filament bulb",
+        "zh-CN": "光感灯丝泡"
+      },
+      "description": {
+        "en": "Dusk-to-dawn switching in clear or amber decorative formats.",
+        "zh-CN": "透明或琥珀装饰外观，支持天黑开灯、天亮关灯。"
+      },
+      "reference_spec": {
+        "en": "7W · E27 · Daylight sensor",
+        "zh-CN": "7W · E27 · 光感"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            7
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 / ST58 formats",
+          "2700 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "A60 / ST58 规格",
+          "2700 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/filament-bulbs#filament-daylight",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/filament-bulbs#filament-daylight"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=filament&context=series-filament-daylight",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=filament&context=series-filament-daylight"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/filament-daylight.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "smart-selected",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart ceiling light",
+        "zh-CN": "智能吸顶灯"
+      },
+      "description": {
+        "en": "App-controlled ceiling lighting with RGB and tunable-white options.",
+        "zh-CN": "支持应用控制，提供 RGB 和可调白光选项。"
+      },
+      "reference_spec": {
+        "en": "20 / 24W · 290 mm",
+        "zh-CN": "20 / 24W · 290 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            20,
+            24
+          ]
+        },
+        "length_mm": {
+          "values": [
+            290
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "20W RGB + 3000–6500K; 24W white 3000–6500K",
+          "Wi-Fi + Bluetooth configuration; confirm app and regional compatibility",
+          "290 × 95 mm"
+        ],
+        "zh-CN": [
+          "20W RGB + 3000–6500K；24W 白光 3000–6500K",
+          "Wi-Fi + 蓝牙配置；需确认应用和区域兼容性",
+          "290 × 95 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/smart-selected-view-1.webp",
+          "caption": {
+            "en": "Smart ceiling internal light engine",
+            "zh-CN": "智能吸顶灯内部光源组件"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "smart-recessed",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart recessed downlight",
+        "zh-CN": "智能嵌入式筒灯"
+      },
+      "description": {
+        "en": "Round and square recessed formats with RGB and tunable-white control.",
+        "zh-CN": "圆形和方形嵌入式规格，支持 RGB 和可调白光。"
+      },
+      "reference_spec": {
+        "en": "6 / 12 / 18 / 24W · Recessed",
+        "zh-CN": "6 / 12 / 18 / 24W · 嵌入式"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            6,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Round: 120 / 170 / 220 / 300 mm",
+          "Square: 120 / 170 / 220 / 300 mm",
+          "Cut-out: 105 / 150 / 200 / 280 mm, matching round or square shape",
+          "Wi-Fi + Bluetooth configuration"
+        ],
+        "zh-CN": [
+          "圆形：120 / 170 / 220 / 300 mm",
+          "方形：120 / 170 / 220 / 300 mm",
+          "开孔：105 / 150 / 200 / 280 mm，匹配圆形或方形",
+          "Wi-Fi + 蓝牙配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-recessed",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-recessed"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-recessed",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-recessed"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-recessed.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/smart-recessed-view-1.webp",
+          "caption": {
+            "en": "Recessed smart downlight rear view",
+            "zh-CN": "智能嵌入式筒灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "smart-surface",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart surface-mounted downlight",
+        "zh-CN": "智能明装筒灯"
+      },
+      "description": {
+        "en": "Round and square surface-mounted formats with multicolour control.",
+        "zh-CN": "支持多彩控制的圆形和方形明装规格。"
+      },
+      "reference_spec": {
+        "en": "6 / 12 / 18 / 24W · Surface mounted",
+        "zh-CN": "6 / 12 / 18 / 24W · 明装"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            6,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Round: 120 / 170 / 223 / 300 mm",
+          "Square: 121 / 172 / 224 / 300 mm",
+          "RGB + tunable white · Wi-Fi + Bluetooth configuration"
+        ],
+        "zh-CN": [
+          "圆形：120 / 170 / 223 / 300 mm",
+          "方形：121 / 172 / 224 / 300 mm",
+          "RGB + 可调白光 · Wi-Fi + 蓝牙配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-surface"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-surface",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-surface"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-surface.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "smart-bulb",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart A60 / A70 bulb",
+        "zh-CN": "智能 A60 / A70 球泡"
+      },
+      "description": {
+        "en": "App-controlled E27 bulbs with multicolour and tunable-white output.",
+        "zh-CN": "采用 E27 灯头，支持应用控制多彩光和可调白光。"
+      },
+      "reference_spec": {
+        "en": "9 / 12 / 15W · E27",
+        "zh-CN": "9 / 12 / 15W · E27"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            9,
+            12,
+            15
+          ]
+        },
+        "base_options": [
+          "E27"
+        ]
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 9W; A70 12 / 15W",
+          "RGB + tunable white · 220–240V",
+          "Confirm app and wireless-control configuration"
+        ],
+        "zh-CN": [
+          "A60 9W；A70 12 / 15W",
+          "RGB + 可调白光 · 220–240V",
+          "需确认应用和无线控制配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-bulb",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-bulb"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-bulb",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-bulb"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-bulb.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "smart-gu10",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart GU10 spot",
+        "zh-CN": "智能 GU10 射灯泡"
+      },
+      "description": {
+        "en": "A directional smart spot with multicolour and white-tone control.",
+        "zh-CN": "支持彩色与白光色温控制的定向智能射灯泡。"
+      },
+      "reference_spec": {
+        "en": "5W · GU10 · 38°",
+        "zh-CN": "5W · GU10 · 38°"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            5
+          ]
+        },
+        "base_options": [
+          "GU10"
+        ],
+        "beam_angle_deg": {
+          "values": [
+            38
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "RGB + tunable white · 220–240V",
+          "Wi-Fi + Bluetooth configuration"
+        ],
+        "zh-CN": [
+          "RGB + 可调白光 · 220–240V",
+          "Wi-Fi + 蓝牙配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-gu10"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-gu10",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-gu10"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-gu10.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "smart-filament",
+      "category_id": "smart",
+      "name": {
+        "en": "Smart tunable-white filament bulb",
+        "zh-CN": "智能调色温灯丝泡"
+      },
+      "description": {
+        "en": "Glass filament bulbs with app dimming and white-tone control.",
+        "zh-CN": "支持应用调光和白光色温控制的玻璃灯丝泡。"
+      },
+      "reference_spec": {
+        "en": "4 / 7W · A60 / ST64",
+        "zh-CN": "4 / 7W · A60 / ST64"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            4,
+            7
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "A60 4W: 2200–6500K",
+          "ST64 7W: tunable white; confirm requested CCT range",
+          "Wi-Fi + Bluetooth configuration"
+        ],
+        "zh-CN": [
+          "A60 4W：2200–6500K",
+          "ST64 7W：可调白光；需确认所需色温范围",
+          "Wi-Fi + 蓝牙配置"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/smart-lighting#smart-filament",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/smart-lighting#smart-filament"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=smart&context=series-smart-filament",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=smart&context=series-smart-filament"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/smart-filament.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "tri-proof-selected",
+      "category_id": "tri-proof",
+      "name": {
+        "en": "Linear tri-proof light",
+        "zh-CN": "线性三防灯"
+      },
+      "description": {
+        "en": "A sealed linear fitting with end-entry connection details.",
+        "zh-CN": "采用端部进线结构的密封线性灯具。"
+      },
+      "reference_spec": {
+        "en": "18 / 36 / 48W · 600–1500 mm",
+        "zh-CN": "18 / 36 / 48W · 600–1500 mm"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            18,
+            36,
+            48
+          ]
+        },
+        "length_mm": {
+          "min": 600,
+          "max": 1500
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "18W: 600 × 54 × 68 mm",
+          "36W: 1200 × 54 × 68 mm",
+          "48W: 1500 × 54 × 68 mm",
+          "3000 / 4000 / 6500K"
+        ],
+        "zh-CN": [
+          "18W：600 × 54 × 68 mm",
+          "36W：1200 × 54 × 68 mm",
+          "48W：1500 × 54 × 68 mm",
+          "3000 / 4000 / 6500K"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/tri-proof-lights#tri-proof-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/tri-proof-lights#tri-proof-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=tri-proof&context=series-tri-proof-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=tri-proof&context=series-tri-proof-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/tri-proof-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/tri-proof-selected-view-1.webp",
+          "caption": {
+            "en": "End-cap and connection detail",
+            "zh-CN": "端盖与连接细节"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/tri-proof-selected-view-2.webp",
+          "caption": {
+            "en": "Cable-entry fitting view",
+            "zh-CN": "进线接头视图"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/tri-proof-selected-view-3.webp",
+          "caption": {
+            "en": "Sealed cable gland detail",
+            "zh-CN": "密封电缆接头细节"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/tri-proof-selected-view-4.webp",
+          "caption": {
+            "en": "Linear fitting rear view",
+            "zh-CN": "线性灯具背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "highbay-selected",
+      "category_id": "highbay",
+      "name": {
+        "en": "UFO LED high bay",
+        "zh-CN": "UFO LED 工矿灯"
+      },
+      "description": {
+        "en": "A suspended round high-bay fitting with a finned aluminium housing.",
+        "zh-CN": "圆形吊装工矿灯，采用带散热鳍片的铝灯体。"
+      },
+      "reference_spec": {
+        "en": "50 / 100 / 150W · 4000 / 6500K",
+        "zh-CN": "50 / 100 / 150W · 4000 / 6500K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            50,
+            100,
+            150
+          ]
+        },
+        "cct_k": {
+          "values": [
+            4000,
+            6500
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "50W: Ø236 × 108 mm",
+          "100W: Ø276 × 108 mm",
+          "150W: Ø319 × 108 mm",
+          "220–240V · 120° beam"
+        ],
+        "zh-CN": [
+          "50W：Ø236 × 108 mm",
+          "100W：Ø276 × 108 mm",
+          "150W：Ø319 × 108 mm",
+          "220–240V · 120° 光束角"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/high-bay-lights#highbay-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/high-bay-lights#highbay-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=highbay&context=series-highbay-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=highbay&context=series-highbay-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/highbay-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/highbay-selected-view-1.webp",
+          "caption": {
+            "en": "High-bay rear heat-sink view",
+            "zh-CN": "工矿灯背部散热器"
+          }
+        },
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/highbay-selected-view-2.webp",
+          "caption": {
+            "en": "High-bay side profile and hanging eye",
+            "zh-CN": "工矿灯侧面与吊环"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "street-selected",
+      "category_id": "street",
+      "name": {
+        "en": "Compact LED street light",
+        "zh-CN": "紧凑型 LED 路灯"
+      },
+      "description": {
+        "en": "A slim rectangular road-lighting head with a rear heat-sink profile.",
+        "zh-CN": "薄型矩形道路照明灯头，背部带散热结构。"
+      },
+      "reference_spec": {
+        "en": "50 / 100 / 150 / 200W · 220–240V",
+        "zh-CN": "50 / 100 / 150 / 200W · 220–240V"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            50,
+            100,
+            150,
+            200
+          ]
+        },
+        "voltage_v": {
+          "min": 220,
+          "max": 240
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "4000 / 6500K",
+          "50W: 115 × 444 × 71 mm",
+          "100W: 130 × 497 × 71 mm",
+          "150W: 166 × 565 × 71 mm",
+          "200W: 198 × 682 × 71 mm"
+        ],
+        "zh-CN": [
+          "4000 / 6500K",
+          "50W：115 × 444 × 71 mm",
+          "100W：130 × 497 × 71 mm",
+          "150W：166 × 565 × 71 mm",
+          "200W：198 × 682 × 71 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/street-lights#street-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/street-lights#street-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=street&context=series-street-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=street&context=series-street-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/street-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/street-selected-view-1.webp",
+          "caption": {
+            "en": "Compact street-light rear view",
+            "zh-CN": "紧凑型路灯背面"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "street-wide-input",
+      "category_id": "street",
+      "name": {
+        "en": "Wide-input LED street light",
+        "zh-CN": "宽电压 LED 路灯"
+      },
+      "description": {
+        "en": "A finned die-cast housing with a separate input-voltage range.",
+        "zh-CN": "采用带散热鳍片的压铸灯体，提供独立宽电压系列。"
+      },
+      "reference_spec": {
+        "en": "40 / 60 / 100 / 150 / 200W · 100–277V",
+        "zh-CN": "40 / 60 / 100 / 150 / 200W · 100–277V"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            40,
+            60,
+            100,
+            150,
+            200
+          ]
+        },
+        "voltage_v": {
+          "min": 100,
+          "max": 277
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "4000 / 6500K",
+          "40 / 60W: 423 × 172 × 75 mm",
+          "100W: 505 × 215 × 75 mm",
+          "150W: 601 × 226.5 × 75 mm",
+          "200W: 658 × 240 × 75 mm"
+        ],
+        "zh-CN": [
+          "4000 / 6500K",
+          "40 / 60W：423 × 172 × 75 mm",
+          "100W：505 × 215 × 75 mm",
+          "150W：601 × 226.5 × 75 mm",
+          "200W：658 × 240 × 75 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/street-lights#street-wide-input",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/street-lights#street-wide-input"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=street&context=series-street-wide-input",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=street&context=series-street-wide-input"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/street-wide-input.webp",
+        "role": "series_example"
+      },
+      "gallery": [
+        {
+          "url": "https://www.scyllalight.cn/images/catalogue/series/street-wide-input-view-1.webp",
+          "caption": {
+            "en": "Wide-input street-light heat sink",
+            "zh-CN": "宽电压路灯散热器"
+          }
+        }
+      ]
+    },
+    {
+      "series_id": "moisture-selected",
+      "category_id": "moisture",
+      "name": {
+        "en": "Round moisture-proof light",
+        "zh-CN": "圆形防潮灯"
+      },
+      "description": {
+        "en": "A sealed round fitting with black or white frame options.",
+        "zh-CN": "密封圆形灯体，提供黑色或白色边框选项。"
+      },
+      "reference_spec": {
+        "en": "8 / 12 / 18 / 24W · Round",
+        "zh-CN": "8 / 12 / 18 / 24W · 圆形"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            8,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "3000 / 4000 / 6500K · 220–240V",
+          "8 / 12W: Ø140 × 50 mm",
+          "18W: Ø155 × 50 mm; 24W: Ø175 × 50 mm"
+        ],
+        "zh-CN": [
+          "3000 / 4000 / 6500K · 220–240V",
+          "8 / 12W：Ø140 × 50 mm",
+          "18W：Ø155 × 50 mm；24W：Ø175 × 50 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/moisture-proof-lights#moisture-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/moisture-proof-lights#moisture-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=moisture&context=series-moisture-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=moisture&context=series-moisture-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/moisture-selected.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "moisture-oval",
+      "category_id": "moisture",
+      "name": {
+        "en": "Oval moisture-proof light",
+        "zh-CN": "椭圆形防潮灯"
+      },
+      "description": {
+        "en": "A sealed oval fitting for flat-wall mounting in either orientation.",
+        "zh-CN": "密封椭圆灯体，可在平整墙面横向或纵向安装。"
+      },
+      "reference_spec": {
+        "en": "8 / 12 / 18 / 24W · Oval",
+        "zh-CN": "8 / 12 / 18 / 24W · 椭圆形"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            8,
+            12,
+            18,
+            24
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Black / white frame options",
+          "3000 / 4000 / 6500K · 220–240V",
+          "8 / 12W: 158 × 88 × 50 mm",
+          "18 / 24W: 197 × 96 × 47 mm"
+        ],
+        "zh-CN": [
+          "黑色 / 白色边框选项",
+          "3000 / 4000 / 6500K · 220–240V",
+          "8 / 12W：158 × 88 × 50 mm",
+          "18 / 24W：197 × 96 × 47 mm"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/moisture-proof-lights#moisture-oval",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/moisture-proof-lights#moisture-oval"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=moisture&context=series-moisture-oval",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=moisture&context=series-moisture-oval"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/moisture-oval.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "solar-selected",
+      "category_id": "solar",
+      "name": {
+        "en": "Solar floodlight system",
+        "zh-CN": "太阳能投光灯系统"
+      },
+      "description": {
+        "en": "A separate-panel solar lighting family with remote, timer and dimming options. Image shows an application reference.",
+        "zh-CN": "独立光伏板太阳能照明系列，提供遥控、定时与调光选项。图片为场景参考。"
+      },
+      "reference_spec": {
+        "en": "3.7 / 6.7 / 12 / 15 / 20W",
+        "zh-CN": "3.7 / 6.7 / 12 / 15 / 20W"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            3.7,
+            6.7,
+            12,
+            15,
+            20
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Catalogue power tolerance: ±15%",
+          "Panel options: 6V, 8 / 12 / 18 / 22 / 30W by lamp configuration",
+          "Confirm battery, location and operating schedule for the requested system"
+        ],
+        "zh-CN": [
+          "图册功率公差：±15%",
+          "光伏板选项：6V，按灯具配置提供 8 / 12 / 18 / 22 / 30W",
+          "需结合所需系统确认电池、安装地点与工作时段"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/solar-lighting#solar-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/solar-lighting#solar-selected"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=solar&context=series-solar-selected",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=solar&context=series-solar-selected"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/solar-selected.webp",
+        "role": "application_reference"
+      },
+      "gallery": []
+    },
+    {
+      "series_id": "solar-street",
+      "category_id": "solar",
+      "name": {
+        "en": "Solar street-light system",
+        "zh-CN": "太阳能路灯系统"
+      },
+      "description": {
+        "en": "A road-lighting head and separate solar-panel system.",
+        "zh-CN": "由道路照明灯头与独立光伏板组成的系统。"
+      },
+      "reference_spec": {
+        "en": "40W · 4000K",
+        "zh-CN": "40W · 4000K"
+      },
+      "reference_facets": {
+        "power_w": {
+          "values": [
+            40
+          ]
+        },
+        "cct_k": {
+          "values": [
+            4000
+          ]
+        }
+      },
+      "configuration_notes": {
+        "en": [
+          "Separate 66W / 18V solar panel",
+          "Remote and timer control options",
+          "System sizing and operating time require site-specific confirmation"
+        ],
+        "zh-CN": [
+          "独立 66W / 18V 光伏板",
+          "遥控与定时控制选项",
+          "系统选型和工作时长需根据现场条件确认"
+        ]
+      },
+      "page": {
+        "en": "https://www.scyllalight.cn/en/products/solar-lighting#solar-street",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/products/solar-lighting#solar-street"
+      },
+      "selection_guide": null,
+      "inquiry": {
+        "en": "https://www.scyllalight.cn/en/contact?product=solar&context=series-solar-street",
+        "zh-CN": "https://www.scyllalight.cn/zh-CN/contact?product=solar&context=series-solar-street"
+      },
+      "primary_image": {
+        "url": "https://www.scyllalight.cn/images/catalogue/series/solar-street.webp",
+        "role": "series_example"
+      },
+      "gallery": []
+    }
+  ]
+}
